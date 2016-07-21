@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FotoWare_Settings>
+	<Group name="ColorManageItem">
+		<Int name="UseFotoWareDefault">1</Int>
+		<Int name="UseDefaultDisplay">1</Int>
+		<Int name="EnableThumbnailColor">1</Int>
+		<Int name="EnablePreviewColor">1</Int>
+		<Int name="EnableHighResColor">1</Int>
+		<String name="PreviewProfile"></String>
+		<String name="DisplayProfile"></String>
+		<String name="GrayProfile"></String>
+		<String name="RGBProfile"></String>
+		<String name="CMYKProfile"></String>
+	</Group>
+</FotoWare_Settings>

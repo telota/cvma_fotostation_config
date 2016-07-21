@@ -1,0 +1,35 @@
+DAS IST EINE BEISPIELLISTE FÜR KATEGORIEN/ZUS. KATEGORIEN
+BEARBEITEN SIE DIESE LISTE ENTSPRECHEND IHREN ANFORDERUNGEN.
+
+SP=Sport
+	Olympische Spiele
+		Männer
+			Boxen
+		Frauen
+			Gymnastik
+	Weltcup
+		Fußball
+			1994 USA
+			1998 Frankreich
+			2002 Japan-Südkorea
+		Basketball
+PL=Politik
+	Inland
+		Regierung
+		Wahlen
+	International
+		Vereinte Nationen
+		Organizationen
+KU=Kultur
+	Film
+		Drama
+		Krimi
+		Thriller
+		Komödie
+	Theater
+		Oper
+		Musical
+		Komödie
+		Drama
+
+

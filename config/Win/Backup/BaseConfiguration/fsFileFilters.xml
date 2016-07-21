@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FotoWare_Settings>
+	<Group name="FileFilterItem">
+		<Int name="numItems">6</Int>
+		<Struct name="filter[0]">
+			<String name="name">Standard Dateifilter</String>
+			<Int name="includeFiles">0</Int>
+			<StringList name="fileTypes">
+				<String lParam="-877236990">db</String>
+				<String lParam="-97985789">exe</String>
+				<String lParam="45636611">tmp</String>
+				<String lParam="-1445268221">txt</String>
+				<String lParam="418107140">thmb</String>
+			</StringList>
+		</Struct>
+		<Struct name="filter[1]">
+			<String name="name">Basis-Bildfilter</String>
+			<Int name="includeFiles">1</Int>
+			<StringList name="fileTypes">
+				<String lParam="785408771">jpg</String>
+				<String lParam="1872005636">jpeg</String>
+				<String lParam="-124068861">tif</String>
+				<String lParam="-692722941">eps</String>
+				<String lParam="-82988285">psd</String>
+			</StringList>
+		</Struct>
+		<Struct name="filter[2]">
+			<String name="name">Bilder und Mediendateifilter</String>
+			<Int name="includeFiles">1</Int>
+			<StringList name="fileTypes">
+				<String lParam="785408771">jpg</String>
+				<String lParam="1872005636">jpeg</String>
+				<String lParam="-124068861">tif</String>
+				<String lParam="695889668">tiff</String>
+				<String lParam="-1513016829">png</String>
+				<String lParam="-1159010045">gif</String>
+				<String lParam="-692722941">eps</String>
+				<String lParam="-82988285">psd</String>
+				<String lParam="-1923491325">bmp</String>
+				<String lParam="-2004614653">mov</String>
+				<String lParam="-59208957">mp3</String>
+				<String lParam="736156419">mpg</String>
+				<String lParam="-1432513788">mpeg</String>
+				<String lParam="1340727811">wma</String>
+				<String lParam="-865242109">wmv</String>
+				<String lParam="450022403">wav</String>
+				<String lParam="109170691">asx</String>
+			</StringList>
+		</Struct>
+		<Struct name="filter[3]">
+			<String name="name">Ungenutzter Filter 1</String>
+			<Int name="includeFiles">1</Int>
+			<StringList name="fileTypes"/>
+		</Struct>
+		<Struct name="filter[4]">
+			<String name="name">Ungenutzter Filter 2</String>
+			<Int name="includeFiles">1</Int>
+			<StringList name="fileTypes"/>
+		</Struct>
+		<Struct name="filter[5]">
+			<String name="name">Ungenutzter Filter 3</String>
+			<Int name="includeFiles">1</Int>
+			<StringList name="fileTypes"/>
+		</Struct>
+	</Group>
+</FotoWare_Settings>

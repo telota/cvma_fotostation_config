@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+
+<link href="../Extra/Frames.css" rel="stylesheet" type="text/css" />
+
+<%BACKGROUND%>
+<BODY BACKGROUND="<%=FWT_BACKGROUNDFILE%>">
+<%/BACKGROUND%>
+
+<TITLE><%=FWT_TITLE%></TITLE>
+
+<%METAKEYWORDS%>
+<META NAME="KEYWORDS" CONTENT="FOTOSTATION WEBALBUM FOTOWARE <%=FWT_METAKEYWORDS%>"> 
+<%/METAKEYWORDS%>
+
+</HEAD>
+<BODY background="../extra/background.gif">
+<BR>
+<table cellpadding=0 cellspacing=0 border=0>
+	<tr>
+		<td width=10></td>
+		<td>
+			<table cellpadding=0 cellspacing=0 border=0>
+				<tr>
+					<%LOGO%>
+						<td>
+							<IMG SRC="<%=FWT_LOGOFILE%>">
+						</td>
+					<%/LOGO%>
+					<td>
+						<H1><%=FWT_TITLE%><br>&nbsp;<br></H1>
+												</td>
+				</tr>
+			</table>
+			<table cellpadding=10 cellspacing=0 border=0 class=menu>
+				<tr>
+					<td align=center><IMG SRC="<%=FWT_PREVIEW%>" Alt="<%=FWT_IMAGETITLEORNAME%>"></td>
+				</tr>
+				<tr>
+					<td>
+						<H2><%=FWT_IMAGETITLEORNAME%></H2>
+												<B>Objektbeschreibung: </B><%=FWT_IPTC120%><BR>
+						<B>Objektname: </B><%=FWT_IPTC005%><BR>
+						<B>Bildrechte: </B><%=FWT_IPTC110%><BR>
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td width=10></td>
+	</tr>
+</table>
+</BODY>
+</HTML>

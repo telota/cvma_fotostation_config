@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FotoWare_Settings>
+	<Group name="SystemData">
+		<Struct name="Security">
+			<Int name="UsePassword">0</Int>
+			<Bin64 name="PasswordHash">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</Bin64>
+			<Bin64 name="DisabledFunctions">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</Bin64>
+		</Struct>
+		<Struct name="Folders">
+			<String name="JobFolder">C:\ProgramData\FotoWare\FotoStation LT\Jobs</String>
+		</Struct>
+		<Struct name="ImageCache">
+			<Int name="ThumbnailSize">200</Int>
+			<Int name="PreviewSize">1200</Int>
+			<Int name="writeBackThumb">0</Int>
+			<Int name="skipHighQualityThumbnail">0</Int>
+			<Int name="SharpenPreviews">1</Int>
+			<Int name="ReadAhead">6</Int>
+			<Int name="ThumbnailDiskCache">20000</Int>
+			<Int name="PreviewDiskCache">2000</Int>
+		</Struct>
+		<Struct name="Offline">
+			<Int name="UseHiresPreview">1</Int>
+		</Struct>
+		<Struct name="misc">
+			<Int name="UseClientSideDataMining">0</Int>
+		</Struct>
+		<Struct name="units">
+			<Int name="resUnit">2</Int>
+			<Int name="sizeUnit">1</Int>
+			<StringList name="hResolutionList">
+				<String lParam="72">Bildschirm</String>
+				<String lParam="150">Normaler Ausdruck</String>
+				<String lParam="300">Qualitativ hochwertiger Druck</String>
+			</StringList>
+		</Struct>
+		<Struct name="proxy">
+			<Int name="useProxyFlag">1</Int>
+			<Int name="useSystemProxy">1</Int>
+			<String name="hostName"></String>
+			<Int name="port">0</Int>
+			<String name="userName"></String>
+		</Struct>
+	</Group>
+</FotoWare_Settings>

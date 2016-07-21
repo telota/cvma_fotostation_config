@@ -1,0 +1,115 @@
+<HTML>
+<HEAD>
+<%BACKGROUND%>
+<BODY BACKGROUND="<%=FWT_BACKGROUNDFILE%>">
+<%/BACKGROUND%>
+<TITLE><%=FWT_TITLE%></TITLE>
+
+<%METAKEYWORDS%>
+<META NAME="KEYWORDS" CONTENT="<%=FWT_METAKEYWORDS%>"> 
+<%/METAKEYWORDS%>
+
+<link href="Extra/Info.css" rel="stylesheet" type="text/css" />
+</HEAD>
+<BODY background="extra/background.gif">
+
+<%LOGO%>
+	<IMG SRC="<%=FWT_LOGOFILE%>">
+<%/LOGO%>
+
+<table cellpadding=5 border=0>
+	<tr>
+		<td>
+			<H1><%=FWT_TITLE%></H1>
+			<%DESCRIPTION%>
+			
+			<H4><%=FWT_DESCRIPTION%></H4>
+			<%/DESCRIPTION%>
+		</td>
+		<td>
+			<%NAVIGATE%>
+				<TABLE CELLSPACING=10 CELLPADDING=0 BORDER=0>
+					<TR>
+						<TD ALIGN=LEFT width="70">
+							<%PREVIOUS_PAGE%>
+								<A HREF="<%=FWT_PREVIOUSPAGE%>" >  <img src="Extra/back.gif" border="0">  </A>
+							<%/PREVIOUS_PAGE%>
+							</TD>
+							<TD ALIGN=CENTER>
+								<%=FWT_DIRECTPAGE%>
+							</TD>
+							<TD ALIGN=RIGHT width="70">
+							<%NEXT_PAGE%>
+								<A HREF="<%=FWT_NEXTPAGE%>" >  <img src="Extra/forward.gif" border="0">  </A>
+							<%/NEXT_PAGE%>
+						</TD>
+					</TR>
+				</TABLE>
+			<%/NAVIGATE%>
+		</td>
+	</tr>
+</table>
+
+<TABLE BORDER=0 cellpadding=10 cellspacing=5>
+	<%IMAGEROW%>
+		<TR>
+		<%IMAGE_WITH_PV%>
+			<TD ALIGN=CENTER VALIGN=TOP class=ImageCell>
+				<table cellpadding=0 border=0 cellspacing=0 width=100%>
+					<tr>
+						<td height="<%=FWT_MAXTHUMBSHEIGHT%>" align=center valign=top><A HREF="<%=FWT_PREVIEWPAGE%>"><IMG SRC="<%=FWT_THUMBNAIL%>" Alt="<%=FWT_IPTC120%>" border=0></A></td>
+					</tr>
+					<tr>	
+						<td valign=top>
+							<table cellspacing=5 cellpadding=0 border=0 width=200>
+								<tr>
+									<td><%=FWT_IMAGENAME%></td>
+								</tr>
+								<%DOWNLOAD%>
+									<tr>
+										<td>
+											<A HREF="<%=FWT_DOWNLOADIMAGE%>"><%=FWT_DOWNLOADWORD%></A>
+										</td>
+									</tr>
+								<%/DOWNLOAD%>
+								<tr>
+									<td valign=top><B>Objektbeschreibung: </B></td>
+								</tr>
+								<tr>
+									<td valign=top><%=FWT_IPTC120%></td>
+								</tr>
+								<tr>
+									<td valign=top><b>Name des Autors: </b></td>
+								</tr>
+								<tr>
+									<td valign=top><%=FWT_IPTC080%></td>
+								</tr>
+								<tr>
+									<td valign=top><B>Bildrechte: </B></td>
+								</tr>
+								<tr>
+									<td valign=top><%=FWT_IPTC110%></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</TD>
+			<%/IMAGE_WITH_PV%>
+			<%IMAGE_NO_PV%>
+			<TD ALIGN=CENTER VALIGN=TOP> <IMG SRC="<%=FWT_THUMBNAIL%>" Alt="<%=FWT_IPTC120%>">
+				<BR><%=FWT_IMAGENAME%>
+				<%DOWNLOAD%>
+					<BR><A HREF="<%=FWT_DOWNLOADIMAGE%>"><%=FWT_DOWNLOADWORD%></A>
+				<%/DOWNLOAD%>
+			</TD>
+		<%/IMAGE_NO_PV%>
+		</TR>
+	<%/IMAGEROW%>
+</TABLE>
+<%EMAIL%>
+<A HREF="mailto:<%=FWT_EMAILADDRESS%>"><%=FWT_EMAILNAME%></A>.
+<%/EMAIL%>
+</CENTER>
+</BODY>
+</HTML>

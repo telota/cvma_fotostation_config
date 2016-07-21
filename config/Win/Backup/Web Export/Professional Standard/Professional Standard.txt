@@ -1,0 +1,3 @@
+Darstellung der Bilder in einem klaren professionellen Layout.
+
+Die Anzahl der Zeilen und Spalten für die Thumbnail-Ansicht ist wählbar.

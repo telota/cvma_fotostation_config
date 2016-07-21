@@ -1,0 +1,7 @@
+<head>
+<title>FotoStation</title>
+</head>
+<frameset cols="*,<%=FWT_FRAMETHUMBSWIDTH%>" border="0" border=0 frameborder=no framespacing=0>
+<frame src="ppages\ppage1.htm" name="previewpage" marginwidth=0 marginheight=0 scrolling=auto frameborder=no noresize framespacing=0>
+<frame src="<%=FWT_FRAMETHUMBSPAGE%>" name="images" marginwidth=0 marginheight=0 frameborder=no noresize framespacing=0>
+</frameset> 

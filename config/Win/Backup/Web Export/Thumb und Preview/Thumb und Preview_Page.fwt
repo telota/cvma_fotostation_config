@@ -1,0 +1,66 @@
+<HTML>
+<HEAD>
+
+<link href="Extra/Frames.css" rel="stylesheet" type="text/css" />
+
+<%BACKGROUND%>
+<BODY BACKGROUND="<%=FWT_BACKGROUNDFILE%>">
+<%/BACKGROUND%>
+<TITLE><%=FWT_TITLE%></TITLE>
+
+<%METAKEYWORDS%>
+<META NAME="KEYWORDS" CONTENT="FOTOSTATION WEBALBUM FOTOWARE <%=FWT_METAKEYWORDS%>"> 
+<%/METAKEYWORDS%>
+
+</HEAD>
+<BODY background="extra/background.gif">
+<CENTER>
+
+
+<%LOGO%>
+<IMG SRC="<%=FWT_LOGOFILE%>"
+<%/LOGO%>
+
+
+<BR>
+<%NAVIGATE%>
+<TABLE CELLSPACING=30 CELLPADDING=0 BORDER=0>
+	<TR>
+	<TD ALIGN=CENTER>
+		<%=FWT_DIRECTPAGE%>
+	</TD>
+	</TR>
+</TABLE>
+<%/NAVIGATE%>
+
+<TABLE BORDER=0 cellpadding=0 class=ImageCell>
+<%IMAGEROW%>
+<TR>
+<%IMAGE_WITH_PV%>
+
+	<TD WIDTH=150 HEIGHT=100 ALIGN=CENTER VALIGN=TOP> 
+		<table cellpadding=2 cellspacing=0 border=0>
+			<tr>
+				<td><A HREF="<%=FWT_PREVIEWPAGE%>" TARGET="previewpage"><IMG SRC="<%=FWT_THUMBNAIL%>" Alt="<%=FWT_IPTC120%>" border=0></A></td>
+			</tr>
+			<tr>
+				<td><%=FWT_IMAGENAME%></td>
+			</tr>
+			<%DOWNLOAD%>
+				<tr>
+					<td><A HREF="<%=FWT_DOWNLOADIMAGE%>" target="_blank"><%=FWT_DOWNLOADWORD%></A></td>
+				</tr>
+			<%/DOWNLOAD%>
+		</table>
+	</TD>
+
+<%/IMAGE_WITH_PV%>
+</TR>
+<%/IMAGEROW%>
+</TABLE>
+<%EMAIL%>
+<A HREF="mailto:<%=FWT_EMAILADDRESS%>"><%=FWT_EMAILNAME%></A>.
+<%/EMAIL%>
+</CENTER>
+</BODY>
+</HTML>

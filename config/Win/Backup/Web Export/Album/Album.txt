@@ -1,0 +1,1 @@
+In diesem Muster ist es nicht mšglich, die Hintergrund- oder Textfarbe zu verŠndern. Die Anzahl der Zeilen und Spalten ist fest eingestellt.

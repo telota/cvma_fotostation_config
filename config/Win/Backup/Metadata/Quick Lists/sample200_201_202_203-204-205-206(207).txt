@@ -1,0 +1,23 @@
+#Dies ist eine Musterdatei für eine "Linked List"  Konfiguration. Mit ihrer Hilfe können die Sonderfelder 1 - 8 (Metadatenfelder #200 - #207) 
+#automatisch ausgefüllt werden. Entfernen Sie das Präfix "sample" aus dem Dateinamen, um sie verwenden, und ihre Wirkung sehen zu können.
+#
+#Der Dateiname legt fest, wie die Daten auf jeder Ebenen der Hierarchie einzelnen Metadatenfeldern zugeordnet werden. Der Text in der ersten Ebene (aaa) z.B. wird in das durch die erste #Nummer des Dateinamens definierte Feld eingetragen (Metadatenfeld #200),  der Text der zweiten Ebene (bbb) wird dem Feld mit der zweiten Nummer des Dateinamens (Metadatenfeld #201) zugeordnet, usw.  Bitte beachten Sie die Unterschiede zwischen Unterstrich '_', Bindestrich '-' und Nummern innerhalb von Klammern '( )'
+#
+# Unterstrich 			-  	Neue Ebene der Hierarchie
+# Bindestrich			-	Semikolon-separierter Text auf gleicher Ebene
+# Nummer innerhalb von Klammern	-	Ordnet den Alias (nach =) diesem Feld zu
+#
+# Im folgenden Beispiel hat 'aaa' den Alias 'Alias von aaa', der in der Liste sichtbar ist. Trotzdem wird 'aaa' in das Metadatenfeld #200 eingetragen. 
+# Wenn Sie die Datei umbenennen in '200(209)_201.....', wird der Eintrag 'Alias for aaa' auch in das Metadatenfeld #209 übernommen.
+#
+# Das Muster unten zeigt, wie mehrere 'verborgene' Felder (diejenigen, deren Nummern im Dateinamen mit einem Bindestrich verbunden sind), verschiedenen Metadatenfeldern zugeordnet #werden können. In diesem Fall ist 'hhh' der (sichtbare) Alias für die Einträge 'ddd', 'eee', 'fff' und 'ggg', die den Feldern #203 bis #206 zugeordnet sind.  Beachten Sie bitte, dass die Einträge für #die Felder in der Baumstruktur auf einer Ebene liegen und durch Semikolon voneinander getrennt sein müssen. In unserem Beispiel bewirkten die Klammern um die Zahl '207', dass 'hhh' in das #Feld '207 eingetragen wird. Soll dieser Eintrag nicht in das Feld #207 übernommen werden, benennen Sie die Datei um in:
+#
+# '200_201_202_203-204-205-206.txt'
+#
+#200    		201     	202     	203 204 205 206(207)
+# |      		  |       	  |       	  |       |      |      |       |
+# |      		  |       	  |       	  |       |      |      |       |
+aaa=Alias for aaa      |       	  |       	  |       |      |      |       |
+		bbb            |       	  |       |      |      |       |
+			ccc            |       |      |      |       |
+				ddd;eee;fff;ggg=hhh

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FotoWare_Settings>
+	<Group name="IptcText">
+		<Struct name="textSettings">
+			<Int name="codePageWrite">-1</Int>
+			<Int name="codePageRead">-1</Int>
+			<Int name="useCurrentInputLanguage">1</Int>
+			<Array name="fHistorySave" Version="0">
+				<Int i="0">0</Int>
+				<Int i="1">0</Int>
+				<Int i="2">0</Int>
+				<Int i="3">0</Int>
+				<Int i="4">0</Int>
+				<Int i="5">0</Int>
+				<Int i="6">0</Int>
+				<Int i="7">0</Int>
+				<Int i="8">0</Int>
+				<Int i="9">0</Int>
+				<Int i="10">0</Int>
+			</Array>
+		</Struct>
+	</Group>
+	<Group name="QuickLists">
+		<StringList name="hPriorityList">
+			<String lParam="65530">Status nicht eingestellt</String>
+			<String lParam="16777215">Kein</String>
+			<String lParam="14745825">Hoch</String>
+			<String lParam="225">Rot</String>
+			<String lParam="48895">Orange</String>
+			<String lParam="57825">Gelb</String>
+			<String lParam="57600">Normal</String>
+			<String lParam="14145280">Cyan</String>
+			<String lParam="16075595">Blau</String>
+			<String lParam="5242905">Schwarz</String>
+		</StringList>
+	</Group>
+</FotoWare_Settings>

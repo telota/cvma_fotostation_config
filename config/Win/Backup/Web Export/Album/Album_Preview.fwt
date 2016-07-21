@@ -1,0 +1,75 @@
+<HTML>
+<HEAD>
+
+<TITLE><%=FWT_TITLE%></TITLE>
+
+<%METAKEYWORDS%>
+<META NAME="KEYWORDS" CONTENT="<%=FWT_METAKEYWORDS%>"> 
+<%/METAKEYWORDS%>
+<link href="../Extra/Album.css" rel="stylesheet" type="text/css" />
+</HEAD>
+
+<BODY>
+<CENTER>
+<table cellpadding=0 cellspacing=10 border=0 width=80% class="InsideAlbum">
+	<tr>
+		<td align=center>
+			<H2><%=FWT_IMAGETITLEORNAME%></H2>
+			<TABLE CELLSPACING=5 CELLPADDING=0 BORDER=0>
+				<TR>
+
+					<TD ALIGN=LEFT WIDTH=150>
+					<%PREVIOUS_PV%>
+					<A HREF="<%=FWT_PREVIOUSPREVIEW%>" >  <%=FWT_PREVIOUSPREVIEWWORD%>  </A>
+					<%/PREVIOUS_PV%>
+					</TD>
+
+					<TD ALIGN=CENTER>
+					<A HREF="<%=FWT_BACK%>">   <%=FWT_BACKWORD%>   </A>
+					</TD>
+
+					<TD ALIGN=RIGHT WIDTH=150>
+					<%NEXT_PV%>
+					<A HREF="<%=FWT_NEXTPREVIEW%>">   <%=FWT_NEXTPREVIEWWORD%>   </A>
+					<%/NEXT_PV%>
+					</TD>
+
+				</TR>
+			</TABLE>
+	
+			<table cellpadding=0 cellspacing=0 border=0 class=image>
+				<tr>
+					<td><IMG SRC="<%=FWT_PREVIEW%>" Alt="<%=FWT_IMAGETITLEORNAME%>"></td>
+				</tr>
+			</table>
+			
+			<BR>
+			<%=FWT_WIZARDTEXT%>
+			<BR>
+			<TABLE CELSPACING=50 CELLPADDING=0 BORDER=0>
+			<TR>
+
+			<TD ALIGN=LEFT WIDTH=150>
+			<%PREVIOUS_PV%>
+			<A HREF="<%=FWT_PREVIOUSPREVIEW%>" >  <%=FWT_PREVIOUSPREVIEWWORD%>  </A>
+			<%/PREVIOUS_PV%>
+			</TD>
+
+			<TD ALIGN=CENTER>
+			<A HREF="<%=FWT_BACK%>">   <%=FWT_BACKWORD%>   </A>
+			</TD>
+
+			<TD ALIGN=RIGHT WIDTH=150>
+			<%NEXT_PV%>
+			<A HREF="<%=FWT_NEXTPREVIEW%>">   <%=FWT_NEXTPREVIEWWORD%>   </A>
+			<%/NEXT_PV%>
+			</TD>
+
+			</TR>
+			</TABLE>
+		</td>
+	</tr>
+</table>
+</CENTER>
+</BODY>
+</HTML>

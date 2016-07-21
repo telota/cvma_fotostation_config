@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FotoWare_Settings>
+	<Group name="ActionItem">
+		<Int name="numItems">9</Int>
+		<Struct name="actionItem[0]">
+			<String name="name">Kopieren nach &quot;Meine Bilder&quot;</String>
+			<String name="groupName">Kopier-Aktionen</String>
+			<String name="guid">2965895923</String>
+			<Int name="confirmation">0</Int>
+			<Int name="rawjpegMode">0</Int>
+			<String name="confirmationMessage"></String>
+			<Int name="numActions">1</Int>
+			<Int name="idIcon">0</Int>
+			<String name="imageFile"></String>
+			<Struct name="actions[0]">
+				<Int name="actionId">1</Int>
+				<Struct name="aCopy">
+					<String name="destFolder">%%INSMYPICTURES</String>
+					<Int name="setDodaysDate">0</Int>
+					<Int name="allowMove">1</Int>
+					<Int name="useCopyDelete">0</Int>
+					<Int name="includeAdditional">0</Int>
+					<Int name="createUniqueSubfolder">0</Int>
+					<Int name="changeDestPath">1</Int>
+					<Int name="dialogMode">2</Int>
+					<Struct name="dialog">
+						<Int name="showSubfolder">1</Int>
+						<Int name="showPrefix">0</Int>
+						<String name="prefixFile"></String>
+						<String name="prefixSeparator"></String>
+						<Int name="showTemplatePriorityNotes">1</Int>
+						<Int name="showCrop">0</Int>
+						<Int name="cropChangeOriginal">0</Int>
+						<Int name="showText">0</Int>
+						<Int name="textChangeOriginal">0</Int>
+						<Struct name="reqFields">
+							<Struct name="aRequiredFields">
+								<Int name="numRequired">0</Int>
+								<Array name="isRequired" Version="1">
+									<Int i="0">0</Int>
+									<Int i="1">0</Int>
+									<Int i="2">0</Int>
+									<Int i="3">0</Int>
+									<Int i="4">0</Int>
+									<Int i="5">0</Int>
+									<Int i="6">0</Int>
+									<Int i="7">0</Int>
+									<Int i="8">0</Int>
+									<Int i="9">0</Int>
+									<Int i="10">0</Int>
+									<Int i="11">0</Int>
+									<Int i="12">0</Int>
+									<Int i="13">0</Int>
+									<Int i="14">0</Int>
+									<Int i="15">0</Int>
+									<Int i="16">0</Int>
+									<Int i="17">0</Int>
+									<Int i="18">0</Int>
+									<Int i="19">0</Int>
+									<Int i="20">0</Int>
+									<Int i="21">0</Int>
+									<Int i="22">0</Int>
+									<Int i="23">0</Int>
+									<Int i="24">0</Int>
+									<Int i="25">0</Int>
+									<Int i="26">0</Int>
+									<Int i="27">0</Int>
+									<Int i="28">0</Int>
+									<Int i="29">0</Int>
+									<Int i="30">0</Int>
+									<Int i="31">0</Int>
+								</Array>
+								<Int name="allowBypass">0</Int>
+								<Int name="alwaysEdit">0</Int>
+								<Int name="editorId">1</Int>
+								<String name="editorName">FotoStation 8.0</String>
+							</Struct>
+						</Struct>
+						<String name="templateName">Caption</String>
+						<Int name="useTempFile">0</Int>
+					</Struct>
+				</Struct>
+			</Struct>
+		</Struct>
+		<Struct name="actionItem[1]">
+			<String name="name">In Ordner kopieren</String>
+			<String name="groupName">Kopier-Aktionen</String>
+			<String name="guid">3755731196</String>
+			<Int name="confirmation">0</Int>
+			<Int name="rawjpegMode">0</Int>
+			<String name="confirmationMessage"></String>
+			<Int name="numActions">1</Int>
+			<Int name="idIcon">0</Int>
+			<String name="imageFile">folder.ico</String>
+			<Struct name="actions[0]">
+				<Int name="actionId">1</Int>
+				<Struct name="aCopy">
+					<String name="destFolder">C:\Users\boe\Pictures</String>
+					<Int name="setDodaysDate">0</Int>
+					<Int name="allowMove">0</Int>
+					<Int name="useCopyDelete">0</Int>
+					<Int name="includeAdditional">0</Int>
+					<Int name="createUniqueSubfolder">0</Int>
+					<Int name="changeDestPath">1</Int>
+					<Int name="dialogMode">3</Int>
+					<Struct name="dialog">
+						<Int name="showSubfolder">0</Int>
+						<Int name="showPrefix">0</Int>
+						<String name="prefixFile"></String>
+						<String name="prefixSeparator"></String>
+						<Int name="showTemplatePriorityNotes">1</Int>
+						<Int name="showCrop">0</Int>
+						<Int name="cropChangeOriginal">0</Int>
+						<Int name="showText">0</Int>
+						<Int name="textChangeOriginal">0</Int>
+						<Struct name="reqFields">
+							<Struct name="aRequiredFields">
+								<Int name="numRequired">0</Int>
+								<Array name="isRequired" Version="1">
+									<Int i="0">0</Int>
+									<Int i="1">0</Int>
+									<Int i="2">0</Int>
+									<Int i="3">0</Int>
+									<Int i="4">0</Int>
+									<Int i="5">0</Int>
+									<Int i="6">0</Int>
+									<Int i="7">0</Int>
+									<Int i="8">0</Int>
+									<Int i="9">0</Int>
+									<Int i="10">0</Int>
+									<Int i="11">0</Int>
+									<Int i="12">0</Int>
+									<Int i="13">0</Int>
+									<Int i="14">0</Int>
+									<Int i="15">0</Int>
+									<Int i="16">0</Int>
+									<Int i="17">0</Int>
+									<Int i="18">0</Int>
+									<Int i="19">0</Int>
+									<Int i="20">0</Int>
+									<Int i="21">0</Int>
+									<Int i="22">0</Int>
+									<Int i="23">0</Int>
+									<Int i="24">0</Int>
+									<Int i="25">0</Int>
+									<Int i="26">0</Int>
+									<Int i="27">0</Int>
+									<Int i="28">0</Int>
+									<Int i="29">0</Int>
+									<Int i="30">0</Int>
+									<Int i="31">0</Int>
+								</Array>
+								<Int name="allowBypass">0</Int>
+								<Int name="alwaysEdit">0</Int>
+								<Int name="editorId">1</Int>
+								<String name="editorName">FotoStation 8.0</String>
+							</Struct>
+						</Struct>
+						<String name="templateName">Caption</String>
+						<Int name="useTempFile">0</Int>
+					</Struct>
+				</Struct>
+			</Struct>
+		</Struct>
+		<Struct name="actionItem[2]">
+			<String name="name">Resize to 1024 pixels</String>
+			<String name="groupName">Beispielaktionen</String>
+			<String name="guid">3519792843</String>
+			<Int name="confirmation">0</Int>
+			<Int name="rawjpegMode">0</Int>
+			<String name="confirmationMessage"></String>
+			<Int name="numActions">2</Int>
+			<Int name="idIcon">0</Int>
+			<String name="imageFile">aspectratio.ico</String>
+			<Struct name="actions[0]">
+				<Int name="actionId">4</Int>
+				<Struct name="aResize">
+					<Int name="DoResample">1</Int>
+					<Double name="ResizeTo">1024.000000</Double>
+					<Int name="ResToType">2</Int>
+					<Double name="Resolution">0.000000</Double>
+					<Int name="ResolutionType">0</Int>
+					<Int name="PixelHeight">0</Int>
+					<Int name="CropOrPad">0</Int>
+					<Int name="AlignType">0</Int>
+					<Int name="MaxSize">100</Int>
+					<Int name="CanvasColor">0</Int>
+					<Int name="NotOnSmaller">1</Int>
+				</Struct>
+			</Struct>
+			<Struct name="actions[1]">
+				<Int name="actionId">5</Int>
+				<Struct name="aSaveFile">
+					<String name="SaveFolder"></String>
+					<String name="SavePrefix"></String>
+					<String name="SaveSuffix">_1024</String>
+					<Int name="UseOriginalDate">0</Int>
+					<Int name="SaveMode">2</Int>
+					<Int name="UsePrefix">1</Int>
+					<Struct name="FileFormat">
+						<Int name="FileFormat">1246774599</Int>
+						<Int name="EmbeddICC">1</Int>
+						<Int name="EPSEncoding">2</Int>
+						<Int name="EPSPreview">1</Int>
+						<Int name="JPEGQuality">95</Int>
+					</Struct>
+				</Struct>
+			</Struct>
+		</Struct>
+		<Struct name="actionItem[3]">
+			<String name="name">Check required text</String>
+			<String name="groupName">Beispielaktionen</String>
+			<String name="guid">4207662569</String>
+			<Int name="confirmation">0</Int>
+			<Int name="rawjpegMode">0</Int>
+			<String name="confirmationMessage"></String>
+			<Int name="numActions">1</Int>
+			<Int name="idIcon">0</Int>
+			<String name="imageFile">check.ico</String>
+			<Struct name="actions[0]">
+				<Int name="actionId">15</Int>
+				<Struct name="aRequiredFields">
+					<Int name="numRequired">3</Int>
+					<Array name="isRequired" Version="1">
+						<Int i="0">120</Int>
+						<Int i="1">80</Int>
+						<Int i="2">5</Int>
+						<Int i="3">0</Int>
+						<Int i="4">0</Int>
+						<Int i="5">0</Int>
+						<Int i="6">0</Int>
+						<Int i="7">0</Int>
+						<Int i="8">0</Int>
+						<Int i="9">0</Int>
+						<Int i="10">0</Int>
+						<Int i="11">0</Int>
+						<Int i="12">0</Int>
+						<Int i="13">0</Int>
+						<Int i="14">0</Int>
+						<Int i="15">0</Int>
+						<Int i="16">0</Int>
+						<Int i="17">0</Int>
+						<Int i="18">0</Int>
+						<Int i="19">0</Int>
+						<Int i="20">0</Int>
+						<Int i="21">0</Int>
+						<Int i="22">0</Int>
+						<Int i="23">0</Int>
+						<Int i="24">0</Int>
+						<Int i="25">0</Int>
+						<Int i="26">0</Int>
+						<Int i="27">0</Int>
+						<Int i="28">0</Int>
+						<Int i="29">0</Int>
+						<Int i="30">0</Int>
+						<Int i="31">0</Int>
+					</Array>
+					<Int name="allowBypass">0</Int>
+					<Int name="alwaysEdit">0</Int>
+					<Int name="editorId">1</Int>
+					<String name="editorName">FotoStation 8.0</String>
+				</Struct>
+			</Struct>
+		</Struct>
+		<Struct name="actionItem[4]">
+			<String name="name">Digitalblitz</String>
+			<String name="groupName">Beispielaktionen</String>
+			<String name="guid">3873494748</String>
+			<Int name="confirmation">0</Int>
+			<Int name="rawjpegMode">0</Int>
+			<String name="confirmationMessage"></String>
+			<Int name="numActions">2</Int>
+			<Int name="idIcon">0</Int>
+			<String name="imageFile">effects.ico</String>
+			<Struct name="actions[0]">
+				<Int name="actionId">22</Int>
+				<Struct name="aEqulize">
+					<Int name="Level">30</Int>
+					<Int name="Areas">3</Int>
+				</Struct>
+			</Struct>
+			<Struct name="actions[1]">
+				<Int name="actionId">5</Int>
+				<Struct name="aSaveFile">
+					<String name="SaveFolder"></String>
+					<String name="SavePrefix"></String>
+					<String name="SaveSuffix">_df</String>
+					<Int name="UseOriginalDate">0</Int>
+					<Int name="SaveMode">2</Int>
+					<Int name="UsePrefix">1</Int>
+					<Struct name="FileFormat">
+						<Int name="FileFormat">1246774599</Int>
+						<Int name="EmbeddICC">1</Int>
+						<Int name="EPSEncoding">2</Int>
+						<Int name="EPSPreview">1</Int>
+						<Int name="JPEGQuality">95</Int>
+					</Struct>
+				</Struct>
+			</Struct>
+		</Struct>
+		<Struct name="actionItem[5]">
+			<String name="name">Auf CD schreiben</String>
+			<String name="groupName">Beispielaktionen</String>
+			<String name="guid">3352477919</String>
+			<Int name="confirmation">0</Int>
+			<Int name="rawjpegMode">0</Int>
+			<String name="confirmationMessage"></String>
+			<Int name="numActions">1</Int>
+			<Int name="idIcon">0</Int>
+			<String name="imageFile">burn.ico</String>
+			<Struct name="actions[0]">
+				<Int name="actionId">13</Int>
+				<Struct name="aWriteCD">
+					<Int name="createOffline">0</Int>
+					<Int name="archiveId">1</Int>
+					<String name="archiveName">Pictures</String>
+					<Int name="createSessionFolder">1</Int>
+					<Int name="specifyTempFolder">0</Int>
+					<String name="tempFolder"></String>
+				</Struct>
+			</Struct>
+		</Struct>
+		<Struct name="actionItem[6]">
+			<String name="name">Wasserzeichen</String>
+			<String name="groupName">Beispielaktionen</String>
+			<String name="guid">3385057743</String>
+			<Int name="confirmation">0</Int>
+			<Int name="rawjpegMode">0</Int>
+			<String name="confirmationMessage"></String>
+			<Int name="numActions">2</Int>
+			<Int name="idIcon">0</Int>
+			<String name="imageFile">editphoto.ico</String>
+			<Struct name="actions[0]">
+				<Int name="actionId">24</Int>
+				<Struct name="aWatermark">
+					<String name="WatermarkFile"></String>
+					<Int name="Alignment">0</Int>
+					<Int name="DoScale">0</Int>
+				</Struct>
+			</Struct>
+			<Struct name="actions[1]">
+				<Int name="actionId">5</Int>
+				<Struct name="aSaveFile">
+					<String name="SaveFolder"></String>
+					<String name="SavePrefix"></String>
+					<String name="SaveSuffix">_wm</String>
+					<Int name="UseOriginalDate">0</Int>
+					<Int name="SaveMode">2</Int>
+					<Int name="UsePrefix">1</Int>
+					<Struct name="FileFormat">
+						<Int name="FileFormat">1246774599</Int>
+						<Int name="EmbeddICC">1</Int>
+						<Int name="EPSEncoding">2</Int>
+						<Int name="EPSPreview">1</Int>
+						<Int name="JPEGQuality">95</Int>
+					</Struct>
+				</Struct>
+			</Struct>
+		</Struct>
+		<Struct name="actionItem[7]">
+			<String name="name">Web publish</String>
+			<String name="groupName">Beispielaktionen</String>
+			<String name="guid">3705657349</String>
+			<Int name="confirmation">0</Int>
+			<Int name="rawjpegMode">0</Int>
+			<String name="confirmationMessage"></String>
+			<Int name="numActions">4</Int>
+			<Int name="idIcon">0</Int>
+			<String name="imageFile">web.ico</String>
+			<Struct name="actions[0]">
+				<Int name="actionId">4</Int>
+				<Struct name="aResize">
+					<Int name="DoResample">1</Int>
+					<Double name="ResizeTo">800.000000</Double>
+					<Int name="ResToType">2</Int>
+					<Double name="Resolution">0.000000</Double>
+					<Int name="ResolutionType">0</Int>
+					<Int name="PixelHeight">0</Int>
+					<Int name="CropOrPad">0</Int>
+					<Int name="AlignType">0</Int>
+					<Int name="MaxSize">100</Int>
+					<Int name="CanvasColor">0</Int>
+					<Int name="NotOnSmaller">0</Int>
+				</Struct>
+			</Struct>
+			<Struct name="actions[1]">
+				<Int name="actionId">8</Int>
+				<Struct name="aSharpen">
+					<Int name="Amount">300</Int>
+					<Double name="Radius">0.500000</Double>
+					<Int name="Threshold">0</Int>
+					<Int name="UseSmoothMode">0</Int>
+					<Int name="SmoothMode">0</Int>
+					<Int name="UseAutoSharpening">1</Int>
+					<Int name="AutoNoiseSensitivity">0</Int>
+					<Int name="AutoSharpSensitivity">0</Int>
+					<Int name="UseAutoRadius">0</Int>
+					<Int name="UseAutoThreshold">0</Int>
+					<Int name="UseShadowLimiter">0</Int>
+					<Int name="ShadowLimiter">0</Int>
+				</Struct>
+			</Struct>
+			<Struct name="actions[2]">
+				<Int name="actionId">5</Int>
+				<Struct name="aSaveFile">
+					<String name="SaveFolder"></String>
+					<String name="SavePrefix"></String>
+					<String name="SaveSuffix">_wp</String>
+					<Int name="UseOriginalDate">0</Int>
+					<Int name="SaveMode">2</Int>
+					<Int name="UsePrefix">1</Int>
+					<Struct name="FileFormat">
+						<Int name="FileFormat">1246774599</Int>
+						<Int name="EmbeddICC">1</Int>
+						<Int name="EPSEncoding">2</Int>
+						<Int name="EPSPreview">1</Int>
+						<Int name="JPEGQuality">85</Int>
+					</Struct>
+				</Struct>
+			</Struct>
+			<Struct name="actions[3]">
+				<Int name="actionId">32</Int>
+				<Struct name="aAttachLicense">
+					<Int name="promptForLicense">0</Int>
+					<String name="licenseName">FotoWare (CC)</String>
+				</Struct>
+			</Struct>
+		</Struct>
+		<Struct name="actionItem[8]">
+			<String name="name">Metadaten zufügen</String>
+			<String name="groupName">Beispielaktionen</String>
+			<String name="guid">3603871988</String>
+			<Int name="confirmation">0</Int>
+			<Int name="rawjpegMode">0</Int>
+			<String name="confirmationMessage"></String>
+			<Int name="numActions">1</Int>
+			<Int name="idIcon">0</Int>
+			<String name="imageFile">addtext.ico</String>
+			<Struct name="actions[0]">
+				<Int name="actionId">34</Int>
+				<Struct name="aAddMetadata">
+					<Int name="replaceExistingFields">0</Int>
+					<Int name="rememberText">0</Int>
+					<Int name="editorId">1</Int>
+					<String name="editorName">FotoStation 8.0</String>
+				</Struct>
+			</Struct>
+		</Struct>
+	</Group>
+</FotoWare_Settings>

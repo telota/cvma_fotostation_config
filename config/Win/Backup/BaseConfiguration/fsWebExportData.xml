@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FotoWare_Settings>
+	<Group name="WebExportItem">
+		<Struct name="WebExportSet">
+			<Int name="Columns">4</Int>
+			<Int name="Rows">3</Int>
+			<Int name="ThumbSize">1</Int>
+			<Int name="UseThumbHeight">1</Int>
+			<Int name="PviewSize">1</Int>
+			<Int name="UsePreviewHeight">1</Int>
+			<Int name="UsePviewLink">1</Int>
+			<Int name="UseDownloadLink">0</Int>
+			<Int name="UseTitle">1</Int>
+			<Int name="UseDesc">1</Int>
+			<Int name="UseByline">1</Int>
+			<Int name="UseCredit">1</Int>
+			<Int name="UseKeyWords">1</Int>
+			<Int name="UseMetaKeyWords">1</Int>
+			<Int name="BackColor">16777215</Int>
+			<Int name="TextColor">0</Int>
+			<Int name="UseLogo">0</Int>
+			<Int name="UseBackground">0</Int>
+			<Int name="UseEmail">0</Int>
+			<Int name="UseDesktop">1</Int>
+			<Int name="UseRealImageNames">0</Int>
+			<Int name="thSharpLevel">100</Int>
+			<Int name="thJpegLevel">75</Int>
+			<Int name="pvSharpLevel">100</Int>
+			<Int name="pvJpegLevel">75</Int>
+			<Int name="pvUsePreMade">1</Int>
+			<String name="DownloadText"></String>
+			<String name="Template"></String>
+			<String name="LogoFile"></String>
+			<String name="BackgroundFile"></String>
+			<String name="FullName"></String>
+			<String name="EmailAddress"></String>
+			<String name="FolderName"></String>
+			<String name="FolderPath"></String>
+			<String name="PageName"></String>
+			<String name="Extension"></String>
+		</Struct>
+	</Group>
+</FotoWare_Settings>

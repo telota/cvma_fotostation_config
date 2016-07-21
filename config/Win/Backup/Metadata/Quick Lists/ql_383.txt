@@ -1,0 +1,4 @@
+﻿http://ns.useplus.org/ldf/vocab/MR-LMR=Limited or Incomplete Model Releases
+http://ns.useplus.org/ldf/vocab/MR-NAP=Not Applicable
+http://ns.useplus.org/ldf/vocab/MR-NON=None
+http://ns.useplus.org/ldf/vocab/MR-UMR=Unlimited Model Releases

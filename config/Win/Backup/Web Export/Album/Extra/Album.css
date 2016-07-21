@@ -1,0 +1,57 @@
+
+body, p, br, nobr, div, span, td
+{
+	font-size: 11px;
+	font-family: Tahoma, Verdana, Sans-Serif;
+	line-height: 18px;
+	color: #ffffff;
+}
+a
+{
+	color: #D8F2F1;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover
+{
+	color: #D8F2F1;
+	text-decoration: underline;
+}
+h1
+{
+    FONT-SIZE: 18px;
+    COLOR: white;
+}
+h2
+{
+	font-size: 16px;
+	color: white;
+}
+h3
+{
+	font-size: 14px;
+	color: white;
+}
+
+.InsideAlbum
+{
+	background-color: #669ACC;
+	color: White;
+	border-top: #000000 2px solid;
+	border-left: #000000 2px solid;
+	border-bottom: #000000 2px solid;
+	border-right: #000000 2px solid;
+}
+
+.Image
+{
+	background-color: #ffffff;
+	border-top: #000000 1px solid;
+	border-left: #000000 1px solid;
+	border-bottom: #000000 1px solid;
+	border-right: #000000 1px solid;
+	padding-right: 4px;
+	padding-left: 4px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+}

@@ -1,0 +1,101 @@
+<HTML>
+<HEAD>
+
+<link href="Extra/List view left.css" rel="stylesheet" type="text/css" />
+<%BACKGROUND%>
+<BODY BACKGROUND="<%=FWT_BACKGROUNDFILE%>">
+<%/BACKGROUND%>
+<TITLE><%=FWT_TITLE%></TITLE>
+
+<%METAKEYWORDS%>
+<META NAME="KEYWORDS" CONTENT="FOTOSTATION WEBALBUM FOTOWARE <%=FWT_METAKEYWORDS%>"> 
+<%/METAKEYWORDS%>
+
+</HEAD>
+<BODY  BGCOLOR="<%=FWT_BACKGROUNDCOLOR%>">
+<CENTER>
+<BR>
+
+<%LOGO%>
+<IMG SRC="<%=FWT_LOGOFILE%>">
+<%/LOGO%>
+
+<H1><%=FWT_TITLE%></H1>
+<%DESCRIPTION%>
+<BR><H4><%=FWT_DESCRIPTION%></H4>
+<%/DESCRIPTION%>
+<%NAVIGATE%>
+<TABLE CELLSPACING=30 CELLPADDING=0 BORDER=0>
+	<TR>
+		<TD ALIGN=LEFT WIDTH=150>
+			<%PREVIOUS_PAGE%>
+			<A HREF="<%=FWT_PREVIOUSPAGE%>" >  <%=FWT_PREVIOUSPAGEWORD%>  </A>
+			<%/PREVIOUS_PAGE%>
+		</TD>
+		<TD ALIGN=CENTER>
+			<%=FWT_DIRECTPAGE%>
+		</TD>
+		<TD ALIGN=RIGHT WIDTH=150>
+			<%NEXT_PAGE%>
+			<A HREF="<%=FWT_NEXTPAGE%>" >  <%=FWT_NEXTPAGEWORD%>  </A>
+			<%/NEXT_PAGE%>
+		</TD>
+	</TR>
+</TABLE>
+<%/NAVIGATE%>
+
+<TABLE BORDER=0 cellspacing=10 cellpadding=0 RULES=All>
+	<%IMAGEROW%>
+	<TR>
+		<%IMAGE_WITH_PV%>
+			<TD WIDTH=150 HEIGHT=100 ALIGN=CENTER VALIGN=TOP> 
+				<A HREF="<%=FWT_PREVIEWPAGE%>"><IMG SRC="<%=FWT_THUMBNAIL%>" Alt="<%=FWT_IPTC120%>" border=0></A>
+	
+				
+			</TD>
+	
+			<TD WIDTH=600 HEIGHT=100 ALIGN=LEFT VALIGN=TOP>
+				
+							<B>Dateiname: </B><%=FWT_IMAGENAME%><BR>
+							<B>Objektbeschreibung: </B><%=FWT_IPTC120%><BR>
+							<B>Objektname: </B><%=FWT_IMAGETITLEORNAME%><BR>
+							<B>Bildrechte: </B><%=FWT_IPTC110%><BR>
+						
+							<%DOWNLOAD%>
+								<A HREF="<%=FWT_DOWNLOADIMAGE%>"><%=FWT_DOWNLOADWORD%></A>
+							<%/DOWNLOAD%>
+									
+			</TD>
+		<%/IMAGE_WITH_PV%>
+
+		<%IMAGE_NO_PV%>
+			<TD WIDTH=150 HEIGHT=100 ALIGN=CENTER VALIGN=TOP> 
+				<IMG SRC="<%=FWT_THUMBNAIL%>" Alt="<%=FWT_IPTC120%>" border=0>
+			</TD>
+			<TD WIDTH=600 HEIGHT=100 ALIGN=LEFT VALIGN=TOP>
+				
+							<B>Dateiname: </B><%=FWT_IMAGENAME%><BR>
+							<B>Objektbeschreibung: </B><%=FWT_IPTC120%><BR>
+							<B>Objektname: </B><%=FWT_IMAGETITLEORNAME%><BR>
+							<B>Bildrechte: </B><%=FWT_IPTC110%><BR>
+						
+							<%DOWNLOAD%>
+								<A HREF="<%=FWT_DOWNLOADIMAGE%>"><%=FWT_DOWNLOADWORD%></A>
+							<%/DOWNLOAD%>
+									
+			</TD>
+		<%/IMAGE_NO_PV%>
+	</TR>
+	<tr>
+		<td colspan=2>	
+			<hr noshade size=1>
+		</td>
+	</tr>
+	<%/IMAGEROW%>
+</TABLE>
+<%EMAIL%>
+<A HREF="mailto:<%=FWT_EMAILADDRESS%>"><%=FWT_EMAILNAME%></A>.
+<%/EMAIL%>
+</CENTER>
+</BODY>
+</HTML>

@@ -1,0 +1,3 @@
+Ein Muster, das Ihre Bilder an einer "Galeriewand" prŠsentiert.
+WŠhlen Sie eine Hintergrundfarbe fŸr Ihre Bilder und stellen Sie eine Textfarbe ein. 
+Gut geeignet fŸr die Darstellung von Schwarz-Weiss-Bildern.

@@ -1,0 +1,14 @@
+﻿http://ns.useplus.org/ldf/vocab/AG-UNK=Age Unknown
+http://ns.useplus.org/ldf/vocab/AG-A25=Age 25 or Over
+http://ns.useplus.org/ldf/vocab/AG-A24=Age 24
+http://ns.useplus.org/ldf/vocab/AG-A23=Age 23
+http://ns.useplus.org/ldf/vocab/AG-A22=Age 22
+http://ns.useplus.org/ldf/vocab/AG-A21=Age 21
+http://ns.useplus.org/ldf/vocab/AG-A20=Age 20
+http://ns.useplus.org/ldf/vocab/AG-A19=Age 19
+http://ns.useplus.org/ldf/vocab/AG-A18=Age 18
+http://ns.useplus.org/ldf/vocab/AG-A17=Age 17
+http://ns.useplus.org/ldf/vocab/AG-A16=Age 16
+http://ns.useplus.org/ldf/vocab/AG-A15=Age 15
+http://ns.useplus.org/ldf/vocab/AG-A14=Age 14
+http://ns.useplus.org/ldf/vocab/AG-U14=Age 14 or Under

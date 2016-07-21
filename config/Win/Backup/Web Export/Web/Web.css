@@ -1,0 +1,67 @@
+body
+{
+	background-color: #ffffff;
+}
+body, p, br, nobr, div, span, td, textarea
+{
+	font-size: 11px;
+	font-family: Tahoma, Verdana, Sans-Serif;
+	line-height: 18px;
+}
+a
+{
+	color: #3A6B94;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover
+{
+	color: #000066;
+	text-decoration: underline;
+}
+h1
+{
+    FONT-SIZE: 18px;
+    COLOR: black
+}
+h2
+{
+	font-size: 16px;
+	color: black;
+}
+h3
+{
+	font-size: 14px;
+	color: black;
+}
+
+.TopHeader
+{
+	background-color: #746d61;
+	color: White;
+}
+
+.MiddleHeader
+{
+	height: 15px;	
+	background-color: #dbd4c5;
+}
+
+.NavigationHeader
+{
+	padding-right: 2px;
+	padding-left: 8px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	/*border-bottom: #708090 1px solid;*/
+	background-color: #eae5dd;
+	line-height: 17px;
+	height: 30px;
+}
+.ImageCell
+{
+	padding: 0 0 0 10;
+	background-color: #ffffff;
+	border-right: #EAE5DD 1px solid;
+	border-bottom: #EAE5DD 1px solid;
+}

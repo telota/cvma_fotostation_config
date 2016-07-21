@@ -1,0 +1,40 @@
+body
+{
+}
+
+body, p, br, nobr, div, span, td, textarea
+{
+	font-size: 11px;
+	font-family: Tahoma, Verdana, Sans-Serif;
+	line-height: 14px;
+}
+
+a
+{
+	/*color: #4682b4;*/
+	color: #3A6B94;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover
+{
+	color: #000066;
+	text-decoration: underline;
+}
+
+h1
+{
+    FONT-SIZE: 18px;
+}
+
+h2
+{
+	font-size: 16px;
+}
+
+h3
+{
+	font-size: 14px;
+}
+

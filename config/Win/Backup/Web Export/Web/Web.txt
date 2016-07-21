@@ -1,0 +1,1 @@
+In diesem Muster wird ein Stylesheet (web.css) fŸr die Einstellung der Farben und Schriftarten benutzt.

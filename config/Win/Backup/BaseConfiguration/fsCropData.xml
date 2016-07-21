@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FotoWare_Settings>
+	<Group name="CropItem">
+		<Int name="numItems">0</Int>
+	</Group>
+</FotoWare_Settings>

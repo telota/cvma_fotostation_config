@@ -1,0 +1,16 @@
+# This is a "SmartReplacement" example file
+#
+# The file contains "short codes" in the left column and one or more columns with the fully expanded text
+# All columns are delimited with a 'tab'
+# "Short codes" with a leading '/' will automatically expand to the full text while typing. ('space' and 'tab' will trigger the replacement)
+# The default leading character, '/', can be changed in the configuration dialog under "Metadata > SmartReplacement"
+#
+# Usage:
+# 	typing '/l' (+ space or tab) will expand to 'Lorem'
+# 	typing '/l#2' (+ space or tab) will expand to 'Lorem ipsum'
+# 	typing '/l#5' (+ space or tab) will expand to 'Lorem ipsum dolor sit amet'
+
+l	Lorem	Lorem ipsum	Lorem ipsum dolor	Lorem ipsum dolor sit	Lorem ipsum dolor sit amet
+c	Copyright © FotoWare a.s
+e	Edited by %%INSSYSLOGIN %%INSLDATE
+f	Original file (%%INSFNUMBER) %%INSNAMEONLY ingested to %%INSMACHINENAME

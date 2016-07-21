@@ -1,0 +1,125 @@
+<HTML>
+<HEAD>
+
+<TITLE><%=FWT_TITLE%></TITLE>
+
+<%METAKEYWORDS%>
+<META NAME="KEYWORDS" CONTENT="<%=FWT_METAKEYWORDS%>"> 
+<%/METAKEYWORDS%>
+<link href="../Extra/Info.css" rel="stylesheet" type="text/css" />
+</HEAD>
+
+<BODY background="../Extra/background.gif">
+
+<table cellpadding=0 cellspacing=0 border=0>
+	<tr>
+		<td valign=top width=300>
+			
+			<table cellpadding=0 cellspacing=0 width=300 class=menu height=400>
+					<tr>
+						<td colspan=2 valign=top height=60 align=center>
+							<TABLE CELLSPACING=5 CELLPADDING=0 BORDER=0>
+								<TR>
+							
+									<TD ALIGN=LEFT WIDTH=70 valign=middle>
+										<%PREVIOUS_PV%>
+										<A HREF="<%=FWT_PREVIOUSPREVIEW%>" >  <img src="../Extra/back.gif" border=0>  </A>
+										<%/PREVIOUS_PV%>
+									</TD>
+							
+									<TD ALIGN=CENTER valign=middle>
+										<A HREF="<%=FWT_BACK%>">   <img src="../Extra/BackToThumbs.gif" border=0>   </A>
+									</TD>
+							
+									<TD ALIGN=RIGHT WIDTH=70 valign=middle>
+										<%NEXT_PV%>
+										<A HREF="<%=FWT_NEXTPREVIEW%>">  <img src="../Extra/forward.gif" border=0>   </A>
+										<%/NEXT_PV%>
+									</TD>
+							
+								</TR>
+							</TABLE>
+						</td>
+						<td width=5></td>
+					</tr>
+					<tr>
+						<td colspan=3 height=10>
+							<hr noshade size=1>
+						</td>
+					</tr>
+					<tr>
+						<td valign=top height=330>
+							<H2><%=FWT_IMAGENAME%></H2>
+							<table cellpadding=0 cellspacing=0 border=0>
+								<tr>
+									<td colspan=2><%=FWT_WIZARDTEXT%></td>
+								</tr>
+								<tr>
+									<td><B>Kategorie:</B></td>
+									<td><%=FWT_IPTC015%></td>
+								</tr>
+								<tr>
+									<td><B>Zus. Kategorien:</B></td>
+									<td><%=FWT_IPTC020%></td>
+								</tr>
+								<tr>
+									<td><B>Stichwörter:</B></td>
+									<td><%=FWT_IPTC025%></td>
+								</tr>
+								<tr>
+									<td><B>Erstellungsdatum:</B></td>
+									<td><%=FWT_IPTC055%></td>
+								</tr>
+								<tr>
+									<td><B>Freigegeben (Datum):</B></td>
+									<td><%=FWT_IPTC030%></td>
+								</tr>
+								<tr>
+									<td><B>Titel des Autors:</B></td>
+									<td><%=FWT_IPTC085%></td>
+								</tr>
+								<tr>
+									<td><B>Ort:</B></td>
+									<td><%=FWT_IPTC090%></td>
+								</tr>
+								<tr>
+									<td><B>Land:</B></td>
+									<td><%=FWT_IPTC101%></td>
+								</tr>
+								<tr>
+									<td><B>Überschrift:</B></td>
+									<td><%=FWT_IPTC105%></td>
+								</tr>
+								<tr>
+									<td><B>Quelle:</B></td>
+									<td><%=FWT_IPTC115%></td>
+								</tr>
+								<tr>
+									<td><B>Copyright-Vermerk:</B></td>
+									<td><%=FWT_IPTC116%></td>
+								</tr>
+							
+							</table>
+						</td>
+						<td valign=top align=right nowrap>
+							<%=FWT_CURRENTIMAGENUMBER%> (<%=FWT_IMAGECOUNT%>)
+						</td>
+						<td width=5></td>
+					</tr>
+					<tr>
+						<td colspan=3 height=10></td>
+					</tr>
+				</table>
+	
+		</td>
+		<td width=20></td>
+		<td>
+			<IMG SRC="<%=FWT_PREVIEW%>" Alt="<%=FWT_IMAGENAME%>">
+		</td>
+		
+		
+	</tr>
+</table>
+
+</BODY>
+</HTML>

@@ -1,0 +1,89 @@
+<HTML>
+<HEAD>
+
+<TITLE><%=FWT_TITLE%></TITLE>
+
+<%METAKEYWORDS%>
+<META NAME="KEYWORDS" CONTENT="<%=FWT_METAKEYWORDS%>"> 
+<%/METAKEYWORDS%>
+<link href="Extra/Album.css" rel="stylesheet" type="text/css" />
+</HEAD>
+<BODY>
+<CENTER>
+<BR>
+
+<%LOGO%>
+<IMG SRC="<%=FWT_LOGOFILE%>">
+<%/LOGO%>
+
+<table cellpadding=0 cellspacing=10 border=0 width=80% class="InsideAlbum">
+	<tr>	
+		<td>
+			<%EMAIL%>
+			<A HREF="mailto:<%=FWT_EMAILADDRESS%>"><%=FWT_EMAILNAME%></A>.
+			<%/EMAIL%>
+		</td>
+	</tr>
+	<tr>
+		<td align=center>
+
+			<H1><%=FWT_TITLE%></H1>
+
+			<%DESCRIPTION%>
+				<H4><%=FWT_DESCRIPTION%></H4>
+			<%/DESCRIPTION%>
+			<%NAVIGATE%>
+				<TABLE CELLSPACING=30 CELLPADDING=0 BORDER=0>
+					<TR>
+						<TD ALIGN=LEFT WIDTH=150>
+							<%PREVIOUS_PAGE%>
+							<A HREF="<%=FWT_PREVIOUSPAGE%>" >  <%=FWT_PREVIOUSPAGEWORD%>  </A>
+							<%/PREVIOUS_PAGE%>
+						</TD>
+						<TD ALIGN=CENTER>
+							<%=FWT_DIRECTPAGE%>
+						</TD>
+						<TD ALIGN=RIGHT WIDTH=150>
+							<%NEXT_PAGE%>
+							<A HREF="<%=FWT_NEXTPAGE%>" >  <%=FWT_NEXTPAGEWORD%>  </A>
+							<%/NEXT_PAGE%>
+						</TD>
+					</TR>
+				</TABLE>
+			<%/NAVIGATE%>
+
+			<TABLE BORDER=0 cellspacing=5 cellpadding=0>
+				<%IMAGEROW%>
+					<TR>
+						<%IMAGE_WITH_PV%>
+							<TD WIDTH=200 HEIGHT=220 ALIGN=CENTER VALIGN=TOP> 
+								<table cellpadding=0 border=0 cellspacing=0>
+									<tr>
+										<td class=Image><A HREF="<%=FWT_PREVIEWPAGE%>"><IMG SRC="<%=FWT_THUMBNAIL%>" Alt="<%=FWT_IPTC120%>" border=0></A></td>
+									</tr>
+								</table>
+								<%=FWT_IMAGETITLEORNAME%>
+								<%DOWNLOAD%>
+								<BR> <A HREF="<%=FWT_DOWNLOADIMAGE%>"><%=FWT_DOWNLOADWORD%></A>
+								<%/DOWNLOAD%>
+							</TD>
+						<%/IMAGE_WITH_PV%>
+
+						<%IMAGE_NO_PV%>
+						<TD ALIGN=CENTER VALIGN=TOP> <IMG SRC="<%=FWT_THUMBNAIL%>" Alt="<%=FWT_IPTC120%>">
+							<BR><%=FWT_IMAGETITLEORNAME%>
+							<%DOWNLOAD%>
+							<BR><A HREF="<%=FWT_DOWNLOADIMAGE%>"><%=FWT_DOWNLOADWORD%></A>
+							<%/DOWNLOAD%>
+						</TD>
+						<%/IMAGE_NO_PV%>
+					</TR>
+				<%/IMAGEROW%>
+			</TABLE>
+		</td>
+	</tr>
+</table>
+
+</CENTER>
+</BODY>
+</HTML>

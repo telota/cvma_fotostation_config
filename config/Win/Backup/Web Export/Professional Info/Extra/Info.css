@@ -1,0 +1,53 @@
+body
+{
+	background-color: #ffffff;
+}
+body, p, br, nobr, div, span, td, textarea
+{
+	font-size: 11px;
+	font-family: Tahoma, Verdana, Sans-Serif;
+	line-height: 14px;
+}
+a
+{
+	color: #3A6B94;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover
+{
+	color: #000066;
+	text-decoration: underline;
+}
+h1
+{
+    FONT-SIZE: 18px;
+    COLOR: black
+}
+h2
+{
+	font-size: 16px;
+	color: black;
+}
+h3
+{
+	font-size: 14px;
+	color: black;
+}
+
+
+.ImageCell
+{
+	padding: 10 10 0 10;
+	border-right: #EAE5DD 1px solid;
+	border: 1px solid #8D8E96;
+	background-color: #DDDEE2;
+}
+
+.Menu
+{
+	padding: 5 0 0 5;
+	background-color: #DDDEE2;
+	border-color: #8D8E96;
+	border: 1px solid #8D8E96;
+}

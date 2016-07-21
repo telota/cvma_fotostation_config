@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FotoWare_Settings>
+	<Group name="AppearanceItem">
+		<Int name="numItems">7</Int>
+		<Struct name="app[0]">
+			<String name="name">Standard</String>
+			<Int name="useThemeColors">1</Int>
+			<Int name="thumbnailStyle">2</Int>
+			<Struct name="windowBackColor">
+				<Int name="rgbtRed">224</Int>
+				<Int name="rgbtGreen">221</Int>
+				<Int name="rgbtBlue">205</Int>
+			</Struct>
+			<Int name="useWindowBackColor">0</Int>
+			<Int name="useBrushedMetal">0</Int>
+			<Int name="useIntegratedTB">0</Int>
+			<Int name="useToolbarBackColor">0</Int>
+			<Struct name="backColor">
+				<Int name="rgbtRed">224</Int>
+				<Int name="rgbtGreen">221</Int>
+				<Int name="rgbtBlue">205</Int>
+			</Struct>
+			<Struct name="backBorderColor">
+				<Int name="rgbtRed">61</Int>
+				<Int name="rgbtGreen">149</Int>
+				<Int name="rgbtBlue">255</Int>
+			</Struct>
+			<Struct name="frameColor">
+				<Int name="rgbtRed">240</Int>
+				<Int name="rgbtGreen">240</Int>
+				<Int name="rgbtBlue">234</Int>
+			</Struct>
+			<Struct name="frameBorderColor">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">75</Int>
+				<Int name="rgbtBlue">199</Int>
+			</Struct>
+			<Struct name="selectionColor">
+				<Int name="rgbtRed">49</Int>
+				<Int name="rgbtGreen">106</Int>
+				<Int name="rgbtBlue">197</Int>
+			</Struct>
+			<Struct name="selectionBorderColor">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">75</Int>
+				<Int name="rgbtBlue">199</Int>
+			</Struct>
+			<Struct name="textColor">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">0</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+			<Struct name="selectionTextColor">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">0</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+			<Struct name="archiveGroupHeader">
+				<Int name="rgbtRed">76</Int>
+				<Int name="rgbtGreen">135</Int>
+				<Int name="rgbtBlue">235</Int>
+			</Struct>
+			<Struct name="archiveBackground">
+				<Int name="rgbtRed">235</Int>
+				<Int name="rgbtGreen">241</Int>
+				<Int name="rgbtBlue">251</Int>
+			</Struct>
+			<Struct name="groupText">
+				<Int name="rgbtRed">255</Int>
+				<Int name="rgbtGreen">255</Int>
+				<Int name="rgbtBlue">255</Int>
+			</Struct>
+			<Struct name="archiveText">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">0</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+			<Struct name="archiveTextSelected">
+				<Int name="rgbtRed">255</Int>
+				<Int name="rgbtGreen">255</Int>
+				<Int name="rgbtBlue">255</Int>
+			</Struct>
+			<Int name="customizeTabs">0</Int>
+			<Int name="applyToDesktop">0</Int>
+			<Struct name="tabBackground">
+				<Int name="rgbtRed">236</Int>
+				<Int name="rgbtGreen">233</Int>
+				<Int name="rgbtBlue">216</Int>
+			</Struct>
+			<Struct name="tabBorder">
+				<Int name="rgbtRed">145</Int>
+				<Int name="rgbtGreen">155</Int>
+				<Int name="rgbtBlue">156</Int>
+			</Struct>
+			<Struct name="tabButton">
+				<Int name="rgbtRed">248</Int>
+				<Int name="rgbtGreen">248</Int>
+				<Int name="rgbtBlue">246</Int>
+			</Struct>
+			<Struct name="tabButtonText">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">0</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+			<Struct name="tabButtonActive">
+				<Int name="rgbtRed">252</Int>
+				<Int name="rgbtGreen">252</Int>
+				<Int name="rgbtBlue">254</Int>
+			</Struct>
+			<Struct name="tabButtonActiveText">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">0</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+		</Struct>
+		<Struct name="app[1]">
+			<String name="name">Darkroom</String>
+			<Int name="useThemeColors">0</Int>
+			<Int name="thumbnailStyle">7</Int>
+			<Struct name="windowBackColor">
+				<Int name="rgbtRed">224</Int>
+				<Int name="rgbtGreen">221</Int>
+				<Int name="rgbtBlue">205</Int>
+			</Struct>
+			<Int name="useWindowBackColor">0</Int>
+			<Int name="useBrushedMetal">0</Int>
+			<Int name="useIntegratedTB">0</Int>
+			<Int name="useToolbarBackColor">0</Int>
+			<Struct name="backColor">
+				<Int name="rgbtRed">36</Int>
+				<Int name="rgbtGreen">36</Int>
+				<Int name="rgbtBlue">36</Int>
+			</Struct>
+			<Struct name="backBorderColor">
+				<Int name="rgbtRed">36</Int>
+				<Int name="rgbtGreen">36</Int>
+				<Int name="rgbtBlue">36</Int>
+			</Struct>
+			<Struct name="frameColor">
+				<Int name="rgbtRed">36</Int>
+				<Int name="rgbtGreen">36</Int>
+				<Int name="rgbtBlue">36</Int>
+			</Struct>
+			<Struct name="frameBorderColor">
+				<Int name="rgbtRed">36</Int>
+				<Int name="rgbtGreen">36</Int>
+				<Int name="rgbtBlue">36</Int>
+			</Struct>
+			<Struct name="selectionColor">
+				<Int name="rgbtRed">255</Int>
+				<Int name="rgbtGreen">128</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+			<Struct name="selectionBorderColor">
+				<Int name="rgbtRed">170</Int>
+				<Int name="rgbtGreen">85</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+			<Struct name="textColor">
+				<Int name="rgbtRed">219</Int>
+				<Int name="rgbtGreen">219</Int>
+				<Int name="rgbtBlue">219</Int>
+			</Struct>
+			<Struct name="selectionTextColor">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">0</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+			<Struct name="archiveGroupHeader">
+				<Int name="rgbtRed">36</Int>
+				<Int name="rgbtGreen">36</Int>
+				<Int name="rgbtBlue">36</Int>
+			</Struct>
+			<Struct name="archiveBackground">
+				<Int name="rgbtRed">77</Int>
+				<Int name="rgbtGreen">77</Int>
+				<Int name="rgbtBlue">77</Int>
+			</Struct>
+			<Struct name="groupText">
+				<Int name="rgbtRed">219</Int>
+				<Int name="rgbtGreen">219</Int>
+				<Int name="rgbtBlue">219</Int>
+			</Struct>
+			<Struct name="archiveText">
+				<Int name="rgbtRed">219</Int>
+				<Int name="rgbtGreen">219</Int>
+				<Int name="rgbtBlue">219</Int>
+			</Struct>
+			<Struct name="archiveTextSelected">
+				<Int name="rgbtRed">255</Int>
+				<Int name="rgbtGreen">255</Int>
+				<Int name="rgbtBlue">255</Int>
+			</Struct>
+			<Int name="customizeTabs">1</Int>
+			<Int name="applyToDesktop">1</Int>
+			<Struct name="tabBackground">
+				<Int name="rgbtRed">36</Int>
+				<Int name="rgbtGreen">36</Int>
+				<Int name="rgbtBlue">36</Int>
+			</Struct>
+			<Struct name="tabBorder">
+				<Int name="rgbtRed">36</Int>
+				<Int name="rgbtGreen">36</Int>
+				<Int name="rgbtBlue">36</Int>
+			</Struct>
+			<Struct name="tabButton">
+				<Int name="rgbtRed">136</Int>
+				<Int name="rgbtGreen">136</Int>
+				<Int name="rgbtBlue">136</Int>
+			</Struct>
+			<Struct name="tabButtonText">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">0</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+			<Struct name="tabButtonActive">
+				<Int name="rgbtRed">98</Int>
+				<Int name="rgbtGreen">98</Int>
+				<Int name="rgbtBlue">98</Int>
+			</Struct>
+			<Struct name="tabButtonActiveText">
+				<Int name="rgbtRed">219</Int>
+				<Int name="rgbtGreen">219</Int>
+				<Int name="rgbtBlue">219</Int>
+			</Struct>
+		</Struct>
+		<Struct name="app[2]">
+			<String name="name">Metallic</String>
+			<Int name="useThemeColors">0</Int>
+			<Int name="thumbnailStyle">7</Int>
+			<Struct name="windowBackColor">
+				<Int name="rgbtRed">224</Int>
+				<Int name="rgbtGreen">221</Int>
+				<Int name="rgbtBlue">205</Int>
+			</Struct>
+			<Int name="useWindowBackColor">0</Int>
+			<Int name="useBrushedMetal">0</Int>
+			<Int name="useIntegratedTB">0</Int>
+			<Int name="useToolbarBackColor">0</Int>
+			<Struct name="backColor">
+				<Int name="rgbtRed">127</Int>
+				<Int name="rgbtGreen">127</Int>
+				<Int name="rgbtBlue">127</Int>
+			</Struct>
+			<Struct name="backBorderColor">
+				<Int name="rgbtRed">96</Int>
+				<Int name="rgbtGreen">96</Int>
+				<Int name="rgbtBlue">96</Int>
+			</Struct>
+			<Struct name="frameColor">
+				<Int name="rgbtRed">127</Int>
+				<Int name="rgbtGreen">127</Int>
+				<Int name="rgbtBlue">127</Int>
+			</Struct>
+			<Struct name="frameBorderColor">
+				<Int name="rgbtRed">127</Int>
+				<Int name="rgbtGreen">127</Int>
+				<Int name="rgbtBlue">127</Int>
+			</Struct>
+			<Struct name="selectionColor">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">100</Int>
+				<Int name="rgbtBlue">255</Int>
+			</Struct>
+			<Struct name="selectionBorderColor">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">70</Int>
+				<Int name="rgbtBlue">200</Int>
+			</Struct>
+			<Struct name="textColor">
+				<Int name="rgbtRed">42</Int>
+				<Int name="rgbtGreen">42</Int>
+				<Int name="rgbtBlue">42</Int>
+			</Struct>
+			<Struct name="selectionTextColor">
+				<Int name="rgbtRed">219</Int>
+				<Int name="rgbtGreen">219</Int>
+				<Int name="rgbtBlue">219</Int>
+			</Struct>
+			<Struct name="archiveGroupHeader">
+				<Int name="rgbtRed">127</Int>
+				<Int name="rgbtGreen">127</Int>
+				<Int name="rgbtBlue">127</Int>
+			</Struct>
+			<Struct name="archiveBackground">
+				<Int name="rgbtRed">166</Int>
+				<Int name="rgbtGreen">166</Int>
+				<Int name="rgbtBlue">166</Int>
+			</Struct>
+			<Struct name="groupText">
+				<Int name="rgbtRed">219</Int>
+				<Int name="rgbtGreen">219</Int>
+				<Int name="rgbtBlue">219</Int>
+			</Struct>
+			<Struct name="archiveText">
+				<Int name="rgbtRed">42</Int>
+				<Int name="rgbtGreen">42</Int>
+				<Int name="rgbtBlue">42</Int>
+			</Struct>
+			<Struct name="archiveTextSelected">
+				<Int name="rgbtRed">255</Int>
+				<Int name="rgbtGreen">255</Int>
+				<Int name="rgbtBlue">255</Int>
+			</Struct>
+			<Int name="customizeTabs">1</Int>
+			<Int name="applyToDesktop">1</Int>
+			<Struct name="tabBackground">
+				<Int name="rgbtRed">127</Int>
+				<Int name="rgbtGreen">127</Int>
+				<Int name="rgbtBlue">127</Int>
+			</Struct>
+			<Struct name="tabBorder">
+				<Int name="rgbtRed">111</Int>
+				<Int name="rgbtGreen">111</Int>
+				<Int name="rgbtBlue">111</Int>
+			</Struct>
+			<Struct name="tabButton">
+				<Int name="rgbtRed">166</Int>
+				<Int name="rgbtGreen">166</Int>
+				<Int name="rgbtBlue">166</Int>
+			</Struct>
+			<Struct name="tabButtonText">
+				<Int name="rgbtRed">42</Int>
+				<Int name="rgbtGreen">42</Int>
+				<Int name="rgbtBlue">42</Int>
+			</Struct>
+			<Struct name="tabButtonActive">
+				<Int name="rgbtRed">200</Int>
+				<Int name="rgbtGreen">200</Int>
+				<Int name="rgbtBlue">200</Int>
+			</Struct>
+			<Struct name="tabButtonActiveText">
+				<Int name="rgbtRed">42</Int>
+				<Int name="rgbtGreen">42</Int>
+				<Int name="rgbtBlue">42</Int>
+			</Struct>
+		</Struct>
+		<Struct name="app[3]">
+			<String name="name">Desert</String>
+			<Int name="useThemeColors">0</Int>
+			<Int name="thumbnailStyle">2</Int>
+			<Struct name="windowBackColor">
+				<Int name="rgbtRed">224</Int>
+				<Int name="rgbtGreen">221</Int>
+				<Int name="rgbtBlue">205</Int>
+			</Struct>
+			<Int name="useWindowBackColor">0</Int>
+			<Int name="useBrushedMetal">0</Int>
+			<Int name="useIntegratedTB">0</Int>
+			<Int name="useToolbarBackColor">0</Int>
+			<Struct name="backColor">
+				<Int name="rgbtRed">245</Int>
+				<Int name="rgbtGreen">239</Int>
+				<Int name="rgbtBlue">231</Int>
+			</Struct>
+			<Struct name="backBorderColor">
+				<Int name="rgbtRed">58</Int>
+				<Int name="rgbtGreen">44</Int>
+				<Int name="rgbtBlue">22</Int>
+			</Struct>
+			<Struct name="frameColor">
+				<Int name="rgbtRed">225</Int>
+				<Int name="rgbtGreen">206</Int>
+				<Int name="rgbtBlue">179</Int>
+			</Struct>
+			<Struct name="frameBorderColor">
+				<Int name="rgbtRed">99</Int>
+				<Int name="rgbtGreen">74</Int>
+				<Int name="rgbtBlue">41</Int>
+			</Struct>
+			<Struct name="selectionColor">
+				<Int name="rgbtRed">194</Int>
+				<Int name="rgbtGreen">159</Int>
+				<Int name="rgbtBlue">112</Int>
+			</Struct>
+			<Struct name="selectionBorderColor">
+				<Int name="rgbtRed">24</Int>
+				<Int name="rgbtGreen">18</Int>
+				<Int name="rgbtBlue">10</Int>
+			</Struct>
+			<Struct name="textColor">
+				<Int name="rgbtRed">24</Int>
+				<Int name="rgbtGreen">18</Int>
+				<Int name="rgbtBlue">10</Int>
+			</Struct>
+			<Struct name="selectionTextColor">
+				<Int name="rgbtRed">78</Int>
+				<Int name="rgbtGreen">58</Int>
+				<Int name="rgbtBlue">33</Int>
+			</Struct>
+			<Struct name="archiveGroupHeader">
+				<Int name="rgbtRed">194</Int>
+				<Int name="rgbtGreen">159</Int>
+				<Int name="rgbtBlue">112</Int>
+			</Struct>
+			<Struct name="archiveBackground">
+				<Int name="rgbtRed">242</Int>
+				<Int name="rgbtGreen">234</Int>
+				<Int name="rgbtBlue">223</Int>
+			</Struct>
+			<Struct name="groupText">
+				<Int name="rgbtRed">255</Int>
+				<Int name="rgbtGreen">255</Int>
+				<Int name="rgbtBlue">255</Int>
+			</Struct>
+			<Struct name="archiveText">
+				<Int name="rgbtRed">48</Int>
+				<Int name="rgbtGreen">36</Int>
+				<Int name="rgbtBlue">18</Int>
+			</Struct>
+			<Struct name="archiveTextSelected">
+				<Int name="rgbtRed">255</Int>
+				<Int name="rgbtGreen">255</Int>
+				<Int name="rgbtBlue">255</Int>
+			</Struct>
+			<Int name="customizeTabs">1</Int>
+			<Int name="applyToDesktop">1</Int>
+			<Struct name="tabBackground">
+				<Int name="rgbtRed">232</Int>
+				<Int name="rgbtGreen">218</Int>
+				<Int name="rgbtBlue">202</Int>
+			</Struct>
+			<Struct name="tabBorder">
+				<Int name="rgbtRed">116</Int>
+				<Int name="rgbtGreen">87</Int>
+				<Int name="rgbtBlue">44</Int>
+			</Struct>
+			<Struct name="tabButton">
+				<Int name="rgbtRed">232</Int>
+				<Int name="rgbtGreen">218</Int>
+				<Int name="rgbtBlue">202</Int>
+			</Struct>
+			<Struct name="tabButtonText">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">0</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+			<Struct name="tabButtonActive">
+				<Int name="rgbtRed">243</Int>
+				<Int name="rgbtGreen">237</Int>
+				<Int name="rgbtBlue">228</Int>
+			</Struct>
+			<Struct name="tabButtonActiveText">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">0</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+		</Struct>
+		<Struct name="app[4]">
+			<String name="name">Ocean</String>
+			<Int name="useThemeColors">0</Int>
+			<Int name="thumbnailStyle">2</Int>
+			<Struct name="windowBackColor">
+				<Int name="rgbtRed">224</Int>
+				<Int name="rgbtGreen">221</Int>
+				<Int name="rgbtBlue">205</Int>
+			</Struct>
+			<Int name="useWindowBackColor">0</Int>
+			<Int name="useBrushedMetal">0</Int>
+			<Int name="useIntegratedTB">0</Int>
+			<Int name="useToolbarBackColor">0</Int>
+			<Struct name="backColor">
+				<Int name="rgbtRed">95</Int>
+				<Int name="rgbtGreen">157</Int>
+				<Int name="rgbtBlue">194</Int>
+			</Struct>
+			<Struct name="backBorderColor">
+				<Int name="rgbtRed">61</Int>
+				<Int name="rgbtGreen">123</Int>
+				<Int name="rgbtBlue">160</Int>
+			</Struct>
+			<Struct name="frameColor">
+				<Int name="rgbtRed">179</Int>
+				<Int name="rgbtGreen">208</Int>
+				<Int name="rgbtBlue">225</Int>
+			</Struct>
+			<Struct name="frameBorderColor">
+				<Int name="rgbtRed">30</Int>
+				<Int name="rgbtGreen">61</Int>
+				<Int name="rgbtBlue">79</Int>
+			</Struct>
+			<Struct name="selectionColor">
+				<Int name="rgbtRed">240</Int>
+				<Int name="rgbtGreen">240</Int>
+				<Int name="rgbtBlue">240</Int>
+			</Struct>
+			<Struct name="selectionBorderColor">
+				<Int name="rgbtRed">214</Int>
+				<Int name="rgbtGreen">214</Int>
+				<Int name="rgbtBlue">214</Int>
+			</Struct>
+			<Struct name="textColor">
+				<Int name="rgbtRed">18</Int>
+				<Int name="rgbtGreen">37</Int>
+				<Int name="rgbtBlue">48</Int>
+			</Struct>
+			<Struct name="selectionTextColor">
+				<Int name="rgbtRed">18</Int>
+				<Int name="rgbtGreen">37</Int>
+				<Int name="rgbtBlue">48</Int>
+			</Struct>
+			<Struct name="archiveGroupHeader">
+				<Int name="rgbtRed">61</Int>
+				<Int name="rgbtGreen">123</Int>
+				<Int name="rgbtBlue">160</Int>
+			</Struct>
+			<Struct name="archiveBackground">
+				<Int name="rgbtRed">179</Int>
+				<Int name="rgbtGreen">208</Int>
+				<Int name="rgbtBlue">225</Int>
+			</Struct>
+			<Struct name="groupText">
+				<Int name="rgbtRed">255</Int>
+				<Int name="rgbtGreen">255</Int>
+				<Int name="rgbtBlue">255</Int>
+			</Struct>
+			<Struct name="archiveText">
+				<Int name="rgbtRed">18</Int>
+				<Int name="rgbtGreen">37</Int>
+				<Int name="rgbtBlue">48</Int>
+			</Struct>
+			<Struct name="archiveTextSelected">
+				<Int name="rgbtRed">255</Int>
+				<Int name="rgbtGreen">255</Int>
+				<Int name="rgbtBlue">255</Int>
+			</Struct>
+			<Int name="customizeTabs">1</Int>
+			<Int name="applyToDesktop">1</Int>
+			<Struct name="tabBackground">
+				<Int name="rgbtRed">179</Int>
+				<Int name="rgbtGreen">208</Int>
+				<Int name="rgbtBlue">225</Int>
+			</Struct>
+			<Struct name="tabBorder">
+				<Int name="rgbtRed">66</Int>
+				<Int name="rgbtGreen">134</Int>
+				<Int name="rgbtBlue">174</Int>
+			</Struct>
+			<Struct name="tabButton">
+				<Int name="rgbtRed">209</Int>
+				<Int name="rgbtGreen">226</Int>
+				<Int name="rgbtBlue">237</Int>
+			</Struct>
+			<Struct name="tabButtonText">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">0</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+			<Struct name="tabButtonActive">
+				<Int name="rgbtRed">252</Int>
+				<Int name="rgbtGreen">252</Int>
+				<Int name="rgbtBlue">254</Int>
+			</Struct>
+			<Struct name="tabButtonActiveText">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">0</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+		</Struct>
+		<Struct name="app[5]">
+			<String name="name">Snooker</String>
+			<Int name="useThemeColors">0</Int>
+			<Int name="thumbnailStyle">2</Int>
+			<Struct name="windowBackColor">
+				<Int name="rgbtRed">224</Int>
+				<Int name="rgbtGreen">221</Int>
+				<Int name="rgbtBlue">205</Int>
+			</Struct>
+			<Int name="useWindowBackColor">0</Int>
+			<Int name="useBrushedMetal">0</Int>
+			<Int name="useIntegratedTB">0</Int>
+			<Int name="useToolbarBackColor">0</Int>
+			<Struct name="backColor">
+				<Int name="rgbtRed">177</Int>
+				<Int name="rgbtGreen">197</Int>
+				<Int name="rgbtBlue">177</Int>
+			</Struct>
+			<Struct name="backBorderColor">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">0</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+			<Struct name="frameColor">
+				<Int name="rgbtRed">154</Int>
+				<Int name="rgbtGreen">180</Int>
+				<Int name="rgbtBlue">154</Int>
+			</Struct>
+			<Struct name="frameBorderColor">
+				<Int name="rgbtRed">63</Int>
+				<Int name="rgbtGreen">84</Int>
+				<Int name="rgbtBlue">63</Int>
+			</Struct>
+			<Struct name="selectionColor">
+				<Int name="rgbtRed">238</Int>
+				<Int name="rgbtGreen">242</Int>
+				<Int name="rgbtBlue">238</Int>
+			</Struct>
+			<Struct name="selectionBorderColor">
+				<Int name="rgbtRed">189</Int>
+				<Int name="rgbtGreen">206</Int>
+				<Int name="rgbtBlue">189</Int>
+			</Struct>
+			<Struct name="textColor">
+				<Int name="rgbtRed">7</Int>
+				<Int name="rgbtGreen">10</Int>
+				<Int name="rgbtBlue">7</Int>
+			</Struct>
+			<Struct name="selectionTextColor">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">0</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+			<Struct name="archiveGroupHeader">
+				<Int name="rgbtRed">77</Int>
+				<Int name="rgbtGreen">102</Int>
+				<Int name="rgbtBlue">77</Int>
+			</Struct>
+			<Struct name="archiveBackground">
+				<Int name="rgbtRed">196</Int>
+				<Int name="rgbtGreen">210</Int>
+				<Int name="rgbtBlue">196</Int>
+			</Struct>
+			<Struct name="groupText">
+				<Int name="rgbtRed">255</Int>
+				<Int name="rgbtGreen">255</Int>
+				<Int name="rgbtBlue">255</Int>
+			</Struct>
+			<Struct name="archiveText">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">0</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+			<Struct name="archiveTextSelected">
+				<Int name="rgbtRed">255</Int>
+				<Int name="rgbtGreen">255</Int>
+				<Int name="rgbtBlue">255</Int>
+			</Struct>
+			<Int name="customizeTabs">1</Int>
+			<Int name="applyToDesktop">0</Int>
+			<Struct name="tabBackground">
+				<Int name="rgbtRed">177</Int>
+				<Int name="rgbtGreen">197</Int>
+				<Int name="rgbtBlue">177</Int>
+			</Struct>
+			<Struct name="tabBorder">
+				<Int name="rgbtRed">149</Int>
+				<Int name="rgbtGreen">176</Int>
+				<Int name="rgbtBlue">149</Int>
+			</Struct>
+			<Struct name="tabButton">
+				<Int name="rgbtRed">146</Int>
+				<Int name="rgbtGreen">173</Int>
+				<Int name="rgbtBlue">146</Int>
+			</Struct>
+			<Struct name="tabButtonText">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">0</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+			<Struct name="tabButtonActive">
+				<Int name="rgbtRed">177</Int>
+				<Int name="rgbtGreen">197</Int>
+				<Int name="rgbtBlue">177</Int>
+			</Struct>
+			<Struct name="tabButtonActiveText">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">0</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+		</Struct>
+		<Struct name="app[6]">
+			<String name="name">Full Moon</String>
+			<Int name="useThemeColors">0</Int>
+			<Int name="thumbnailStyle">7</Int>
+			<Struct name="windowBackColor">
+				<Int name="rgbtRed">224</Int>
+				<Int name="rgbtGreen">221</Int>
+				<Int name="rgbtBlue">205</Int>
+			</Struct>
+			<Int name="useWindowBackColor">0</Int>
+			<Int name="useBrushedMetal">0</Int>
+			<Int name="useIntegratedTB">0</Int>
+			<Int name="useToolbarBackColor">0</Int>
+			<Struct name="backColor">
+				<Int name="rgbtRed">249</Int>
+				<Int name="rgbtGreen">250</Int>
+				<Int name="rgbtBlue">248</Int>
+			</Struct>
+			<Struct name="backBorderColor">
+				<Int name="rgbtRed">166</Int>
+				<Int name="rgbtGreen">171</Int>
+				<Int name="rgbtBlue">172</Int>
+			</Struct>
+			<Struct name="frameColor">
+				<Int name="rgbtRed">239</Int>
+				<Int name="rgbtGreen">242</Int>
+				<Int name="rgbtBlue">236</Int>
+			</Struct>
+			<Struct name="frameBorderColor">
+				<Int name="rgbtRed">204</Int>
+				<Int name="rgbtGreen">207</Int>
+				<Int name="rgbtBlue">210</Int>
+			</Struct>
+			<Struct name="selectionColor">
+				<Int name="rgbtRed">253</Int>
+				<Int name="rgbtGreen">163</Int>
+				<Int name="rgbtBlue">28</Int>
+			</Struct>
+			<Struct name="selectionBorderColor">
+				<Int name="rgbtRed">17</Int>
+				<Int name="rgbtGreen">32</Int>
+				<Int name="rgbtBlue">55</Int>
+			</Struct>
+			<Struct name="textColor">
+				<Int name="rgbtRed">4</Int>
+				<Int name="rgbtGreen">4</Int>
+				<Int name="rgbtBlue">4</Int>
+			</Struct>
+			<Struct name="selectionTextColor">
+				<Int name="rgbtRed">9</Int>
+				<Int name="rgbtGreen">16</Int>
+				<Int name="rgbtBlue">28</Int>
+			</Struct>
+			<Struct name="archiveGroupHeader">
+				<Int name="rgbtRed">41</Int>
+				<Int name="rgbtGreen">154</Int>
+				<Int name="rgbtBlue">198</Int>
+			</Struct>
+			<Struct name="archiveBackground">
+				<Int name="rgbtRed">255</Int>
+				<Int name="rgbtGreen">255</Int>
+				<Int name="rgbtBlue">255</Int>
+			</Struct>
+			<Struct name="groupText">
+				<Int name="rgbtRed">255</Int>
+				<Int name="rgbtGreen">255</Int>
+				<Int name="rgbtBlue">255</Int>
+			</Struct>
+			<Struct name="archiveText">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">0</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+			<Struct name="archiveTextSelected">
+				<Int name="rgbtRed">255</Int>
+				<Int name="rgbtGreen">255</Int>
+				<Int name="rgbtBlue">255</Int>
+			</Struct>
+			<Int name="customizeTabs">1</Int>
+			<Int name="applyToDesktop">1</Int>
+			<Struct name="tabBackground">
+				<Int name="rgbtRed">251</Int>
+				<Int name="rgbtGreen">251</Int>
+				<Int name="rgbtBlue">255</Int>
+			</Struct>
+			<Struct name="tabBorder">
+				<Int name="rgbtRed">108</Int>
+				<Int name="rgbtGreen">147</Int>
+				<Int name="rgbtBlue">153</Int>
+			</Struct>
+			<Struct name="tabButton">
+				<Int name="rgbtRed">221</Int>
+				<Int name="rgbtGreen">221</Int>
+				<Int name="rgbtBlue">225</Int>
+			</Struct>
+			<Struct name="tabButtonText">
+				<Int name="rgbtRed">153</Int>
+				<Int name="rgbtGreen">153</Int>
+				<Int name="rgbtBlue">153</Int>
+			</Struct>
+			<Struct name="tabButtonActive">
+				<Int name="rgbtRed">234</Int>
+				<Int name="rgbtGreen">237</Int>
+				<Int name="rgbtBlue">231</Int>
+			</Struct>
+			<Struct name="tabButtonActiveText">
+				<Int name="rgbtRed">0</Int>
+				<Int name="rgbtGreen">0</Int>
+				<Int name="rgbtBlue">0</Int>
+			</Struct>
+		</Struct>
+		<String name="defaultApperance">Darkroom</String>
+		<Int name="defaultApperanceId">2</Int>
+	</Group>
+</FotoWare_Settings>

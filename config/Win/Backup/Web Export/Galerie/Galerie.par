@@ -1,0 +1,23 @@
+/* Wenn ein Parameter "= 0" ist, ist er nicht fest gesetzt.*/
+
+NumberColumns = 4
+NumberRows = 2
+ThumbnailWidth = 200
+ThumbnailHeight = 0
+PreviewWidth = 0
+PreviewHeight = 450
+LockBackground = 0
+LockTextColor = 0
+LockTextOptions = 0
+
+/*†bersetzung der Parameterbezeichnungen:*/
+/*=======================================*/
+/*NumberColumns - Anzahl der Spalten*/
+/*NumberRows - Anzahl der Zeilen*/
+/*ThumbnailWidth - Thumbnail-Breite*/
+/*ThumbnailHeight - Thumbnail-Hšhe*/
+/*PreviewWidth - Preview-Breite*/
+/*PreviewHeight - Preview-Hšhe*/
+/*LockBackground - Hintergrund fest setzen*/
+/*LockTextColor - Textfarbe fest setzen*/
+/*LockTextOptions - Text-Optionen fest setzen*/

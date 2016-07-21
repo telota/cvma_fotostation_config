@@ -1,0 +1,106 @@
+<HTML>
+<HEAD>
+<%BACKGROUND%>
+<BODY BACKGROUND="<%=FWT_BACKGROUNDFILE%>">
+<%/BACKGROUND%>
+<TITLE><%=FWT_TITLE%></TITLE>
+
+<%METAKEYWORDS%>
+<META NAME="KEYWORDS" CONTENT="<%=FWT_METAKEYWORDS%>"> 
+<%/METAKEYWORDS%>
+<link href="Web.css" rel="stylesheet" type="text/css" />
+</HEAD>
+<BODY  BGCOLOR="<%=FWT_BACKGROUNDCOLOR%>" topmargin=0 leftmargin=0 marginWidth=0 marginHeight=0>
+<table width="100%" height="25px" class="TopHeader">
+<tr>
+	<td width="50%"><font color="white"><%=FWT_TITLE%></font></td>
+	<td width="50%">
+		  
+	</td>
+</tr>
+</table>
+<table width="100%" height="15px" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td width="100%" class="MiddleHeader">&nbsp;</td>
+	</tr>
+</table>
+<table width="100%" height="16px" class="NavigationHeader">
+<tr>
+	<td align=center>
+		<%NAVIGATE%>
+		<TABLE CELLSPACING=0 CELLPADDING=0 BORDER=0>
+			<TR>
+				<TD ALIGN=LEFT WIDTH=150>
+					<%PREVIOUS_PAGE%>
+						<A HREF="<%=FWT_PREVIOUSPAGE%>" >  <%=FWT_PREVIOUSPAGEWORD%>  </A>
+					<%/PREVIOUS_PAGE%>
+				</TD>
+				<TD ALIGN=center width=150>
+					<%=FWT_DIRECTPAGE%>
+				</TD>
+				<TD ALIGN=RIGHT WIDTH=150>
+					<%NEXT_PAGE%>
+					<A HREF="<%=FWT_NEXTPAGE%>" >  <%=FWT_NEXTPAGEWORD%>  </A>
+					<%/NEXT_PAGE%>
+				</TD>
+			</TR>
+		</TABLE>
+		<%/NAVIGATE%>
+	</td>
+</tr>
+</table>
+
+<table cellpadding=0 cellspacing=8 border=0>
+	<%LOGO%>
+	<tr>
+		<td>
+			
+			<IMG SRC="<%=FWT_LOGOFILE%>">
+		
+		</td>
+	</tr>
+	<%/LOGO%>
+	<tr>
+		<td><%DESCRIPTION%>
+				<%=FWT_DESCRIPTION%>
+			<%/DESCRIPTION%>
+		</td>
+	</tr>
+</table>
+<TABLE BORDER=0 RULES=All cellpadding=0 cellspacing=0 width=100%>
+	<%IMAGEROW%>
+	<TR>
+		<%IMAGE_WITH_PV%>
+		<TD ALIGN=CENTER VALIGN=TOP class="ImageCell"> 
+			<br>	
+			<A HREF="<%=FWT_PREVIEWPAGE%>"><IMG SRC="<%=FWT_THUMBNAIL%>" Alt="<%=FWT_IPTC120%>" border=0></A>
+			<BR><%=FWT_IMAGETITLEORNAME%>
+			<%DOWNLOAD%>
+			<BR> <A HREF="<%=FWT_DOWNLOADIMAGE%>"><%=FWT_DOWNLOADWORD%></A>
+			<%/DOWNLOAD%>
+		</TD>
+		<%/IMAGE_WITH_PV%>
+
+		<%IMAGE_NO_PV%>
+		<TD ALIGN=CENTER VALIGN=TOP> <IMG SRC="<%=FWT_THUMBNAIL%>" Alt="<%=FWT_IPTC120%>">
+			<BR><%=FWT_IMAGETITLEORNAME%>
+			<%DOWNLOAD%>
+			<BR><A HREF="<%=FWT_DOWNLOADIMAGE%>"><%=FWT_DOWNLOADWORD%></A>
+			<%/DOWNLOAD%>
+		</TD>
+		<%/IMAGE_NO_PV%>
+	</TR>
+	<%/IMAGEROW%>
+</TABLE>
+<br>
+<%EMAIL%>
+<hr noshade size=1>
+<table cellspacing=8 cellpadding=0 border=0 width=100%>
+	<tr>
+		<td align=center><A HREF="mailto:<%=FWT_EMAILADDRESS%>"><%=FWT_EMAILNAME%></A>.</td>
+	</tr>
+</table>
+<%/EMAIL%>
+</CENTER>
+</BODY>
+</HTML>

@@ -1,0 +1,4 @@
+Erzeugen eines Album mit allen Thumbnails auf der rechten Seite. Ein Klick auf einen Thumbnail šffnet den Preview.
+Die Anzahl der Spalten fŸr die Thumbnails ist einstellbar.
+HINWEIS: Eine Beschreibung zu der erzeugten Webseite wird nicht eingebunden.
+

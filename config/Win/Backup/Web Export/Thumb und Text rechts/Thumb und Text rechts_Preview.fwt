@@ -1,0 +1,79 @@
+<HTML>
+<HEAD>
+
+<link href="../Extra/List View Right.css" rel="stylesheet" type="text/css" />
+<%BACKGROUND%>
+<BODY BACKGROUND="<%=FWT_BACKGROUNDFILE%>">
+<%/BACKGROUND%>
+
+<TITLE><%=FWT_TITLE%></TITLE>
+
+<%METAKEYWORDS%>
+<META NAME="KEYWORDS" CONTENT="FOTOSTATION WEBALBUM FOTOWARE <%=FWT_METAKEYWORDS%>"> 
+<%/METAKEYWORDS%>
+
+</HEAD>
+<BODY BGCOLOR="<%=FWT_BACKGROUNDCOLOR%>">
+<CENTER>
+<BR><H2><%=FWT_IMAGETITLEORNAME%></H2>
+<TABLE CELLSPACING=10 CELLPADDING=0 BORDER=0>
+<TR>
+
+	<TD ALIGN=LEFT WIDTH=150>
+		<%PREVIOUS_PV%>
+		<A HREF="<%=FWT_PREVIOUSPREVIEW%>" >  <%=FWT_PREVIOUSPREVIEWWORD%>  </A>
+		<%/PREVIOUS_PV%>
+	</TD>
+	
+	<TD ALIGN=CENTER>
+		<A HREF="<%=FWT_BACK%>">   <%=FWT_BACKWORD%>   </A>
+	</TD>
+	
+	<TD ALIGN=RIGHT WIDTH=150>
+		<%NEXT_PV%>
+		<A HREF="<%=FWT_NEXTPREVIEW%>">   <%=FWT_NEXTPREVIEWWORD%>   </A>
+		<%/NEXT_PV%>
+	</TD>
+</TR>
+<tr>
+	<tr>
+		<td colspan=3 align=center>
+			<IMG SRC="<%=FWT_PREVIEW%>" Alt="<%=FWT_IMAGETITLEORNAME%>" border=0>
+			<BR>
+			<table cellpadding=5 cellspacing=0 border=0>
+				<tr>
+					<td>
+						<B>Dateiname: </B><%=FWT_IMAGENAME%><BR>
+						<B>Objektbeschreibung: </B><%=FWT_IPTC120%><BR>
+						<B>Objektname: </B><%=FWT_IMAGETITLEORNAME%><BR>
+						<B>Bildrechte: </B><%=FWT_IPTC110%><BR>
+					</td>
+				</tr>
+			</table>
+			
+		</td>
+	</tr>
+</tr>
+<TR>
+
+<TD ALIGN=LEFT WIDTH=150>
+<%PREVIOUS_PV%>
+<A HREF="<%=FWT_PREVIOUSPREVIEW%>" >  <%=FWT_PREVIOUSPREVIEWWORD%>  </A>
+<%/PREVIOUS_PV%>
+</TD>
+
+<TD ALIGN=CENTER>
+<A HREF="<%=FWT_BACK%>">   <%=FWT_BACKWORD%>   </A>
+</TD>
+
+<TD ALIGN=RIGHT WIDTH=150>
+	<%NEXT_PV%>
+	<A HREF="<%=FWT_NEXTPREVIEW%>">   <%=FWT_NEXTPREVIEWWORD%>   </A>
+	<%/NEXT_PV%>
+</TD>
+
+</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

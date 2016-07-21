@@ -1,0 +1,76 @@
+<HTML>
+<HEAD>
+
+<%BACKGROUND%>
+<BODY BACKGROUND="<%=FWT_BACKGROUNDFILE%>">
+<%/BACKGROUND%>
+
+<TITLE><%=FWT_TITLE%></TITLE>
+
+<%METAKEYWORDS%>
+<META NAME="KEYWORDS" CONTENT="<%=FWT_METAKEYWORDS%>"> 
+<%/METAKEYWORDS%>
+<link href="../Web.css" rel="stylesheet" type="text/css" />
+</HEAD>
+<BODY BGCOLOR="<%=FWT_BACKGROUNDCOLOR%>" topmargin=0 leftmargin=0 marginWidth=0 marginHeight=0>
+<table width="100%" height="25px" class="TopHeader">
+<tr>
+	<td width="50%"><font color="white"><%=FWT_TITLE%></font></td>
+	<td width="50%" align="right">
+		&nbsp;&nbsp;
+	</td>
+</tr>
+</table>
+<table width="100%" height="15px" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td width="100%" class="MiddleHeader">
+		</td>
+	</tr>
+</table>
+<table width="100%" height="16px" class="NavigationHeader">
+	<tr>
+		<td>
+			<TABLE CELLSPACING=0 CELLPADDING=0 BORDER=0>
+				<TR>
+
+					<TD ALIGN=LEFT WIDTH=150>
+						<%PREVIOUS_PV%>
+						<A HREF="<%=FWT_PREVIOUSPREVIEW%>" >  <%=FWT_PREVIOUSPREVIEWWORD%>  </A>
+						<%/PREVIOUS_PV%>
+					</TD>
+
+					<TD ALIGN=CENTER>
+						<A HREF="<%=FWT_BACK%>">   <%=FWT_BACKWORD%>   </A>
+					</TD>
+
+					<TD ALIGN=RIGHT WIDTH=150>
+						<%NEXT_PV%>
+						<A HREF="<%=FWT_NEXTPREVIEW%>">   <%=FWT_NEXTPREVIEWWORD%>   </A>
+						<%/NEXT_PV%>
+					</TD>
+
+				</TR>
+			</TABLE>
+		</td>
+	</tr>
+</table>
+<br>
+<table cellpadding=0 cellspacing=10 border=0 width=100%>
+	<tr>
+		<td colspan=2><H3><%=FWT_IMAGETITLEORNAME%></H3></td>
+	</tr>
+	<tr>
+		<td align=right>
+			<IMG SRC="<%=FWT_PREVIEW%>" Alt="<%=FWT_IMAGETITLEORNAME%>">
+		</td>
+		<td valign=top>
+			<%=FWT_WIZARDTEXT%>
+			<BR>
+		</td>
+	</tr>
+</table>
+
+
+</CENTER>
+</BODY>
+</HTML>

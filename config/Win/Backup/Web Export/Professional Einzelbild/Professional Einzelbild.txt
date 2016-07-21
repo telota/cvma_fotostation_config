@@ -1,0 +1,3 @@
+Erzeugt eine Serie von Einzelbildern. Es wird jeweils immer nur ein Bild angezeigt.
+
+HINWEIS: Die Anzahl der Zeilen und Spalten ist in der .par-Datei fest eingestellt.

@@ -1,0 +1,2 @@
+# CVMA Fotostation Configuration
+

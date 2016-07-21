@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FotoWare_Settings>
+	<Group name="MarkerItem">
+		<Struct name="MarkerSet0">
+			<Int name="UsePrinted">1</Int>
+			<Int name="UseVersion">1</Int>
+			<Int name="UseNotes">1</Int>
+			<Int name="UseOffline">1</Int>
+			<Int name="UseRaw">0</Int>
+			<Int name="UseRating">1</Int>
+			<Int name="UseLicense">1</Int>
+			<Int name="UseGps">1</Int>
+			<Int name="UseClassify">1</Int>
+			<String name="Name">Marker Set 1</String>
+			<Struct name="Position0">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position1">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position2">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position3">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position4">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position5">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position6">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position7">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position8">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position9">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position10">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position11">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position12">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position13">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position14">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position15">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position16">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position17">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position18">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position19">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position20">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position21">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position22">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position23">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position24">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position25">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position26">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position27">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position28">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position29">
+				<Int name="IsActive">0</Int>
+			</Struct>
+		</Struct>
+		<Struct name="MarkerSet1">
+			<Int name="UsePrinted">1</Int>
+			<Int name="UseVersion">1</Int>
+			<Int name="UseNotes">1</Int>
+			<Int name="UseOffline">1</Int>
+			<Int name="UseRaw">0</Int>
+			<Int name="UseRating">1</Int>
+			<Int name="UseLicense">1</Int>
+			<Int name="UseGps">1</Int>
+			<Int name="UseClassify">1</Int>
+			<String name="Name">Marker Set 2</String>
+			<Struct name="Position0">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position1">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position2">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position3">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position4">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position5">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position6">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position7">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position8">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position9">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position10">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position11">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position12">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position13">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position14">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position15">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position16">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position17">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position18">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position19">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position20">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position21">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position22">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position23">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position24">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position25">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position26">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position27">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position28">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position29">
+				<Int name="IsActive">0</Int>
+			</Struct>
+		</Struct>
+		<Struct name="MarkerSet2">
+			<Int name="UsePrinted">1</Int>
+			<Int name="UseVersion">1</Int>
+			<Int name="UseNotes">1</Int>
+			<Int name="UseOffline">1</Int>
+			<Int name="UseRaw">0</Int>
+			<Int name="UseRating">1</Int>
+			<Int name="UseLicense">1</Int>
+			<Int name="UseGps">1</Int>
+			<Int name="UseClassify">1</Int>
+			<String name="Name">Marker Set 3</String>
+			<Struct name="Position0">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position1">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position2">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position3">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position4">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position5">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position6">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position7">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position8">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position9">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position10">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position11">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position12">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position13">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position14">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position15">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position16">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position17">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position18">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position19">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position20">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position21">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position22">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position23">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position24">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position25">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position26">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position27">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position28">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position29">
+				<Int name="IsActive">0</Int>
+			</Struct>
+		</Struct>
+		<Struct name="MarkerSet3">
+			<Int name="UsePrinted">1</Int>
+			<Int name="UseVersion">1</Int>
+			<Int name="UseNotes">1</Int>
+			<Int name="UseOffline">1</Int>
+			<Int name="UseRaw">0</Int>
+			<Int name="UseRating">1</Int>
+			<Int name="UseLicense">1</Int>
+			<Int name="UseGps">1</Int>
+			<Int name="UseClassify">1</Int>
+			<String name="Name">Marker Set 4</String>
+			<Struct name="Position0">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position1">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position2">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position3">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position4">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position5">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position6">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position7">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position8">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position9">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position10">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position11">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position12">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position13">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position14">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position15">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position16">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position17">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position18">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position19">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position20">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position21">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position22">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position23">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position24">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position25">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position26">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position27">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position28">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position29">
+				<Int name="IsActive">0</Int>
+			</Struct>
+		</Struct>
+		<Struct name="MarkerSet4">
+			<Int name="UsePrinted">1</Int>
+			<Int name="UseVersion">1</Int>
+			<Int name="UseNotes">1</Int>
+			<Int name="UseOffline">1</Int>
+			<Int name="UseRaw">0</Int>
+			<Int name="UseRating">1</Int>
+			<Int name="UseLicense">1</Int>
+			<Int name="UseGps">1</Int>
+			<Int name="UseClassify">1</Int>
+			<String name="Name">Marker Set 5</String>
+			<Struct name="Position0">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position1">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position2">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position3">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position4">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position5">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position6">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position7">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position8">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position9">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position10">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position11">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position12">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position13">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position14">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position15">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position16">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position17">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position18">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position19">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position20">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position21">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position22">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position23">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position24">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position25">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position26">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position27">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position28">
+				<Int name="IsActive">0</Int>
+			</Struct>
+			<Struct name="Position29">
+				<Int name="IsActive">0</Int>
+			</Struct>
+		</Struct>
+	</Group>
+</FotoWare_Settings>

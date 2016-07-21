@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FotoWare_Settings>
+	<Group name="ConfigData">
+		<Int name="TextMode">1</Int>
+		<Int name="DataMode">1</Int>
+	</Group>
+</FotoWare_Settings>

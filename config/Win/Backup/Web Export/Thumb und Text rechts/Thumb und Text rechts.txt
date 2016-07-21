@@ -1,0 +1,3 @@
+Erzeugt eine Liste mit rechts angeordneten Bildern. Es ist mšglich, eine  Hintergrund-Bitmap zu benutzen.
+
+HINWEIS: Es wird empfohlen, nur eine Bildspalte zu benutzen.

@@ -1,0 +1,374 @@
+AFG=Afghanistan
+EGY=Ägypten
+ALB=Albanien
+DZA=Algerien
+ASM=Amerikanisch-Samoa
+AND=Andorra
+AGO=Angola
+AIA=Anguilla
+ATA=Antarktis
+ATG=Antigua und Barbuda
+GNQ=Äquatorial-Guinea
+ARG=Argentinien
+ARM=Armenien
+ABW=Aruba
+ETH=Äthiopien
+AUS=Australien
+AZE=Aserbaidschan
+BHS=Bahamas
+BHR=Bahrain
+BGD=Bangladesch
+BRB=Barbados
+BEL=Belgien
+BLZ=Belize
+BEN=Benin
+BMU=Bermuda
+BTN=Bhutan
+BOL=Bolivien
+BIH=Bosnien-Herzegowina
+BWA=Botswana
+BVT=Bouvet-Insel
+BRA=Brasilien
+BRN=Brunei
+BGR=Bulgarien
+BFA=Burkina Faso
+BDI=Burundi
+CYM=Cayman-Inseln
+CHL=Chile
+CHN=China
+CCK=Cocos(Keeling)-Inseln
+COK=Cook-Inseln
+CRI=Costa Rica
+CIV=Cote D'Ivoire (Elfenbeinküste)
+DNK=Dänemark
+	Jylland
+		Aalborg
+		Århus
+		Hvidesande
+		Nibe
+	Fyn
+		Odense
+		Middelfart
+		Nyborg
+		Fåbord
+		Svendborg
+	Sjelland
+		København
+		Kalundborg
+		Næstved
+		Haslev
+		Helsingør
+DEU=Deutschland
+	Baden-Württemberg
+		Stuttgart
+		Freiburg
+	Bayern
+		München
+		Nürnberg
+	Berlin
+		Berlin
+	Brandenburg
+		Potsdam
+		Cottbus
+	Bremen
+		Bremen
+	Hamburg
+		Hamburg
+	Hessen
+		Wiesbaden
+		Frankfurt
+	Mecklenburg-Vorpommern
+		Schwerin
+		Rostock
+	Niedersachsen
+		Hannover
+		Braunschweig
+	Nordrhein-Westfalen
+		Düsseldorf
+		Köln
+	Rheinland-Pfalz
+		Mainz
+		Trier
+	Saarland
+		Saarbrücken
+	Sachsen
+		Dresden
+		Leipzig
+	Sachsen-Anhalt
+		Magdeburg
+		Halle
+	Schleswig-Holstein
+		Kiel
+		Lübeck
+	Thüringen
+		Erfurt
+		Suhl
+DMA=Dominica
+DOM=Dominikanische Republik
+DJI=Dschibuti
+ECU=Ecuador
+SLV=El Salvador
+ERI=Eritrea
+EST=Estland
+FLK=Falklandinseln (Malvinen)
+FRO=Faröer Inseln
+FJI=Fidschi
+FIN=Finnland
+FRA=Frankreich
+FXX=Frankreich, Haupstadtregion
+GUF=Französisch-Guayana
+PYF=Französisch-Polynesien
+ATF=Französische Süd-Territorien
+GAB=Gabun
+GMB=Gambia
+GEO=Georgien
+GHA=Ghana
+GIB=Gibraltar
+GRD=Grenada
+GRC=Griechenland
+GRL=Grönland
+GBR=Großbritannien
+GLP=Guadeloupe
+GUM=Guam
+GTM=Guatemala
+GIN=Guinea
+GNB=Guinea-Bissau
+GUY=Guyana
+HTI=Haiti
+HMD=Heard- und McDonald-Inseln
+HND=Honduras
+HKG=Hongkong
+IND=Indien
+IDN=Indonesien
+IRQ=Irak
+IRN=Iran
+IRL=Irland
+ISL=Island
+ISR=Israel
+ITA=Italien
+JAM=Jamaika
+JPN=Japan
+YEM=Jemen
+JOR=Jordanien
+YUG=Jugoslavien
+VGB=Jungferninseln (Britisch)
+VIR=Jungferninseln (USA)
+KHM=Kambodscha
+CMR=Kamerun
+CAN=Kanada
+CPV=Kap Verde
+KAZ=Kasachstan
+QAT=Katar
+KEN=Kenia
+KGZ=Kirgistan
+KIR=Kiribati
+COL=Kolumbien
+COM=Komoren
+COG=Kongo
+PRK=Korea-Nord
+KOR=Korea-Süd
+HRV=Kroatien
+CUB=Kuba
+KWT=Kuwait
+LAO=Laos
+LSO=Lesotho
+LVA=Lettland
+LBN=Libanon
+LBR=Liberia
+LBY=Libyen
+LIE=Liechtenstein
+LTU=Litauen
+LUX=Luxemburg
+MAC=Macau
+MDG=Madagaskar
+MWI=Malawi
+MYS=Malaysia
+MDV=Malediven
+MLI=Mali
+MLT=Malta
+MAR=Marokko
+MHL=Marshall-Inseln
+MTQ=Martinique
+MRT=Mauretanien
+MUS=Mauritius
+MYT=Mayotte
+MKD=Mazedonien
+MEX=Mexiko
+FSM=Mikronesien
+MDA=Moldawien
+MCO=Monaco
+MNG=Mongolei
+MSR=Montserrat
+MOZ=Mosambik
+MMR=Myanmar
+NAM=Namibia
+NRU=Nauru
+NPL=Nepal
+NZL=Neuseeland
+NCL=Neukaledonien
+NIC=Nicaragua
+NLD=Niederlande
+ANT=Niederländische Antillen
+NER=Niger
+NGA=Nigeria
+NIU=Niue
+NFK=Norfolkinsel
+MNP=Nördliche Marianen
+NOR=Norwegen
+	Oslo
+		Oslo
+	Akershus
+	Østfold
+		Halden
+		Moss
+		Fredrikstad
+		Sarpsborg
+	Vestfold
+		Larvik
+		Sandefjord
+		Tønsberg
+	Hedmark
+		Hamar
+	Oppland
+		Lillehammer
+		Fåvang
+		Ringebu
+		Vinstra
+		Otta
+	Buskerud
+		Drammen
+		Hokksund
+		Hønefoss
+		Gol
+		Nesbyen
+		Geilo
+	Telemark
+		Porsgrunn
+		Skien
+	Aust Agder
+		Arendal
+		Grimstad
+	Vest Agder
+		Kristiansand
+	Rogaland
+		Stavanger
+	Hordaland
+		Bergen
+	Møre og Romsdal
+		Kristiansund
+		Molde
+		Ålesund
+	Sør Trøndelag
+		Trondheim
+	Nord Trøndelag
+		Steinkjær
+		Namsos
+	Nordland
+		Bodø
+	Troms
+		Tromsø
+	Finnmark
+		Alta
+		Kirkenes
+OMN=Oman
+AUT=Österreich
+TMP=Ost-Timor
+PAK=Pakistan
+PLW=Palau
+PAN=Panama
+PNG=Papua-Neuguinea
+PRY=Paraguay
+PER=Peru
+PHL=Philippinen
+PCN=Pitcairn
+POL=Polen
+PRT=Portugal
+PRI=Puerto Rico
+REU=Reunion
+ROM=Rumänien
+RUS=Russland
+RWA=Rwanda
+KNA=Saint Kitts und Nevis
+LCA=Saint Lucia
+VCT=Saint Vincent und die Grenadinen
+SLB=Salomonen
+ZMB=Sambia
+WSM=Samoa-West
+SMR=San Marino
+STP=Sao Tome und Principe
+SAU=Saudi-Arabien
+SWE=Schweden
+	Skåne
+		Malmö
+	Stockholms län
+		Stockholm
+	Halland
+		Halmstad
+		Varberg
+	Dalarna
+		Falun
+	Västra Götaland
+		Allingsås
+		Göteborg
+		Lidköping
+		Strömstad
+		Uddevalla
+		Åmål
+	Värmland
+		Arvika
+		Karlstad
+		Kristinehamn
+CHE=Schweiz
+SEN=Senegal
+SYC=Seychellen
+SLE=Sierra Leone
+SGP=Singapur
+SVK=Slowakei
+SVN=Slowenien
+SOM=Somalia
+ESP=Spanien
+LKA=Sri Lanka
+SHN=St.Helena
+SPM=St.Pierre und Miquelon
+ZAF=Südafrika
+SGS=Südgeorgien und die Süd-Sandwich-Inseln
+SDN=Sudan
+SUR=Surinam
+SJM=Svalbard- und Jan-Mayen-Inseln
+SWZ=Swasiland
+SYR=Syrien
+TJK=Tadschikistan
+TWN=Taiwan
+TZA=Tansania
+THA=Thailand
+TGO=Togo
+TKL=Tokelau
+TON=Tonga
+TTO=Trinidad und Tobago
+TCD=Tschad
+CZE=Tschechische Republik
+TUN=Tunesien
+TUR=Türkei
+TKM=Turkmenistan
+TCA=Turks- und Caicosinseln
+TUV=Tuvalu
+UGA=Uganda
+UKR=Ukraine
+HUN=Ungarn
+URY=Uruguay
+USA=USA
+UZB=Usbekistan
+VUT=Vanuatu
+VAT=Vatikanstadt
+VEN=Venezuela
+ARE=Vereinigte Arabische Emirate
+VNM=Vietnam
+WLF=Wallis und Futuna
+CXR=Weihnachtsinsel
+BLR=Weißrussland
+ESH=Westsahara
+ZAR=Zaire
+CAF=Zentralafrikanische Republik
+ZWE=Zimbabwe
+CYP=Zypern
+

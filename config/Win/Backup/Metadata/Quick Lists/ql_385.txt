@@ -1,0 +1,4 @@
+﻿http://ns.useplus.org/ldf/vocab/PR-LPR=Limited or Incomplete Property Releases
+http://ns.useplus.org/ldf/vocab/PR-NAP=Not Applicable
+http://ns.useplus.org/ldf/vocab/PR-NON=None
+http://ns.useplus.org/ldf/vocab/PR-UPR=Unlimited Property Releases

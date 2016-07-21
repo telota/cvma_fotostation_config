@@ -1,0 +1,3 @@
+Standardmuster mit Bitmap-Option für den Hintergrund.
+Es wird eine Tabelle mit Rahmen erzeugt. 
+Die Textoptionen sind nur auf der Previewseite verfügbar.

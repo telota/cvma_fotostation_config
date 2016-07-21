@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FotoWare_Settings>
+	<Group name="Left Tabs">
+		<Int name="numTabs">4</Int>
+		<Struct name="td[0]">
+			<String name="caption">Schreibtisch</String>
+			<Int name="contentType">1</Int>
+			<Int name="flags">1</Int>
+			<Int name="autoConnectRightTab">0</Int>
+			<String name="rightSlavePanel"></String>
+			<Struct name="fileTree">
+				<Int name="attributes">40</Int>
+				<String name="rootFolder"></String>
+				<Int name="fAllowDelete">1</Int>
+				<Int name="fAllowSave">1</Int>
+				<Int name="fIncludeSubFolders">1</Int>
+				<Int name="activeMarkerSet">0</Int>
+				<StringList name="blockedActionList"/>
+				<String name="filterName">Standard Dateifilter</String>
+			</Struct>
+		</Struct>
+		<Struct name="td[1]">
+			<String name="caption">Archive</String>
+			<Int name="contentType">2</Int>
+			<Int name="flags">1</Int>
+			<Int name="autoConnectRightTab">0</Int>
+			<String name="rightSlavePanel"></String>
+			<Struct name="shortCut">
+				<Int name="fDisplayGroupHeader">1</Int>
+				<Int name="fDisplaySelectedOnly">0</Int>
+				<Int name="fUseLargeIcons">1</Int>
+				<Int name="fIsAutoCreated">0</Int>
+				<Struct name="selectedGroups">
+					<Int name="numId">0</Int>
+				</Struct>
+				<Struct name="selectedShortcuts">
+					<Int name="numId">0</Int>
+				</Struct>
+			</Struct>
+		</Struct>
+		<Struct name="td[2]">
+			<String name="caption">Projekte</String>
+			<Int name="contentType">6</Int>
+			<Int name="flags">1</Int>
+			<Int name="autoConnectRightTab">0</Int>
+			<String name="rightSlavePanel"></String>
+			<Struct name="project">
+				<Int name="projectType">1</Int>
+				<String name="baseFolder">C:\Users\opohl\AppData\Roaming\FotoWare\FotoStation LT\Projects</String>
+				<Int name="fAllowDelete">1</Int>
+				<String name="serverUrl"></String>
+				<StringList name="blockedActionList"/>
+			</Struct>
+		</Struct>
+		<Struct name="td[3]">
+			<String name="caption">Jobs</String>
+			<Int name="contentType">5</Int>
+			<Int name="flags">1</Int>
+			<Int name="autoConnectRightTab">0</Int>
+			<String name="rightSlavePanel"></String>
+		</Struct>
+	</Group>
+	<Group name="Right Tabs">
+		<Int name="numTabs">1</Int>
+		<Struct name="td[0]">
+			<String name="caption">Aktionen</String>
+			<Int name="contentType">3</Int>
+			<Int name="flags">1</Int>
+			<Struct name="action">
+				<Int name="fDisplayGroupHeader">1</Int>
+				<Int name="fDisplaySelectedOnly">0</Int>
+				<Int name="fUseLargeIcons">1</Int>
+				<Struct name="selectedGroups">
+					<Int name="numId">0</Int>
+				</Struct>
+				<Struct name="selectedActions">
+					<Int name="numId">0</Int>
+				</Struct>
+			</Struct>
+		</Struct>
+	</Group>
+</FotoWare_Settings>

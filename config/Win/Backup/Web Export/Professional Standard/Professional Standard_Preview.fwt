@@ -1,0 +1,85 @@
+<HTML>
+<HEAD>
+
+<%BACKGROUND%>
+<BODY BACKGROUND="<%=FWT_BACKGROUNDFILE%>">
+<%/BACKGROUND%>
+
+<TITLE><%=FWT_TITLE%></TITLE>
+
+<%METAKEYWORDS%>
+<META NAME="KEYWORDS" CONTENT="<%=FWT_METAKEYWORDS%>"> 
+<%/METAKEYWORDS%>
+<link href="../Extra/Professional.css" rel="stylesheet" type="text/css" />
+</HEAD>
+
+<BODY background="../Extra/background.gif">
+
+<table cellpadding=0 cellspacing=0 border=0>
+	<tr>
+		<td valign=top width=300>
+			
+			<table cellpadding=0 cellspacing=0 width=300 class=menu height=400>
+					<tr>
+						<td colspan=2 valign=top height=60 align=center>
+							<TABLE CELLSPACING=5 CELLPADDING=0 BORDER=0>
+								<TR>
+							
+									<TD ALIGN=LEFT WIDTH=70 valign=middle>
+										<%PREVIOUS_PV%>
+										<A HREF="<%=FWT_PREVIOUSPREVIEW%>" >  <img src="../Extra/back.gif" border=0>  </A>
+										<%/PREVIOUS_PV%>
+									</TD>
+							
+									<TD ALIGN=CENTER valign=middle>
+										<A HREF="<%=FWT_BACK%>">   <img src="../Extra/BackToThumbs.gif" border=0>   </A>
+									</TD>
+							
+									<TD ALIGN=RIGHT WIDTH=70 valign=middle>
+										<%NEXT_PV%>
+										<A HREF="<%=FWT_NEXTPREVIEW%>">  <img src="../Extra/forward.gif" border=0>   </A>
+										<%/NEXT_PV%>
+									</TD>
+							
+								</TR>
+							</TABLE>
+						</td>
+						<td width=5></td>
+					</tr>
+					<tr>
+						<td colspan=3 height=10>
+							<hr noshade size=1>
+						</td>
+					</tr>
+					<tr>
+						<td valign=top height=330>
+							<H2><%=FWT_IMAGETITLEORNAME%></H2>
+						
+							<%=FWT_WIZARDTEXT%>
+							<br>
+							<B>Copyright-Vermerk:</B> <%=FWT_IPTC116%>
+						</td>
+						<td valign=top align=right nowrap>
+							<%=FWT_CURRENTIMAGENUMBER%> (<%=FWT_IMAGECOUNT%>)
+						</td>
+						<td width=5></td>
+					</tr>
+					<tr>
+						<td colspan=3 height=10></td>
+					</tr>
+				</table>
+	
+		</td>
+		<td width=20></td>
+		<td>
+			<IMG SRC="<%=FWT_PREVIEW%>" Alt="<%=FWT_IMAGETITLEORNAME%>">
+		</td>
+		
+		
+	</tr>
+</table>
+
+<BR>
+
+</BODY>
+</HTML>
