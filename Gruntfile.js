@@ -35,7 +35,7 @@ module.exports = function(grunt) {
 					archive: "dist/<%= pkg.name %>_<%= pkg.version %>.zip"
 				},
 				files: [
-					{expand: true, src: ["config/**"], dest: "tmp/"}
+					{expand: true, cwd: "config/", src: ["**"], dest: "<%= pkg.name %>_<%= pkg.version %>/"}
 				]
 			}
 		}

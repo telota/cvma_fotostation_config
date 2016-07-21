@@ -1,0 +1,10 @@
+﻿n
+s
+w
+N
+S
+W
+Triforum nord
+Triforum sued
+Empore nord
+Empore sued

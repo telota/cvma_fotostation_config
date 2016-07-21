@@ -1,0 +1,9 @@
+﻿Auflicht Rueckseite Detailaufnahme
+Auflicht Rueckseite Einzelaufnahme
+Auflicht Rueckseite Gesamtaufnahme
+Auflicht Vorderseite Detailaufnahme
+Auflicht Vorderseite Einzelaufnahme
+Auflicht Vorderseite Gesamtaufnahme
+Durchlicht Vorderseite Detailaufnahme
+Durchlicht Vorderseite Einzelaufnahme
+Durchlicht Vorderseite Gesamtaufnahme
