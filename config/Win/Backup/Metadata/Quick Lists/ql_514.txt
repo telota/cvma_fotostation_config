@@ -1,6 +1,6 @@
-﻿Auflicht Rueckseite Detailaufnahme
-Auflicht Rueckseite Einzelaufnahme
-Auflicht Rueckseite Gesamtaufnahme
+﻿Auflicht Rückseite Detailaufnahme
+Auflicht Rückseite Einzelaufnahme
+Auflicht Rückseite Gesamtaufnahme
 Auflicht Vorderseite Detailaufnahme
 Auflicht Vorderseite Einzelaufnahme
 Auflicht Vorderseite Gesamtaufnahme

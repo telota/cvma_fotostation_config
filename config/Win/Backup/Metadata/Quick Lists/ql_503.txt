@@ -5,6 +5,6 @@ N
 S
 W
 Triforum nord
-Triforum sued
+Triforum süd
 Empore nord
-Empore sued
+Empore süd
