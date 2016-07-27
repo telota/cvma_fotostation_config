@@ -29,12 +29,12 @@
 				<Struct name="item[0]">
 					<Int name="id">504</Int>
 					<Struct name="pos">
-						<Int name="x">320</Int>
+						<Int name="x">410</Int>
 						<Int name="y">65</Int>
 					</Struct>
 					<Struct name="size">
 						<Int name="x">231</Int>
-						<Int name="y">18</Int>
+						<Int name="y">25</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
 					<Int name="hasQuickList">0</Int>
@@ -55,7 +55,7 @@
 						<Int name="y">50</Int>
 					</Struct>
 					<Struct name="size">
-						<Int name="x">271</Int>
+						<Int name="x">371</Int>
 						<Int name="y">150</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
@@ -77,8 +77,8 @@
 						<Int name="y">200</Int>
 					</Struct>
 					<Struct name="size">
-						<Int name="x">271</Int>
-						<Int name="y">41</Int>
+						<Int name="x">411</Int>
+						<Int name="y">51</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
 					<Int name="hasQuickList">1</Int>
@@ -95,7 +95,7 @@
 				<Struct name="item[3]">
 					<Int name="id">518</Int>
 					<Struct name="pos">
-						<Int name="x">320</Int>
+						<Int name="x">410</Int>
 						<Int name="y">25</Int>
 					</Struct>
 					<Struct name="size">
@@ -121,7 +121,7 @@
 						<Int name="y">25</Int>
 					</Struct>
 					<Struct name="size">
-						<Int name="x">271</Int>
+						<Int name="x">371</Int>
 						<Int name="y">22</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
@@ -156,8 +156,8 @@
 						<Int name="y">225</Int>
 					</Struct>
 					<Struct name="size">
-						<Int name="x">211</Int>
-						<Int name="y">18</Int>
+						<Int name="x">311</Int>
+						<Int name="y">25</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
 					<Int name="hasQuickList">0</Int>
@@ -178,8 +178,8 @@
 						<Int name="y">175</Int>
 					</Struct>
 					<Struct name="size">
-						<Int name="x">211</Int>
-						<Int name="y">18</Int>
+						<Int name="x">311</Int>
+						<Int name="y">25</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
 					<Int name="hasQuickList">1</Int>
@@ -200,8 +200,8 @@
 						<Int name="y">75</Int>
 					</Struct>
 					<Struct name="size">
-						<Int name="x">211</Int>
-						<Int name="y">18</Int>
+						<Int name="x">311</Int>
+						<Int name="y">25</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
 					<Int name="hasQuickList">1</Int>
@@ -222,8 +222,8 @@
 						<Int name="y">125</Int>
 					</Struct>
 					<Struct name="size">
-						<Int name="x">211</Int>
-						<Int name="y">18</Int>
+						<Int name="x">311</Int>
+						<Int name="y">25</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
 					<Int name="hasQuickList">1</Int>
@@ -244,8 +244,8 @@
 						<Int name="y">25</Int>
 					</Struct>
 					<Struct name="size">
-						<Int name="x">211</Int>
-						<Int name="y">18</Int>
+						<Int name="x">311</Int>
+						<Int name="y">25</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
 					<Int name="hasQuickList">0</Int>
@@ -900,10 +900,10 @@
 					<Int name="id">110</Int>
 					<Struct name="pos">
 						<Int name="x">10</Int>
-						<Int name="y">209</Int>
+						<Int name="y">269</Int>
 					</Struct>
 					<Struct name="size">
-						<Int name="x">411</Int>
+						<Int name="x">591</Int>
 						<Int name="y">31</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
@@ -922,10 +922,10 @@
 					<Int name="id">315</Int>
 					<Struct name="pos">
 						<Int name="x">10</Int>
-						<Int name="y">269</Int>
+						<Int name="y">329</Int>
 					</Struct>
 					<Struct name="size">
-						<Int name="x">411</Int>
+						<Int name="x">591</Int>
 						<Int name="y">41</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
@@ -944,11 +944,11 @@
 					<Int name="id">526</Int>
 					<Struct name="pos">
 						<Int name="x">10</Int>
-						<Int name="y">130</Int>
+						<Int name="y">190</Int>
 					</Struct>
 					<Struct name="size">
-						<Int name="x">451</Int>
-						<Int name="y">41</Int>
+						<Int name="x">631</Int>
+						<Int name="y">51</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
 					<Int name="hasQuickList">1</Int>
@@ -966,11 +966,11 @@
 					<Int name="id">316</Int>
 					<Struct name="pos">
 						<Int name="x">10</Int>
-						<Int name="y">335</Int>
+						<Int name="y">395</Int>
 					</Struct>
 					<Struct name="size">
-						<Int name="x">411</Int>
-						<Int name="y">25</Int>
+						<Int name="x">591</Int>
+						<Int name="y">35</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
 					<Int name="hasQuickList">1</Int>
@@ -991,8 +991,8 @@
 						<Int name="y">25</Int>
 					</Struct>
 					<Struct name="size">
-						<Int name="x">411</Int>
-						<Int name="y">18</Int>
+						<Int name="x">591</Int>
+						<Int name="y">35</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
 					<Int name="hasQuickList">1</Int>
@@ -1010,11 +1010,11 @@
 					<Int name="id">80</Int>
 					<Struct name="pos">
 						<Int name="x">10</Int>
-						<Int name="y">50</Int>
+						<Int name="y">70</Int>
 					</Struct>
 					<Struct name="size">
-						<Int name="x">451</Int>
-						<Int name="y">41</Int>
+						<Int name="x">631</Int>
+						<Int name="y">51</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
 					<Int name="hasQuickList">1</Int>
@@ -1032,11 +1032,11 @@
 					<Int name="id">319</Int>
 					<Struct name="pos">
 						<Int name="x">10</Int>
-						<Int name="y">90</Int>
+						<Int name="y">130</Int>
 					</Struct>
 					<Struct name="size">
-						<Int name="x">451</Int>
-						<Int name="y">41</Int>
+						<Int name="x">631</Int>
+						<Int name="y">51</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
 					<Int name="hasQuickList">1</Int>
