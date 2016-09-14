@@ -1,6 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FotoWare_Settings>
 	<Group name="ShortCuts">
-		<Int name="numShortcuts">0</Int>
+		<Int name="numShortcuts">1</Int>
+		<Struct name="shortCut[0]">
+			<String name="groupName">Standard</String>
+			<String name="guid">7C0DB8C553EF49A1 AFCC58ACDD736A54</String>
+			<String name="name">Pictures</String>
+			<String name="path">C:\Users\mortel\Pictures</String>
+			<String name="savePath"></String>
+			<Int name="automaticRefresh">1</Int>
+			<Int name="includeSubFolders">1</Int>
+			<Int name="allowSaveFiles">1</Int>
+			<Int name="createSaveSubFolder">1</Int>
+			<Int name="allowDeletFiles">1</Int>
+			<Int name="allowMetadataEdit">1</Int>
+			<Int name="enableSubFolderBrowsing">1</Int>
+			<Int name="setSortOrder">1</Int>
+			<Int name="sortOrder">0</Int>
+			<Int name="setViewType">0</Int>
+			<Int name="viewType">1</Int>
+			<Int name="subViewType">0</Int>
+			<String name="imageFile"></String>
+			<Int name="idIcon">0</Int>
+			<Int name="activeMarkerSet">0</Int>
+			<Int name="prioDraw">0</Int>
+			<Int name="maxBrowseSize">20000</Int>
+			<Int name="useFinderMode">0</Int>
+			<Int name="noSidecarInDrop">0</Int>
+			<Int name="includeWave">0</Int>
+			<Struct name="autoSearch">
+				<Struct name="Row[0]">
+					<String name="Str"></String>
+					<Int name="Field">0</Int>
+				</Struct>
+				<Struct name="Row[1]">
+					<String name="Str"></String>
+					<Int name="Field">0</Int>
+				</Struct>
+				<Struct name="Row[2]">
+					<String name="Str"></String>
+					<Int name="Field">0</Int>
+				</Struct>
+				<Struct name="Row[3]">
+					<String name="Str"></String>
+					<Int name="Field">0</Int>
+				</Struct>
+				<Struct name="Row[4]">
+					<String name="Str"></String>
+					<Int name="Field">0</Int>
+				</Struct>
+				<Struct name="Row[5]">
+					<String name="Str"></String>
+					<Int name="Field">0</Int>
+				</Struct>
+				<Struct name="Row[6]">
+					<String name="Str"></String>
+					<Int name="Field">0</Int>
+				</Struct>
+				<Struct name="Row[7]">
+					<String name="Str"></String>
+					<Int name="Field">0</Int>
+				</Struct>
+				<Int name="Bool[0]">0</Int>
+				<Int name="Bool[1]">0</Int>
+				<Int name="Bool[2]">0</Int>
+				<Int name="Bool[3]">0</Int>
+				<Int name="Bool[4]">0</Int>
+				<Int name="Bool[5]">0</Int>
+				<Int name="Bool[6]">0</Int>
+				<Struct name="Attribut">
+					<Int name="UseAttrib">0</Int>
+					<Int name="FileDateType">0</Int>
+					<Int name="FileSizeType">0</Int>
+					<Int name="FromSizeInt">0</Int>
+					<Int name="ToSizeInt">0</Int>
+					<Int name="ColorType">0</Int>
+					<Int name="FileType">0</Int>
+					<Int name="FormatType">0</Int>
+					<Int name="OfflineType">0</Int>
+					<Int name="HistoryType">0</Int>
+					<Int name="HistoryBool">0</Int>
+					<Int name="TextType">0</Int>
+					<String name="FromDate"></String>
+					<String name="ToDate"></String>
+					<String name="FromSize"></String>
+					<String name="ToSize"></String>
+					<String name="HistoryString"></String>
+				</Struct>
+				<Struct name="Options">
+					<Int name="UseOptions">0</Int>
+					<Int name="Flags">0</Int>
+					<Int name="Fuzzines">0</Int>
+					<Int name="NearSize">0</Int>
+				</Struct>
+			</Struct>
+			<StringList name="blockedActionList"/>
+			<String name="filterName">Standard Dateifilter</String>
+			<String name="metaDataEditor"></String>
+			<Int name="hasExtension">0</Int>
+			<Struct name="ext">
+				<String name="launchApplication"></String>
+				<String name="commandLineArgument"></String>
+			</Struct>
+		</Struct>
 	</Group>
 </FotoWare_Settings>

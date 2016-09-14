@@ -6,10 +6,10 @@
 		<Int name="EnableThumbnailColor">1</Int>
 		<Int name="EnablePreviewColor">1</Int>
 		<Int name="EnableHighResColor">1</Int>
-		<String name="PreviewProfile"></String>
-		<String name="DisplayProfile"></String>
-		<String name="GrayProfile"></String>
-		<String name="RGBProfile"></String>
-		<String name="CMYKProfile"></String>
+		<String name="PreviewProfile">C:\Windows\system32\spool\drivers\color\AdobeRGB1998.icc</String>
+		<String name="DisplayProfile">C:\Windows\system32\spool\drivers\color\AdobeRGB1998.icc</String>
+		<String name="GrayProfile">1010</String>
+		<String name="RGBProfile">C:\Windows\system32\spool\drivers\color\AdobeRGB1998.icc</String>
+		<String name="CMYKProfile">C:\Windows\system32\spool\drivers\color\CoatedFOGRA27.icc</String>
 	</Group>
 </FotoWare_Settings>

@@ -1,0 +1,1 @@
+﻿#! HTTP_DOWNLOAD_URL=http://localhost/cvma/test.txt

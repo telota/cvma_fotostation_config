@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FotoWare_Settings>
 	<Group name="Shortcut Groups">
-		<Int name="numGroups">2</Int>
+		<Int name="numGroups">3</Int>
 		<Struct name="group[0]">
-			<String name="name">Kopier-Aktionen</String>
+			<String name="name">Standard</String>
 		</Struct>
 		<Struct name="group[1]">
+			<String name="name">Kopier-Aktionen</String>
+		</Struct>
+		<Struct name="group[2]">
 			<String name="name">Beispielaktionen</String>
 		</Struct>
 	</Group>

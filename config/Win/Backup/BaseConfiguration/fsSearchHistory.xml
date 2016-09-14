@@ -1,6 +1,1346 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FotoWare_Settings>
 	<Group name="SearchHistoryItem">
-		<Int name="numItems">0</Int>
+		<Int name="numItems">20</Int>
+		<Struct name="Search[0]">
+			<String name="name">*,*</String>
+			<Struct name="Row[0]">
+				<String name="Str">*,*</String>
+				<Int name="Field">510</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[1]">
+			<String name="name">*.*</String>
+			<Struct name="Row[0]">
+				<String name="Str">*.*</String>
+				<Int name="Field">510</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[2]">
+			<String name="name">%.%</String>
+			<Struct name="Row[0]">
+				<String name="Str">%.%</String>
+				<Int name="Field">510</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[3]">
+			<String name="name">.</String>
+			<Struct name="Row[0]">
+				<String name="Str">.</String>
+				<Int name="Field">510</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[4]">
+			<String name="name">&quot;,&quot;</String>
+			<Struct name="Row[0]">
+				<String name="Str">&quot;,&quot;</String>
+				<Int name="Field">510</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[5]">
+			<String name="name">&quot;,2</String>
+			<Struct name="Row[0]">
+				<String name="Str">&quot;,2</String>
+				<Int name="Field">510</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[6]">
+			<String name="name">,</String>
+			<Struct name="Row[0]">
+				<String name="Str">,</String>
+				<Int name="Field">510</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[7]">
+			<String name="name">xnoword</String>
+			<Struct name="Row[0]">
+				<String name="Str">xnoword</String>
+				<Int name="Field">319</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[8]">
+			<String name="name">xnoword</String>
+			<Struct name="Row[0]">
+				<String name="Str">xnoword</String>
+				<Int name="Field">522</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[9]">
+			<String name="name">e</String>
+			<Struct name="Row[0]">
+				<String name="Str">e</String>
+				<Int name="Field">522</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[10]">
+			<String name="name">01.01.1500</String>
+			<Struct name="Row[0]">
+				<String name="Str">01.01.1500</String>
+				<Int name="Field">501</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[11]">
+			<String name="name">1500</String>
+			<Struct name="Row[0]">
+				<String name="Str">1500</String>
+				<Int name="Field">590</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[12]">
+			<String name="name">xnoword</String>
+			<Struct name="Row[0]">
+				<String name="Str">xnoword</String>
+				<Int name="Field">301</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[13]">
+			<String name="name">xnoword</String>
+			<Struct name="Row[0]">
+				<String name="Str">xnoword</String>
+				<Int name="Field">524</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[14]">
+			<String name="name">glasmalerei</String>
+			<Struct name="Row[0]">
+				<String name="Str">glasmalerei</String>
+				<Int name="Field">301</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[15]">
+			<String name="name">glasmalerei</String>
+			<Struct name="Row[0]">
+				<String name="Str">glasmalerei</String>
+				<Int name="Field">524</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[16]">
+			<String name="name">xnoword</String>
+			<Struct name="Row[0]">
+				<String name="Str">xnoword</String>
+				<Int name="Field">316</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[17]">
+			<String name="name">xnoword</String>
+			<Struct name="Row[0]">
+				<String name="Str">xnoword</String>
+				<Int name="Field">5</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[18]">
+			<String name="name">01.01.1900</String>
+			<Struct name="Row[0]">
+				<String name="Str">01.01.1900</String>
+				<Int name="Field">540</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
+		<Struct name="Search[19]">
+			<String name="name">ii</String>
+			<Struct name="Row[0]">
+				<String name="Str">ii</String>
+				<Int name="Field">511</Int>
+			</Struct>
+			<Struct name="Row[1]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[2]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[3]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[4]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[5]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[6]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Struct name="Row[7]">
+				<String name="Str"></String>
+				<Int name="Field">0</Int>
+			</Struct>
+			<Int name="Bool[0]">0</Int>
+			<Int name="Bool[1]">0</Int>
+			<Int name="Bool[2]">0</Int>
+			<Int name="Bool[3]">0</Int>
+			<Int name="Bool[4]">0</Int>
+			<Int name="Bool[5]">0</Int>
+			<Int name="Bool[6]">0</Int>
+			<Struct name="Attribut">
+				<Int name="UseAttrib">1</Int>
+				<Int name="FileDateType">0</Int>
+				<Int name="FileSizeType">0</Int>
+				<Int name="FromSizeInt">0</Int>
+				<Int name="ToSizeInt">0</Int>
+				<Int name="ColorType">0</Int>
+				<Int name="FileType">0</Int>
+				<Int name="FormatType">0</Int>
+				<Int name="OfflineType">0</Int>
+				<Int name="HistoryType">0</Int>
+				<Int name="HistoryBool">1</Int>
+				<Int name="TextType">0</Int>
+				<String name="FromDate"></String>
+				<String name="ToDate"></String>
+				<String name="FromSize"></String>
+				<String name="ToSize"></String>
+				<String name="HistoryString"></String>
+			</Struct>
+			<Struct name="Options">
+				<Int name="UseOptions">0</Int>
+				<Int name="Flags">0</Int>
+				<Int name="Fuzzines">0</Int>
+				<Int name="NearSize">5</Int>
+			</Struct>
+		</Struct>
 	</Group>
 </FotoWare_Settings>

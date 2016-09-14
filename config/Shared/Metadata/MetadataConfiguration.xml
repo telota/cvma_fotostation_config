@@ -257,7 +257,7 @@
   <Field name="DigitalSourceType" fieldType="Single" id="530" ns="Iptc4xmpExt" maxSize="256" valueType="Text" guiLabel="Typ_der_Digitalbildquelle" isMultiline="false"/>
   <Field name="Event" fieldType="AltLang" id="370" ns="Iptc4xmpExt" maxSize="256" valueType="Text" guiLabel="Event" isMultiline="false"/>
   <Field name="LocationCreated" fieldType="Bag" id="534" ns="Iptc4xmpExt" maxSize="256" valueType="Text" guiLabel="" isMultiline="false"/>
-  <Field name="LocationId" fieldType="Single" id="536" ns="Iptc4xmpExt" maxSize="256" valueType="Text" guiLabel="Geographischer Identifikator" isMultiline="false"/>
+  <Field name="LocationId" fieldType="Seq" id="536" ns="Iptc4xmpExt" maxSize="256" valueType="Text" guiLabel="Geographischer Identifikator" isMultiline="false"/>
   <Field name="MaxAvailHeight" fieldType="Single" id="371" ns="Iptc4xmpExt" maxSize="256" valueType="Integer" min="0" max="100000" guiLabel="Max Avail Height" isMultiline="false"/>
   <Field name="MaxAvailWidth" fieldType="Single" id="372" ns="Iptc4xmpExt" maxSize="256" valueType="Integer" min="0" max="100000" guiLabel="Max Avail Width" isMultiline="false"/>
   <Field name="ModelAge" fieldType="Bag" id="366" ns="Iptc4xmpExt" maxSize="256" valueType="Integer" min="0" max="120" guiLabel="Model Age" isMultiline="false"/>
@@ -276,7 +276,7 @@
   <Field name="Figure" fieldType="Single" id="504" ns="cvma" maxSize="256" valueType="Text" guiLabel="Tafel_Figur_Abbildung" isMultiline="false"/>
   <Field name="FormerLocation" fieldType="Single" id="505" ns="cvma" maxSize="25600" valueType="Text" guiLabel="Ehemaliger Standort" isMultiline="true"/>
   <Field name="IconclassDescription" fieldType="Single" id="506" ns="cvma" maxSize="25600" valueType="Text" guiLabel="Iconclass_Beschreibung" isMultiline="true"/>
-  <Field name="IconclassNotation" fieldType="Single" id="507" ns="cvma" maxSize="256" valueType="Text" guiLabel="Iconclass_Notation" isMultiline="false"/>
+  <Field name="IconclassNotation" fieldType="Bag" id="507" ns="cvma" maxSize="256" valueType="Text" guiLabel="Iconclass_Notation" isMultiline="false"/>
   <Field name="ObjectDiameter" fieldType="Single" id="508" ns="cvma" maxSize="256" valueType="Text" guiLabel="Durchmesser" isMultiline="false" regExp="(\d+(\.\d+)?)"/>
   <Field name="ObjectHeight" fieldType="Single" id="509" ns="cvma" maxSize="256" valueType="Text" guiLabel="Hoehe" isMultiline="false" regExp="(\d+(\.\d+)?)"/>
   <Field name="ObjectWidth" fieldType="Single" id="510" ns="cvma" maxSize="256" valueType="Text" guiLabel="Breite" isMultiline="false" regExp="(\d+(\.\d+)?)?"/>

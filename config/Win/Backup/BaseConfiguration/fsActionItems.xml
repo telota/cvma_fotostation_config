@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FotoWare_Settings>
 	<Group name="ActionItem">
-		<Int name="numItems">9</Int>
+		<Int name="numItems">10</Int>
 		<Struct name="actionItem[0]">
 			<String name="name">Kopieren nach &quot;Meine Bilder&quot;</String>
 			<String name="groupName">Kopier-Aktionen</String>
@@ -321,7 +321,7 @@
 			</Struct>
 		</Struct>
 		<Struct name="actionItem[6]">
-			<String name="name">Wasserzeichen</String>
+			<String name="name">Watermark</String>
 			<String name="groupName">Beispielaktionen</String>
 			<String name="guid">3385057743</String>
 			<Int name="confirmation">0</Int>
@@ -333,9 +333,9 @@
 			<Struct name="actions[0]">
 				<Int name="actionId">24</Int>
 				<Struct name="aWatermark">
-					<String name="WatermarkFile"></String>
-					<Int name="Alignment">0</Int>
-					<Int name="DoScale">0</Int>
+					<String name="WatermarkFile">fs_watermark.jpg</String>
+					<Int name="Alignment">4</Int>
+					<Int name="DoScale">1</Int>
 				</Struct>
 			</Struct>
 			<Struct name="actions[1]">
@@ -427,7 +427,7 @@
 			</Struct>
 		</Struct>
 		<Struct name="actionItem[8]">
-			<String name="name">Metadaten zufügen</String>
+			<String name="name">Add metadata</String>
 			<String name="groupName">Beispielaktionen</String>
 			<String name="guid">3603871988</String>
 			<Int name="confirmation">0</Int>
@@ -443,6 +443,26 @@
 					<Int name="rememberText">0</Int>
 					<Int name="editorId">1</Int>
 					<String name="editorName">FotoStation 8.0</String>
+				</Struct>
+			</Struct>
+		</Struct>
+		<Struct name="actionItem[9]">
+			<String name="name">Batch_Edit_Test</String>
+			<String name="groupName">Standard</String>
+			<String name="guid">3600804066</String>
+			<Int name="confirmation">0</Int>
+			<Int name="rawjpegMode">0</Int>
+			<String name="confirmationMessage"></String>
+			<Int name="numActions">1</Int>
+			<Int name="idIcon">0</Int>
+			<String name="imageFile"></String>
+			<Struct name="actions[0]">
+				<Int name="actionId">34</Int>
+				<Struct name="aAddMetadata">
+					<Int name="replaceExistingFields">1</Int>
+					<Int name="rememberText">0</Int>
+					<Int name="editorId">1</Int>
+					<String name="editorName">CVMA</String>
 				</Struct>
 			</Struct>
 		</Struct>
