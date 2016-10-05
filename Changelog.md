@@ -1,5 +1,9 @@
 # CVMA Fotostation Konfiguration Changelog
 
+## v0.2.17
+
+* Regulärer Ausdruck aus xmp:CreateDate entfernt
+
 ## v0.2.16
 
 *05.10.2016*
