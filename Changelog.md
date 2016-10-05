@@ -5,7 +5,7 @@
 *05.10.2016*
 
 * Neues Feld angelegt: cvma:originalLocationId
-* Neues Feld angelegt: cvma:createDateHelper
+* Neues Feld angelegt: cvma:CreateDateHelper
 * Neu angelegte Felder in Fotostation-Konfiguration implementiert
 
 ## v0.2.15

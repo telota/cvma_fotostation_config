@@ -1,6 +1,6 @@
 {
   "name": "cvma_fotostation_config",
-  "version": "0.2.17",
+  "version": "0.2.18",
   "description": "CVMA Fotostation configuration for writing XMP metadata into images",
   "main": "",
   "scripts": {
