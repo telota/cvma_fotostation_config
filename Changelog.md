@@ -1,6 +1,15 @@
 # CVMA Fotostation Konfiguration Changelog
 
+## v0.2.18
+
+*06.10.2016*
+
+* Neues Feld angelegt: cvma:PublishToArchive
+* Neues Feld cvma:PublishToArchive im Info-Reiter bei Fotoation als "Im Online-Bildarchiv veröffentlichen" (True/False) implementiert
+
 ## v0.2.17
+
+*05.10.2016*
 
 * Regulärer Ausdruck aus xmp:CreateDate entfernt
 

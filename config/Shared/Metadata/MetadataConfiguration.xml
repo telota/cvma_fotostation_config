@@ -210,6 +210,7 @@
   <Field valueType="Text" guiLabel="Model" maxSize="256" id="331" ns="tiff" fieldType="Single" name="Model" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Certificate" maxSize="256" id="318" ns="xmpRights" fieldType="Single" name="Certificate" isMultiline="false"/>
   <Field valueType="Boolean" guiLabel="Rechtestatus" maxSize="256" id="317" ns="xmpRights" fieldType="Single" name="Marked" isMultiline="false"/>
+  <Field valueType="Boolean" guiLabel="Im Online-Bildarchiv veröffentlichen" maxSize="256" id="601" ns="cvma" fieldType="Single" name="PublishToArchive" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Rechteinhaber" maxSize="256" id="319" ns="xmpRights" fieldType="Bag" name="Owner" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Lizenzinformation (Typ)" maxSize="256" id="315" ns="xmpRights" fieldType="AltLang" name="UsageTerms" isMultiline="true"/>
   <Field valueType="Text" guiLabel="Lizenzinformation (URL)" maxSize="256" id="316" ns="xmpRights" fieldType="Single" name="WebStatement" isMultiline="false"/>
@@ -296,4 +297,5 @@
   <Field valueType="Text" adobeName="Creator Tool" guiLabel="Originating Program" maxSize="32" id="65" ns="xmp" fieldType="Single" name="CreatorTool" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Aufnahmedatum (Helper)" maxSize="256" id="600" ns="cvma" fieldType="Single" name="CreateDateHelper" regExp="^([0-9]{4})(((\-(1[0-2]|0[1-9]))(\-(3[01]|0[1-9]|[12][0-9]))?)(T([0-1][0-9]|2[0-4]):([0-5][0-9]):([0-5][0-9])((\+([0-1][0-9]|2[0-4]):([0-5][0-9]))|(\.[0-9]+))?)?)?$" isMultiline="false"/>
  </Fields>
+
 </MetaDataSchema>
