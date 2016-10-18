@@ -1,5 +1,11 @@
 # CVMA Fotostation Konfiguration Changelog
 
+## v0.2.19
+
+*18.10.2016*
+
+* Druckvorlage für das CVMA-Metadatenschema erstellt
+
 ## v0.2.18
 
 *06.10.2016*
