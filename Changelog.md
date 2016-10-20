@@ -1,5 +1,12 @@
 # CVMA Fotostation Konfiguration Changelog
 
+## v0.2.21
+
+* CVMA-XMP Druckvorlage
+    - Ort und Scheibe nebeneinander angeordnet
+    - Mehr Platz für Personen/Körperschaften und Iconclass geschaffen
+    - Richtiges Aufnahmedatum implementiert (statt Helper)
+
 ## v0.2.20
 
 *20.10.2016*
