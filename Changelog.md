@@ -1,5 +1,14 @@
 # CVMA Fotostation Konfiguration Changelog
 
+## v0.2.20
+
+*20.10.2016*
+
+* CVMA-XMP Druckvorlage
+    - Vorlage umbenannt
+    - Thumbnail deutlich verkleinert
+    - Felder neu angeordnet
+
 ## v0.2.19
 
 *18.10.2016*
