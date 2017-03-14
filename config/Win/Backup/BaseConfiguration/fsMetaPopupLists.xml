@@ -69,4 +69,14 @@
 			<Int i="63">517</Int>
 		</Array>
 	</Group>
+	<Group name="MetaDataClipboardLists">
+		<Int name="numClipboardFields">5</Int>
+		<Array name="copyClipboardList" Version="1">
+			<Int i="0">5</Int>
+			<Int i="1">15</Int>
+			<Int i="2">20</Int>
+			<Int i="3">25</Int>
+			<Int i="4">120</Int>
+		</Array>
+	</Group>
 </FotoWare_Settings>

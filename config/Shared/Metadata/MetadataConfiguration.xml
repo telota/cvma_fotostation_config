@@ -212,7 +212,7 @@
   <Field valueType="Boolean" guiLabel="Rechtestatus" maxSize="256" id="317" ns="xmpRights" fieldType="Single" name="Marked" isMultiline="false"/>
   <Field valueType="Boolean" guiLabel="Im Online-Bildarchiv veröffentlichen" maxSize="256" id="601" ns="cvma" fieldType="Single" name="PublishToArchive" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Rechteinhaber" maxSize="256" id="319" ns="xmpRights" fieldType="Bag" name="Owner" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Lizenzinformation (Typ)" maxSize="256" id="315" ns="xmpRights" fieldType="AltLang" name="UsageTerms" isMultiline="true"/>
+  <Field valueType="Text" guiLabel="Lizenzinformation (Typ)" maxSize="256" id="315" ns="xmpRights" fieldType="AltLang" name="UsageTerms" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Lizenzinformation (URL)" maxSize="256" id="316" ns="xmpRights" fieldType="Single" name="WebStatement" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Intellectual Genre" maxSize="256" id="301" ns="Iptc4xmpCore" fieldType="Single" name="IntellectualGenre" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Location" maxSize="256" id="300" ns="Iptc4xmpCore" fieldType="Single" name="Location" isMultiline="false"/>
@@ -273,7 +273,7 @@
   <Field valueType="Text" guiLabel="Kontinent" maxSize="256" id="531" ns="Iptc4xmpExt" fieldType="Single" name="WorldRegion" structName="LocationCreated" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Normdatum_Ende" maxSize="256" id="500" ns="cvma" fieldType="Single" name="AgeDeterminationEnd" regExp="^([0-9]{4})((\-(1[0-2]|0[1-9]))(\-(3[01]|0[1-9]|[12][0-9]))?)?$" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Normdatum_Anfang" maxSize="256" id="501" ns="cvma" fieldType="Single" name="AgeDeterminationStart" regExp="^([0-9]{4})((\-(1[0-2]|0[1-9]))(\-(3[01]|0[1-9]|[12][0-9]))?)?$" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Bahn" maxSize="256" id="502" ns="cvma" fieldType="Single" name="Column" isMultiline="false"/>
+  <Field valueType="Text" guiLabel="Bahn (Kleinbuchstaben)" maxSize="256" id="502" ns="cvma" fieldType="Single" name="Column" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Himmelsrichtung" maxSize="256" id="503" ns="cvma" fieldType="Single" name="Direction" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Tafel_Figur_Abbildung" maxSize="256" id="504" ns="cvma" fieldType="Single" name="Figure" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Ehemaliger Standort" maxSize="25600" id="505" ns="cvma" fieldType="Single" name="FormerLocation" isMultiline="true"/>
@@ -289,7 +289,7 @@
   <Field valueType="Text" guiLabel="Freigabe" maxSize="256" id="515" ns="cvma" fieldType="Single" name="PublishingStatus" isMultiline="false"/>
   <Field valueType="Text" guiLabel="RelatedEntities" maxSize="256" id="520" ns="cvma" fieldType="Bag" name="RelatedEntities" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Restaurierungsgeschichte" maxSize="25600" id="516" ns="cvma" fieldType="Single" name="RestorationHistory" isMultiline="true"/>
-  <Field valueType="Text" guiLabel="Zeile" maxSize="256" id="517" ns="cvma" fieldType="Single" name="Row" isMultiline="false"/>
+  <Field valueType="Text" guiLabel="Zeile (arab. Ziffern)" maxSize="256" id="517" ns="cvma" fieldType="Single" name="Row" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Band" maxSize="256" id="518" ns="cvma" fieldType="Single" name="Volume" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Person_Koerperschaft___Identifikator" maxSize="256" id="521" ns="cvma" fieldType="Single" name="EntityIdentifier" structName="RelatedEntities" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Person_Koerperschaft___Name" maxSize="256" id="522" ns="cvma" fieldType="Single" name="EntityName" structName="RelatedEntities" isMultiline="false"/>

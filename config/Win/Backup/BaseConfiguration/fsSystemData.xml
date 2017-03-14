@@ -24,6 +24,7 @@
 		</Struct>
 		<Struct name="misc">
 			<Int name="UseClientSideDataMining">0</Int>
+			<Int name="UseSMBForExternalApplications">0</Int>
 		</Struct>
 		<Struct name="units">
 			<Int name="resUnit">2</Int>
