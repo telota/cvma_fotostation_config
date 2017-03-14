@@ -20,7 +20,7 @@
   <Namespace url="http://creativecommons.org/ns#" name="Creative Commons" alias="cc"/>
   <Namespace url="http://ns.useplus.org/ldf/xmp/1.0/" name="PLUS" alias="plus"/>
   <Namespace url="http://ns.adobe.com/DICOM/" name="DICOM" alias="DICOM"/>
-  <Namespace url="http://www.corpusvitrearum.de/cvma/1.0/" name="cvma" alias="cvma"/>
+  <Namespace url="https://lod.academy/cvma/ns/xmp/" name="cvma" alias="cvma"/>
  </Namespaces>
  <Groups>
   <Group name="IPTC Core">
