@@ -1,9 +1,13 @@
 ﻿n
 s
 w
+nw
+sw
 N
 S
 W
+NW
+SW
 Triforum nord
 Triforum süd
 Empore nord
