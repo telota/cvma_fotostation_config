@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = function(grunt) {
   
 	grunt.initConfig({
@@ -38,7 +40,19 @@ module.exports = function(grunt) {
 					{expand: true, cwd: "config/", src: ["**"], dest: "<%= pkg.name %>_<%= pkg.version %>/"}
 				]
 			}
-		}
+		},
+
+		xmlpoke: {
+    		updateVersionInConfig: {
+      			options: {
+        			xpath: '//Field[@id="200"]/@guiLabel',
+        			value: 'v<%= pkg.version %>'
+      			},
+      			files: {
+        			'config/Shared/Metadata/MetadataConfiguration.xml': 'config/Shared/Metadata/MetadataConfiguration.xml'
+      			},
+			},
+  		},
 
 	});
 
@@ -48,6 +62,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-contrib-compress');
 	grunt.loadNpmTasks('grunt-bump');
+	grunt.loadNpmTasks('grunt-xmlpoke')
 
-	grunt.registerTask("default", ["rename", "copy", "clean", "compress", "bump-only"]);
+	grunt.registerTask("default", ["rename", "copy", "xmlpoke", "clean", "compress", "bump-only"]);
 };
