@@ -166,7 +166,7 @@
   <Field valueType="Date" guiLabel="Upload Time" maxSize="256" id="362" ns="fwr" fieldType="Single" name="UploadTime" structName="UploadInfo" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Uploaded By" maxSize="256" id="360" ns="fwr" fieldType="Single" name="UploadedBy" structName="UploadInfo" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Uploaded By (Full Name)" maxSize="256" id="361" ns="fwr" fieldType="Single" name="UploadedByFullName" structName="UploadInfo" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Custom Field 1" maxSize="256" id="200" ns="fwc" fieldType="Single" name="CustomField1" isMultiline="false"/>
+  <Field valueType="Text" guiLabel="v1.0.2" maxSize="256" id="200" ns="fwc" fieldType="Single" name="CustomField1" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Custom Field 10" maxSize="256" id="209" ns="fwc" fieldType="Single" name="CustomField10" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Custom Field 11" maxSize="256" id="210" ns="fwc" fieldType="Single" name="CustomField11" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Custom Field 12" maxSize="256" id="211" ns="fwc" fieldType="Single" name="CustomField12" isMultiline="false"/>

@@ -1,6 +1,6 @@
 {
   "name": "cvma_fotostation_config",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "CVMA Fotostation configuration for writing XMP metadata into images",
   "main": "",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "opohl@telotadev.bbaw.de:/git/cvma_fotostation_config.git"
+    "url": "https://github.com/telota/cvma_fotostation_config.git"
   },
   "keywords": [
     "CVMA",
@@ -26,6 +26,7 @@
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-nodeunit": "~0.4.1",
     "grunt-contrib-uglify": "~0.5.0",
-    "grunt-rename": "^0.1.4"
+    "grunt-rename": "^0.1.4",
+    "grunt-xmlpoke": "^0.10.0"
   }
 }

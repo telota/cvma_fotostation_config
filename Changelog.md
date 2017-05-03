@@ -1,5 +1,11 @@
 # CVMA Fotostation Konfiguration Changelog
 
+## v1.0.2
+
+*03.05.2017*
+
+* CVMA-Namensraum aktualisiert
+* Konfigurationsversion im Info-Reiter anzeigen
 
 ## v1.0.0
 
