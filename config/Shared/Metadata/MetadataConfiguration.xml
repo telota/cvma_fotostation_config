@@ -166,7 +166,7 @@
   <Field valueType="Date" guiLabel="Upload Time" maxSize="256" id="362" ns="fwr" fieldType="Single" name="UploadTime" structName="UploadInfo" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Uploaded By" maxSize="256" id="360" ns="fwr" fieldType="Single" name="UploadedBy" structName="UploadInfo" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Uploaded By (Full Name)" maxSize="256" id="361" ns="fwr" fieldType="Single" name="UploadedByFullName" structName="UploadInfo" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="v1.0.2" maxSize="256" id="200" ns="fwc" fieldType="Single" name="CustomField1" isMultiline="false"/>
+  <Field valueType="Text" guiLabel="v1.0.6" maxSize="256" id="200" ns="fwc" fieldType="Single" name="CustomField1" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Custom Field 10" maxSize="256" id="209" ns="fwc" fieldType="Single" name="CustomField10" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Custom Field 11" maxSize="256" id="210" ns="fwc" fieldType="Single" name="CustomField11" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Custom Field 12" maxSize="256" id="211" ns="fwc" fieldType="Single" name="CustomField12" isMultiline="false"/>
@@ -258,7 +258,7 @@
   <Field valueType="Text" guiLabel="Typ_der_Digitalbildquelle" maxSize="256" id="530" ns="Iptc4xmpExt" fieldType="Single" name="DigitalSourceType" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Event" maxSize="256" id="370" ns="Iptc4xmpExt" fieldType="AltLang" name="Event" isMultiline="false"/>
   <Field valueType="Text" guiLabel="" maxSize="256" id="534" ns="Iptc4xmpExt" fieldType="Bag" name="LocationCreated" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Geographischer Identifikator" maxSize="256" id="536" ns="Iptc4xmpExt" fieldType="Seq" name="LocationId" isMultiline="false"/>
+  <Field valueType="Text" guiLabel="Geographischer Identifikator" maxSize="256" id="536" ns="Iptc4xmpExt" fieldType="Bag" name="LocationId" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Geographischer Identifikator (Ursprung)" maxSize="256" id="599" ns="cvma" fieldType="Single" name="originalLocationId" isMultiline="false"/>
   <Field valueType="Integer" guiLabel="Max Avail Height" maxSize="256" id="371" ns="Iptc4xmpExt" fieldType="Single" min="0" max="100000" name="MaxAvailHeight" isMultiline="false"/>
   <Field valueType="Integer" guiLabel="Max Avail Width" maxSize="256" id="372" ns="Iptc4xmpExt" fieldType="Single" min="0" max="100000" name="MaxAvailWidth" isMultiline="false"/>
@@ -296,6 +296,16 @@
   <Field valueType="Text" guiLabel="Person_Koerperschaft___Rolle" maxSize="256" id="523" ns="cvma" fieldType="Single" name="EntityRole" structName="RelatedEntities" isMultiline="false"/>
   <Field valueType="Text" adobeName="Creator Tool" guiLabel="Originating Program" maxSize="32" id="65" ns="xmp" fieldType="Single" name="CreatorTool" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Aufnahmedatum (Helper)" maxSize="256" id="600" ns="cvma" fieldType="Single" name="CreateDateHelper" regExp="^([0-9]{4})(((\-(1[0-2]|0[1-9]))(\-(3[01]|0[1-9]|[12][0-9]))?)(T([0-1][0-9]|2[0-4]):([0-5][0-9]):([0-5][0-9])((\+([0-1][0-9]|2[0-4]):([0-5][0-9]))|(\.[0-9]+))?)?)?$" isMultiline="false"/>
+
+  <!-- Restecontainer -->
+  <Field name="AllgemeinRest" valueType="Text" guiLabel="Allgemein (Rest)" maxSize="25600" id="701" ns="cvma" fieldType="Single" isMultiline="true"/>
+  <Field name="AufnahmeRest" valueType="Text" guiLabel="Aufname (Rest)" maxSize="25600" id="702" ns="cvma" fieldType="Single" isMultiline="true"/>
+  <Field name="BemerkungenRest" valueType="Text" guiLabel="Bemerkungen (Rest)" maxSize="25600" id="703" ns="cvma" fieldType="Single" isMultiline="true"/>
+  <Field name="EntityRest" valueType="Text" guiLabel="Entity (Rest)" maxSize="25600" id="704" ns="cvma" fieldType="Single" isMultiline="true"/>
+  <Field name="IconclassRest" valueType="Text" guiLabel="Iconclass (Rest)" maxSize="25600" id="705" ns="cvma" fieldType="Single" isMultiline="true"/>
+  <Field name="OrtRest" valueType="Text" guiLabel="Ort (Rest)" maxSize="25600" id="706" ns="cvma" fieldType="Single" isMultiline="true"/>
+  <Field name="ScheibeRest" valueType="Text" guiLabel="Scheibe (Rest)" maxSize="25600" id="707" ns="cvma" fieldType="Single" isMultiline="true"/>
+
  </Fields>
 
 </MetaDataSchema>

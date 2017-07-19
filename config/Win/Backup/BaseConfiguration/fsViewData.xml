@@ -32,7 +32,7 @@
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">10485760</Int>
-			<Int name="Width">391</Int>
+			<Int name="Width">350</Int>
 		</Struct>
 		<Struct name="row[2]">
 			<Int name="FieldNr">1527</Int>
@@ -53,7 +53,7 @@
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">351</Int>
+			<Int name="Width">178</Int>
 		</Struct>
 		<Struct name="row[5]">
 			<Int name="FieldNr">1525</Int>
@@ -77,11 +77,11 @@
 			<Int name="Width">72</Int>
 		</Struct>
 		<Struct name="row[8]">
-			<Int name="FieldNr">1540</Int>
+			<Int name="FieldNr">1600</Int>
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">93</Int>
+			<Int name="Width">199</Int>
 		</Struct>
 		<Struct name="row[9]">
 			<Int name="FieldNr">1503</Int>
@@ -137,119 +137,119 @@
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">20</Int>
+			<Int name="Width">80</Int>
 		</Struct>
 		<Struct name="row[17]">
 			<Int name="FieldNr">1355</Int>
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">20</Int>
+			<Int name="Width">80</Int>
 		</Struct>
 		<Struct name="row[18]">
 			<Int name="FieldNr">1356</Int>
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">20</Int>
+			<Int name="Width">80</Int>
 		</Struct>
 		<Struct name="row[19]">
 			<Int name="FieldNr">1536</Int>
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">20</Int>
+			<Int name="Width">80</Int>
 		</Struct>
 		<Struct name="row[20]">
 			<Int name="FieldNr">1590</Int>
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">20</Int>
+			<Int name="Width">179</Int>
 		</Struct>
 		<Struct name="row[21]">
 			<Int name="FieldNr">1501</Int>
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">20</Int>
+			<Int name="Width">80</Int>
 		</Struct>
 		<Struct name="row[22]">
 			<Int name="FieldNr">1500</Int>
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">20</Int>
+			<Int name="Width">80</Int>
 		</Struct>
 		<Struct name="row[23]">
 			<Int name="FieldNr">1522</Int>
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">20</Int>
+			<Int name="Width">80</Int>
 		</Struct>
 		<Struct name="row[24]">
 			<Int name="FieldNr">1080</Int>
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">20</Int>
+			<Int name="Width">80</Int>
 		</Struct>
 		<Struct name="row[25]">
 			<Int name="FieldNr">1319</Int>
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">20</Int>
+			<Int name="Width">80</Int>
 		</Struct>
 		<Struct name="row[26]">
 			<Int name="FieldNr">1526</Int>
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">20</Int>
+			<Int name="Width">80</Int>
 		</Struct>
 		<Struct name="row[27]">
 			<Int name="FieldNr">1110</Int>
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">20</Int>
+			<Int name="Width">80</Int>
 		</Struct>
 		<Struct name="row[28]">
 			<Int name="FieldNr">1315</Int>
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">20</Int>
+			<Int name="Width">80</Int>
 		</Struct>
 		<Struct name="row[29]">
 			<Int name="FieldNr">1316</Int>
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">20</Int>
+			<Int name="Width">80</Int>
 		</Struct>
 		<Struct name="row[30]">
 			<Int name="FieldNr">1515</Int>
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">20</Int>
+			<Int name="Width">80</Int>
 		</Struct>
 		<Struct name="row[31]">
 			<Int name="FieldNr">-1</Int>
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">20</Int>
+			<Int name="Width">80</Int>
 		</Struct>
 		<Struct name="row[32]">
 			<Int name="FieldNr">-1</Int>
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
-			<Int name="Width">20</Int>
+			<Int name="Width">80</Int>
 		</Struct>
 	</Group>
 	<Group name="ClassifyItem">
