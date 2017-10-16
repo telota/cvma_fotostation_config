@@ -119,7 +119,7 @@
   </Group>
  </Groups>
  <Fields>
-  <Field valueType="Text" guiLabel="v1.0.6" maxSize="256" id="200" ns="fwc" fieldType="Single" name="configVersionNumber" isMultiline="false"/>
+  <Field valueType="Text" guiLabel="v1.0.7" maxSize="256" id="200" ns="fwc" fieldType="Single" name="configVersionNumber" isMultiline="false"/>
   <Field valueType="Date" guiLabel="Original date" maxSize="32" id="350" ns="exif" fieldType="Single" name="DateTimeOriginal" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Geographische Breite" maxSize="256" id="355" ns="exif" fieldType="Single" name="GPSLatitude" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Geographische Laenge" maxSize="256" id="356" ns="exif" fieldType="Single" name="GPSLongitude" isMultiline="false"/>
