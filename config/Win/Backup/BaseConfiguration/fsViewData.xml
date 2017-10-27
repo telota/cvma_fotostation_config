@@ -238,14 +238,7 @@
 			<Int name="Width">80</Int>
 		</Struct>
 		<Struct name="row[31]">
-			<Int name="FieldNr">-1</Int>
-			<Int name="IsBold">0</Int>
-			<Int name="UserChange">1</Int>
-			<Int name="Color">0</Int>
-			<Int name="Width">80</Int>
-		</Struct>
-		<Struct name="row[32]">
-			<Int name="FieldNr">-1</Int>
+			<Int name="FieldNr">1505</Int>
 			<Int name="IsBold">0</Int>
 			<Int name="UserChange">1</Int>
 			<Int name="Color">0</Int>
@@ -254,7 +247,7 @@
 	</Group>
 	<Group name="ClassifyItem">
 		<Struct name="settings">
-			<Int name="numItems">32</Int>
+			<Int name="numItems">31</Int>
 			<StringList name="StringList">
 				<String lParam="-1">unklassifiziert</String>
 				<String lParam="1">abgelehnt</String>

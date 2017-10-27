@@ -130,3 +130,20 @@ test('the Gebaeudeteil field contains no suggestions', (t) => {
   const quickList = readQuickList(512);
   t.is(0, quickList.length);
 });
+
+// see #8969
+test('the detail list view contains all necessary fields', (t) => {
+  const wantedFields = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'fields-in-detail-list-view.json'))).fields;
+  
+  const parser = new DOMParser();
+  const viewDescription = parser.parseFromString(fs.readFileSync(path.resolve(__dirname, '../config/Win/Backup/BaseConfiguration/fsViewData.xml')).toString());
+
+  const detailListGroup = viewDescription.getElementsByTagName('Group')[2];
+  const fieldList = detailListGroup.getElementsByTagName('Struct');
+
+  // Skip first entry since it is about fonts, not fields
+  for (let counter = 1; counter < fieldList.length; counter += 1) {
+    const currentField = parseInt(fieldList[counter].getElementsByTagName('Int')[0].textContent, 10);
+    t.true(wantedFields.includes(currentField));
+  }
+});
