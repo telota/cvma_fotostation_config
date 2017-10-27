@@ -6,6 +6,10 @@ const { DOMParser } = require('xmldom');
 
 const has = Object.prototype.hasOwnProperty;
 
+function readQuickList(fieldId) {
+  return fs.readFileSync(path.resolve('__dirname', `../config/Win/Backup/Metadata/Quick Lists/ql_${fieldId}.txt`)).toString().trim();
+}
+
 test.beforeEach((t) => {
   const filePath = path.resolve(__dirname, '../config/Shared/Metadata/MetadataConfiguration.xml');
   const configFile = fs.readFileSync(filePath).toString();
@@ -57,6 +61,72 @@ test('it does not contain unnecessary fields in the search bar', (t) => {
 
 // see #8966
 test('the iconclass notation quick list is empty', (t) => {
-  const quickList = fs.readFileSync(path.resolve('__dirname', '../config/Win/Backup/Metadata/Quick Lists/ql_507.txt')).toString();
-  t.true(quickList.length < 1);
+  const quickList = readQuickList(507);
+  t.is(0, quickList.length);
+});
+
+// #see #8967
+test('the Rechteinhaber field only contains the correct suggestions', (t) => {
+  const quickList = readQuickList(319);
+  t.is('CVMA Deutschland/Potsdam', quickList);
+});
+
+// #see #8967
+test('the Herausgeber field only contains the correct suggestions', (t) => {
+  const quickList = readQuickList(526);
+  t.is('CVMA Potsdam - http://www.corpusvitrearum.de/', quickList);
+});
+
+// see #8967
+test('the Rechtenennung field only contains the correct suggestions', (t) => {
+  const quickList = readQuickList(110);
+  t.is('CVMA Deutschland Potsdam/Berlin-Brandenburgische Akademie der Wissenschaften, Foto: Holger Kupfer', quickList);
+});
+
+// see #8967
+test('the Lizenzinformation (Typ) field only contains the correct suggestions', (t) => {
+  const quickList = readQuickList(315);
+  t.is('CC BY-NC 4.0', quickList);
+});
+
+// see #8967
+test('the Lizenzinformation (URL) field only contains the correct suggestions', (t) => {
+  const quickList = readQuickList(316);
+  t.is('http://creativecommons.org/licenses/by-nc/4.0/', quickList);
+});
+
+// see #8967
+test('the Kontinent field contains no suggestions', (t) => {
+  const quickList = readQuickList(531);
+  t.is(0, quickList.length);
+});
+
+// see #8967
+test('the Land field contains no suggestions', (t) => {
+  const quickList = readQuickList(532);
+  t.is(0, quickList.length);
+});
+
+// see #8967
+test('the Bundesland_Region field contains no suggestions', (t) => {
+  const quickList = readQuickList(533);
+  t.is(0, quickList.length);
+});
+
+// see #8967
+test('the Stadt field contains no suggestions', (t) => {
+  const quickList = readQuickList(569);
+  t.is(0, quickList.length);
+});
+
+// see #8967
+test('the Gebaeude field contains no suggestions', (t) => {
+  const quickList = readQuickList(535);
+  t.is(0, quickList.length);
+});
+
+// see #8967
+test('the Gebaeudeteil field contains no suggestions', (t) => {
+  const quickList = readQuickList(512);
+  t.is(0, quickList.length);
 });

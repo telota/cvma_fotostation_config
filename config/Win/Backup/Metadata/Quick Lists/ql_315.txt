@@ -1,6 +1,1 @@
 ﻿CC BY-NC 4.0
-CC-BY
-<<<<<<< HEAD
-=======
-CC-BY-NC 4.0
->>>>>>> issue-8965
