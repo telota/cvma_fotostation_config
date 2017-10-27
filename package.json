@@ -1,10 +1,15 @@
 {
   "name": "cvma_fotostation_config",
+<<<<<<< HEAD
   "version": "1.0.3",
+=======
+  "version": "1.0.8",
+>>>>>>> issue-8965
   "description": "CVMA Fotostation configuration for writing XMP metadata into images",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava",
+    "grunt": "node_modules/.bin/grunt"
   },
   "repository": {
     "type": "git",
@@ -18,8 +23,10 @@
   "author": "Oliver Pohl (TELOTA, Berlin-Brandenburgische Akademie der Wissenschaften, opohl@bbaw.de)",
   "license": "CC-BY-4.0",
   "devDependencies": {
+    "ava": "^0.22.0",
     "grunt": "~0.4.5",
     "grunt-bump": "^0.8.0",
+    "grunt-cli": "^1.2.0",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-compress": "^1.3.0",
     "grunt-contrib-copy": "^1.0.0",
@@ -28,5 +35,13 @@
     "grunt-contrib-uglify": "~0.5.0",
     "grunt-rename": "^0.1.4",
     "grunt-xmlpoke": "^0.10.0"
+<<<<<<< HEAD
+=======
+  },
+  "ava" : {
+    "files" : [
+      "tests/*.js"
+    ]
+>>>>>>> issue-8965
   }
 }

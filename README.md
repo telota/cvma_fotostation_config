@@ -17,7 +17,7 @@ $ npm install
 * Aktualisierte Fotostation-Konfiguration in diesem Projektordner speichern.
 * Der folgende Befehl verschiebt die Änderungen in den *conf*-Ordner, verpackt diesen als ZIP-Archiv im *dist*-Ordner und erhöht anschließend die Versionsnummer:
 ```
-$ grunt
+$ npm run grunt
 ```
 * Mit **git** können die Änderungen dann hinzugefügt, committed und gepusht werden. Derzeit wird der *develop*-Branch genutzt.
 

@@ -119,6 +119,7 @@
   </Group>
  </Groups>
  <Fields>
+<<<<<<< HEAD
   <Field valueType="Text" guiLabel="Patient Name" maxSize="256" id="400" ns="DICOM" fieldType="Single" name="PatientName" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Patient ID" maxSize="256" id="401" ns="DICOM" fieldType="Single" name="PatientID" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Patient Sex" maxSize="16" id="402" ns="DICOM" fieldType="Single" name="PatientSex" regExp="male|female" isMultiline="false"/>
@@ -199,72 +200,36 @@
   <Field valueType="Text" guiLabel="Release Time" maxSize="16" id="35" ns="fwl" fieldType="Single" name="ReleaseTime" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Serial Number" maxSize="256" id="357" ns="aux" fieldType="Single" name="SerialNumber" isMultiline="false"/>
   <Field valueType="Date" guiLabel="Digitized Date" maxSize="32" id="351" ns="exif" fieldType="Single" name="DateTimeDigitized" isMultiline="false"/>
+=======
+  <Field valueType="Text" guiLabel="v1.0.7" maxSize="256" id="200" ns="fwc" fieldType="Single" name="configVersionNumber" isMultiline="false"/>
+>>>>>>> issue-8965
   <Field valueType="Date" guiLabel="Original date" maxSize="32" id="350" ns="exif" fieldType="Single" name="DateTimeOriginal" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Geographische Breite" maxSize="256" id="355" ns="exif" fieldType="Single" name="GPSLatitude" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Geographische Laenge" maxSize="256" id="356" ns="exif" fieldType="Single" name="GPSLongitude" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="GPS Processing Method" maxSize="256" id="358" ns="exif" fieldType="Single" name="GPSProcessingMethod" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="ISO Speed Ratings" maxSize="256" id="352" ns="exif" fieldType="Bag" name="ISOSpeedRatings" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Image Unique ID" maxSize="256" id="354" ns="exif" fieldType="Single" name="ImageUniqueID" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="User Comment" maxSize="256" id="353" ns="exif" fieldType="AltLang" name="UserComment" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Make" maxSize="256" id="330" ns="tiff" fieldType="Single" name="Make" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Model" maxSize="256" id="331" ns="tiff" fieldType="Single" name="Model" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Certificate" maxSize="256" id="318" ns="xmpRights" fieldType="Single" name="Certificate" isMultiline="false"/>
   <Field valueType="Boolean" guiLabel="Rechtestatus" maxSize="256" id="317" ns="xmpRights" fieldType="Single" name="Marked" isMultiline="false"/>
   <Field valueType="Boolean" guiLabel="Im Online-Bildarchiv veröffentlichen" maxSize="256" id="601" ns="cvma" fieldType="Single" name="PublishToArchive" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Rechteinhaber" maxSize="256" id="319" ns="xmpRights" fieldType="Bag" name="Owner" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Lizenzinformation (Typ)" maxSize="256" id="315" ns="xmpRights" fieldType="AltLang" name="UsageTerms" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Lizenzinformation (URL)" maxSize="256" id="316" ns="xmpRights" fieldType="Single" name="WebStatement" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Intellectual Genre" maxSize="256" id="301" ns="Iptc4xmpCore" fieldType="Single" name="IntellectualGenre" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Location" maxSize="256" id="300" ns="Iptc4xmpCore" fieldType="Single" name="Location" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Scene" maxSize="256" id="302" ns="Iptc4xmpCore" fieldType="Bag" name="Scene" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Subject Code" maxSize="256" id="303" ns="Iptc4xmpCore" fieldType="Bag" name="SubjectCode" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="(Contact Info:) City" maxSize="256" id="304" ns="Iptc4xmpCore" fieldType="Single" name="CiAdrCity" structName="CreatorContactInfo" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="(Contact info:) Country" maxSize="256" id="311" ns="Iptc4xmpCore" fieldType="Single" name="CiAdrCtry" structName="CreatorContactInfo" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="(Contact Info:) Address" maxSize="256" id="305" ns="Iptc4xmpCore" fieldType="Single" name="CiAdrExtadr" structName="CreatorContactInfo" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="(Contact Info:) Postal Code" maxSize="256" id="306" ns="Iptc4xmpCore" fieldType="Single" name="CiAdrPcode" structName="CreatorContactInfo" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="(Contact Info:) State/Province" maxSize="256" id="307" ns="Iptc4xmpCore" fieldType="Single" name="CiAdrRegion" structName="CreatorContactInfo" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="(Contact Info:) Email(s)" maxSize="256" id="308" ns="Iptc4xmpCore" fieldType="Single" name="CiEmailWork" structName="CreatorContactInfo" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="(Contact Info:) Phone(s)" maxSize="256" id="309" ns="Iptc4xmpCore" fieldType="Single" name="CiTelWork" structName="CreatorContactInfo" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="(Contact Info:) Web URL(s)" maxSize="256" id="310" ns="Iptc4xmpCore" fieldType="Single" name="CiUrlWork" structName="CreatorContactInfo" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Category" maxSize="3" id="15" ns="photoshop" fieldType="Single" name="Category" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="City" maxSize="32" id="90" ns="photoshop" fieldType="Single" name="City" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Country" maxSize="64" id="101" ns="photoshop" fieldType="Single" name="Country" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Headline" maxSize="256" id="105" ns="photoshop" fieldType="Single" name="Headline" isMultiline="false"/>
   <Field valueType="Text" guiLabel="ICC Profile" maxSize="256" id="325" ns="photoshop" fieldType="Single" name="ICCProfile" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Source" maxSize="32" id="115" ns="photoshop" fieldType="Single" name="Source" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Supplemental Category" maxSize="32" id="20" ns="photoshop" fieldType="Bag" name="SupplementalCategories" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Inventarnummer" maxSize="256" id="527" ns="dc" fieldType="Single" name="identifier" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Herausgeber" maxSize="256" id="526" ns="dc" fieldType="Bag" name="publisher" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Name des Fensters" maxSize="256" id="525" ns="dc" fieldType="Bag" name="relation" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Keywords" maxSize="64" id="25" ns="dc" fieldType="Bag" name="subject" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Gattung" maxSize="256" id="524" ns="dc" fieldType="Bag" name="type" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Titel" maxSize="25600" id="5" ns="dc" coreName="Title" fieldType="AltLang" name="title" isMultiline="false"/>
-  <Field valueType="Text" adobeName="Urgency" guiLabel="Status" maxSize="1" id="10" ns="photoshop" coreName="Urgency" fieldType="Single" name="Urgency" isMultiline="false"/>
   <Field valueType="Text" adobeName="Instructions" guiLabel="Hinweise (intern)" maxSize="25600" id="40" ns="photoshop" coreName="Instructions" fieldType="Single" name="Instructions" isMultiline="true"/>
-  <Field valueType="Date" adobeName="Date Created" guiLabel="Created Date" maxSize="16" id="55" ns="photoshop" coreName="Date Created" fieldType="Single" name="DateCreated" isMultiline="false"/>
   <Field valueType="Text" adobeName="Author" guiLabel="Autor" maxSize="64" id="80" ns="dc" coreName="Creator" fieldType="Seq" name="creator" isMultiline="false"/>
-  <Field valueType="Text" adobeName="Authors Position" guiLabel="Byline Title" maxSize="64" id="85" ns="photoshop" coreName="Creator's Jobtitle" fieldType="Single" name="AuthorsPosition" isMultiline="false"/>
-  <Field valueType="Text" adobeName="State/Province" guiLabel="Province State" maxSize="32" id="95" ns="photoshop" coreName="Province/State" fieldType="Single" name="State" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Country Code" maxSize="3" id="100" ns="Iptc4xmpCore" coreName="ISO Country Code" fieldType="Single" name="CountryCode" isMultiline="false"/>
-  <Field valueType="Text" adobeName="Transmission Reference" guiLabel="Original Transmission Reference" maxSize="32" id="103" ns="photoshop" coreName="Job Identifier" fieldType="Single" name="TransmissionReference" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Rechtenennung" maxSize="2560" id="110" ns="photoshop" coreName="Provider" fieldType="Single" name="Credit" isMultiline="true"/>
-  <Field valueType="Text" adobeName="Copyright Notice" guiLabel="Copyright String" maxSize="256" id="116" ns="dc" coreName="Copyright Notice" fieldType="AltLang" name="rights" isMultiline="false"/>
   <Field valueType="Text" adobeName="Description" guiLabel="Description" maxSize="16000" id="120" ns="dc" coreName="Caption/Description" fieldType="AltLang" name="description" isMultiline="true"/>
-  <Field valueType="Text" adobeName="Description Writer" guiLabel="Caption Writer" maxSize="32" id="122" ns="photoshop" coreName="Caption/Description writer" fieldType="Single" name="CaptionWriter" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Aufnahmedatum (Original)" maxSize="256" id="540" ns="xmp" fieldType="Single" name="CreateDate" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Rating" maxSize="1" id="320" ns="xmp" fieldType="Single" name="Rating" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Additional Model Information" maxSize="256" id="365" ns="Iptc4xmpExt" fieldType="Single" name="AddlModelInfo" isMultiline="false"/>
   <Field valueType="Text" guiLabel="" maxSize="256" id="537" ns="Iptc4xmpExt" fieldType="Bag" name="ArtworkOrObject" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Typ_der_Digitalbildquelle" maxSize="256" id="530" ns="Iptc4xmpExt" fieldType="Single" name="DigitalSourceType" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Event" maxSize="256" id="370" ns="Iptc4xmpExt" fieldType="AltLang" name="Event" isMultiline="false"/>
   <Field valueType="Text" guiLabel="" maxSize="256" id="534" ns="Iptc4xmpExt" fieldType="Bag" name="LocationCreated" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Geographischer Identifikator" maxSize="256" id="536" ns="Iptc4xmpExt" fieldType="Seq" name="LocationId" isMultiline="false"/>
+  <Field valueType="Text" guiLabel="Geographischer Identifikator" maxSize="256" id="536" ns="Iptc4xmpExt" fieldType="Bag" name="LocationId" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Geographischer Identifikator (Ursprung)" maxSize="256" id="599" ns="cvma" fieldType="Single" name="originalLocationId" isMultiline="false"/>
-  <Field valueType="Integer" guiLabel="Max Avail Height" maxSize="256" id="371" ns="Iptc4xmpExt" fieldType="Single" min="0" max="100000" name="MaxAvailHeight" isMultiline="false"/>
-  <Field valueType="Integer" guiLabel="Max Avail Width" maxSize="256" id="372" ns="Iptc4xmpExt" fieldType="Single" min="0" max="100000" name="MaxAvailWidth" isMultiline="false"/>
-  <Field valueType="Integer" guiLabel="Model Age" maxSize="256" id="366" ns="Iptc4xmpExt" fieldType="Bag" min="0" max="120" name="ModelAge" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Name of Organisation Featured in the Image" maxSize="256" id="367" ns="Iptc4xmpExt" fieldType="Bag" name="OrganisationInImageName" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Person Shown in the Image" maxSize="256" id="368" ns="Iptc4xmpExt" fieldType="Bag" name="PersonInImage" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Entstehungsdatum" maxSize="256" id="590" ns="Iptc4xmpExt" fieldType="Single" name="AOCircaDateCreated" structName="ArtworkOrObject" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Stadt" maxSize="256" id="569" ns="Iptc4xmpExt" fieldType="Single" name="City" structName="LocationCreated" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Land" maxSize="256" id="532" ns="Iptc4xmpExt" fieldType="Single" name="CountryName" structName="LocationCreated" isMultiline="false"/>
@@ -296,6 +261,16 @@
   <Field valueType="Text" guiLabel="Person_Koerperschaft___Rolle" maxSize="256" id="523" ns="cvma" fieldType="Single" name="EntityRole" structName="RelatedEntities" isMultiline="false"/>
   <Field valueType="Text" adobeName="Creator Tool" guiLabel="Originating Program" maxSize="32" id="65" ns="xmp" fieldType="Single" name="CreatorTool" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Aufnahmedatum (Helper)" maxSize="256" id="600" ns="cvma" fieldType="Single" name="CreateDateHelper" regExp="^([0-9]{4})(((\-(1[0-2]|0[1-9]))(\-(3[01]|0[1-9]|[12][0-9]))?)(T([0-1][0-9]|2[0-4]):([0-5][0-9]):([0-5][0-9])((\+([0-1][0-9]|2[0-4]):([0-5][0-9]))|(\.[0-9]+))?)?)?$" isMultiline="false"/>
+
+  <!-- Restecontainer -->
+  <Field name="AllgemeinRest" valueType="Text" guiLabel="Allgemein (Rest)" maxSize="25600" id="701" ns="cvma" fieldType="Single" isMultiline="true"/>
+  <Field name="AufnahmeRest" valueType="Text" guiLabel="Aufname (Rest)" maxSize="25600" id="702" ns="cvma" fieldType="Single" isMultiline="true"/>
+  <Field name="BemerkungenRest" valueType="Text" guiLabel="Bemerkungen (Rest)" maxSize="25600" id="703" ns="cvma" fieldType="Single" isMultiline="true"/>
+  <Field name="EntityRest" valueType="Text" guiLabel="Entity (Rest)" maxSize="25600" id="704" ns="cvma" fieldType="Single" isMultiline="true"/>
+  <Field name="IconclassRest" valueType="Text" guiLabel="Iconclass (Rest)" maxSize="25600" id="705" ns="cvma" fieldType="Single" isMultiline="true"/>
+  <Field name="OrtRest" valueType="Text" guiLabel="Ort (Rest)" maxSize="25600" id="706" ns="cvma" fieldType="Single" isMultiline="true"/>
+  <Field name="ScheibeRest" valueType="Text" guiLabel="Scheibe (Rest)" maxSize="25600" id="707" ns="cvma" fieldType="Single" isMultiline="true"/>
+
  </Fields>
 
 </MetaDataSchema>
