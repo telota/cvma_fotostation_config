@@ -1,10 +1,6 @@
 {
   "name": "cvma_fotostation_config",
-<<<<<<< HEAD
-  "version": "1.0.3",
-=======
   "version": "1.0.8",
->>>>>>> issue-8965
   "description": "CVMA Fotostation configuration for writing XMP metadata into images",
   "main": "",
   "scripts": {
@@ -24,6 +20,9 @@
   "license": "CC-BY-4.0",
   "devDependencies": {
     "ava": "^0.22.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0",
     "grunt": "~0.4.5",
     "grunt-bump": "^0.8.0",
     "grunt-cli": "^1.2.0",
@@ -35,13 +34,13 @@
     "grunt-contrib-uglify": "~0.5.0",
     "grunt-rename": "^0.1.4",
     "grunt-xmlpoke": "^0.10.0"
-<<<<<<< HEAD
-=======
   },
-  "ava" : {
-    "files" : [
+  "ava": {
+    "files": [
       "tests/*.js"
     ]
->>>>>>> issue-8965
+  },
+  "dependencies": {
+    "xmldom": "^0.1.27"
   }
 }
