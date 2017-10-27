@@ -1084,8 +1084,30 @@
 					<Int name="x">150</Int>
 					<Int name="y">150</Int>
 				</Struct>
-				<Int name="numItems">2</Int>
+				<Int name="numItems">3</Int>
 				<Struct name="item[0]">
+					<Int name="id">601</Int>
+					<Struct name="pos">
+						<Int name="x">510</Int>
+						<Int name="y">33</Int>
+					</Struct>
+					<Struct name="size">
+						<Int name="x">180</Int>
+						<Int name="y">18</Int>
+					</Struct>
+					<Int name="showLabel">1</Int>
+					<Int name="hasQuickList">1</Int>
+					<Int name="editQuickList">1</Int>
+					<Int name="isRequired">0</Int>
+					<Int name="isWritable">1</Int>
+					<Int name="isDBKey">0</Int>
+					<Int name="dbConnectionId">0</Int>
+					<Int name="addQuickList">0</Int>
+					<Int name="sortQuickList">1</Int>
+					<String name="label"></String>
+					<Int name="sortListBox">1</Int>
+				</Struct>
+				<Struct name="item[1]">
 					<Int name="id">515</Int>
 					<Struct name="pos">
 						<Int name="x">20</Int>
@@ -1107,7 +1129,7 @@
 					<String name="label"></String>
 					<Int name="sortListBox">1</Int>
 				</Struct>
-				<Struct name="item[1]">
+				<Struct name="item[2]">
 					<Int name="id">40</Int>
 					<Struct name="pos">
 						<Int name="x">20</Int>
@@ -1141,7 +1163,7 @@
 					<Int name="x">150</Int>
 					<Int name="y">150</Int>
 				</Struct>
-				<Int name="numItems">11</Int>
+				<Int name="numItems">10</Int>
 				<Struct name="item[0]">
 					<Int name="id">200</Int>
 					<Struct name="pos">
@@ -1165,28 +1187,6 @@
 					<Int name="sortListBox">1</Int>
 				</Struct>
 				<Struct name="item[1]">
-					<Int name="id">601</Int>
-					<Struct name="pos">
-						<Int name="x">310</Int>
-						<Int name="y">423</Int>
-					</Struct>
-					<Struct name="size">
-						<Int name="x">221</Int>
-						<Int name="y">18</Int>
-					</Struct>
-					<Int name="showLabel">1</Int>
-					<Int name="hasQuickList">1</Int>
-					<Int name="editQuickList">1</Int>
-					<Int name="isRequired">0</Int>
-					<Int name="isWritable">1</Int>
-					<Int name="isDBKey">0</Int>
-					<Int name="dbConnectionId">0</Int>
-					<Int name="addQuickList">0</Int>
-					<Int name="sortQuickList">1</Int>
-					<String name="label"></String>
-					<Int name="sortListBox">1</Int>
-				</Struct>
-				<Struct name="item[2]">
 					<Int name="id">540</Int>
 					<Struct name="pos">
 						<Int name="x">20</Int>
@@ -1208,7 +1208,7 @@
 					<String name="label"></String>
 					<Int name="sortListBox">1</Int>
 				</Struct>
-				<Struct name="item[3]">
+				<Struct name="item[2]">
 					<Int name="id">331</Int>
 					<Struct name="pos">
 						<Int name="x">20</Int>
@@ -1230,7 +1230,7 @@
 					<String name="label"></String>
 					<Int name="sortListBox">1</Int>
 				</Struct>
-				<Struct name="item[4]">
+				<Struct name="item[3]">
 					<Int name="id">330</Int>
 					<Struct name="pos">
 						<Int name="x">20</Int>
@@ -1252,7 +1252,7 @@
 					<String name="label"></String>
 					<Int name="sortListBox">1</Int>
 				</Struct>
-				<Struct name="item[5]">
+				<Struct name="item[4]">
 					<Int name="id">65</Int>
 					<Struct name="pos">
 						<Int name="x">310</Int>
@@ -1274,7 +1274,7 @@
 					<String name="label"></String>
 					<Int name="sortListBox">1</Int>
 				</Struct>
-				<Struct name="item[6]">
+				<Struct name="item[5]">
 					<Int name="id">350</Int>
 					<Struct name="pos">
 						<Int name="x">20</Int>
@@ -1296,7 +1296,7 @@
 					<String name="label"></String>
 					<Int name="sortListBox">1</Int>
 				</Struct>
-				<Struct name="item[7]">
+				<Struct name="item[6]">
 					<Int name="id">325</Int>
 					<Struct name="pos">
 						<Int name="x">310</Int>
@@ -1318,7 +1318,7 @@
 					<String name="label"></String>
 					<Int name="sortListBox">1</Int>
 				</Struct>
-				<Struct name="item[8]">
+				<Struct name="item[7]">
 					<Int name="id">357</Int>
 					<Struct name="pos">
 						<Int name="x">20</Int>
@@ -1340,7 +1340,7 @@
 					<String name="label"></String>
 					<Int name="sortListBox">1</Int>
 				</Struct>
-				<Struct name="item[9]">
+				<Struct name="item[8]">
 					<Int name="id">25</Int>
 					<Struct name="pos">
 						<Int name="x">20</Int>
@@ -1362,7 +1362,7 @@
 					<String name="label"></String>
 					<Int name="sortListBox">1</Int>
 				</Struct>
-				<Struct name="item[10]">
+				<Struct name="item[9]">
 					<Int name="id">120</Int>
 					<Struct name="pos">
 						<Int name="x">310</Int>
