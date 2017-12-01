@@ -5,6 +5,12 @@
 *01.12.2017*
 
 * Unnötige Funktionen wie "Beispielaktionen" entfernt
+* Text- und Feldgrößen vergrößert
+* Neue Hilfefelder im Info-Reiter hinzugefügt
+  - Abgleich Archiv
+  - Status Bildbearbeitung, Neuscan, etc.
+  - Migration abgeschlossen
+  
 
 ## v1.0.8
 
