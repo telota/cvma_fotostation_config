@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FotoWare_Settings>
 	<Group name="MetaDataLists">
-		<Int name="numFields">64</Int>
+		<Int name="numFields">87</Int>
 		<Array name="fieldList" Version="1">
 			<Int i="0">514</Int>
 			<Int i="1">540</Int>
@@ -53,6 +53,29 @@
 			<Int i="60">5</Int>
 			<Int i="61">530</Int>
 			<Int i="63">517</Int>
+			<Int i="64">65</Int>
+			<Int i="65">200</Int>
+			<Int i="66">330</Int>
+			<Int i="67">331</Int>
+			<Int i="68">357</Int>
+			<Int i="69">509</Int>
+			<Int i="70">520</Int>
+			<Int i="71">534</Int>
+			<Int i="72">537</Int>
+			<Int i="73">599</Int>
+			<Int i="74">514</Int>
+			<Int i="75">600</Int>
+			<Int i="76">601</Int>
+			<Int i="77">602</Int>
+			<Int i="78">603</Int>
+			<Int i="79">604</Int>
+			<Int i="80">701</Int>
+			<Int i="81">702</Int>
+			<Int i="82">703</Int>
+			<Int i="83">704</Int>
+			<Int i="84">705</Int>
+			<Int i="85">706</Int>
+			<Int i="86">707</Int>
 		</Array>
 	</Group>
 	<Group name="MetaDataClipboardLists">

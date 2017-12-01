@@ -147,3 +147,25 @@ test('the detail list view contains all necessary fields', (t) => {
     t.true(wantedFields.includes(currentField));
   }
 });
+
+// see #9065 
+test('the search can access all allowed fields', (t) => {
+  const allFields = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'metadata-fields-in-use.json'))).fields;
+
+  const parser = new DOMParser();
+  const metadataList = parser.parseFromString(fs.readFileSync(path.resolve('__dirname', '../config/Win/Backup/BaseConfiguration/fsMetaPopupLists.xml')).toString());
+
+  const fieldList = metadataList.getElementsByTagName('Array')[0];
+  const fields = fieldList.getElementsByTagName('Int');
+  const fieldsInSearch = [];
+
+  for (let counter = 0; counter < fields.length; counter += 1) {
+    const fieldId = fields[counter].textContent;
+    fieldsInSearch.push(parseInt(fieldId, 10));
+  }
+
+  allFields.forEach((field) => {
+    t.true(fieldsInSearch.includes(field));
+  });
+
+});
