@@ -1,5 +1,21 @@
 # CVMA Fotostation Konfiguration Changelog
 
+## v.1.0.9
+
+*01.12.2017*
+
+* Unnötige Funktionen wie "Beispielaktionen" entfernt
+
+## v1.0.8
+
+*28.10.2017*
+
+* die Vorschlagslisten für Ortsangaben, Rechte und Iconclass wurden angepasst bzw. geleert
+* "im Bildarchiv freigeben" wurde vom Info-Reiter in den Rechte-Reiter verschoben
+* die Auswahl der Felder in der Suche wurde auf den CVMA-Standard angepasst. Überflüssige Felder wurden entfernt (z.B. Name des Patienten)
+* die Detaillistenansicht wurde leicht angepasst
+
+
 ## v1.0.2
 
 *03.05.2017*

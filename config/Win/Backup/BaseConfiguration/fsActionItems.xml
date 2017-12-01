@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FotoWare_Settings>
 	<Group name="ActionItem">
-		<Int name="numItems">4</Int>
+		<Int name="numItems">0</Int>
+		<!-- 
 		<Struct name="actionItem[0]">
 			<String name="name">Kopieren nach &quot;Meine Bilder&quot;</String>
 			<String name="groupName">Kopier-Aktionen</String>
@@ -202,5 +203,6 @@
 				</Struct>
 			</Struct>
 		</Struct>
+		-->
 	</Group>
 </FotoWare_Settings>
