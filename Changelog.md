@@ -7,6 +7,7 @@
 * FS-Konfigurations-Versionsaktualisierung im Info-Reiter verbessert
 * Auswahlliste für das Feld 'Aufnahmeart' angepasst
 * Auswahlliste für das Feld 'Name des Fensters' angepasst
+* Auswahlliste für das Feld 'Gattung' angepasst
 
 ## v.1.0.9
 
