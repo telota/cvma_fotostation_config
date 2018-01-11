@@ -1,11 +1,12 @@
 # CVMA Fotostation Konfiguration Changelog
 
-## v.1.0.11
+## v.1.0.10
 
 *12.01.2018*
 
 * FS-Konfigurations-Versionsaktualisierung im Info-Reiter verbessert
-* Feld 'Aufnahmeart' angepasst
+* Auswahlliste für das Feld 'Aufnahmeart' angepasst
+* Auswahlliste für das Feld 'Name des Fensters' angepasst
 
 ## v.1.0.9
 

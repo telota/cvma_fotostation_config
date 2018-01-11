@@ -174,3 +174,10 @@ test('the aufnahmeart field contains all 12 values', (t) => {
   const quickList = readQuickList(514);
   t.is(12, quickList.split('\n').length);
 });
+
+// see #9344
+test('the name des fensters field does not contain a tester value', (t) => {
+  const quickList = readQuickList(525);
+  t.false(quickList.includes('Tester'));
+  t.true(quickList.includes('Christusfenster'));
+});

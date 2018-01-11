@@ -1,4 +1,2 @@
-﻿Wurzel-Jesse-Fenster
-Christusfenster
-Tester
- 
+﻿Christusfenster
+Wurzel-Jesse-Fenster
