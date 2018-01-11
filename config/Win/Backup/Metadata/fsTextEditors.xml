@@ -1231,7 +1231,7 @@
 					<Int name="sortListBox">1</Int>
 				</Struct>
 				<Struct name="item[3]">
-					<Int name="id">200</Int>
+					<Int name="id">800</Int>
 					<Struct name="pos">
 						<Int name="x">650</Int>
 						<Int name="y">502</Int>

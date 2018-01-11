@@ -1,6 +1,9 @@
 ﻿Durchlicht Vorderseite Gesamtaufnahme
 Durchlicht Vorderseite Einzelaufnahme
 Durchlicht Vorderseite Detailaufnahme
+Durchlicht Rückseite Gesamtaufnahme
+Durchlicht Rückseite Einzelaufnahme
+Durchlicht Rückseite Detailaufnahme
 Auflicht Vorderseite Gesamtaufnahme
 Auflicht Vorderseite Einzelaufnahme
 Auflicht Vorderseite Detailaufnahme

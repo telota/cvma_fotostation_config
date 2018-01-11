@@ -167,5 +167,10 @@ test('the search can access all allowed fields', (t) => {
   allFields.forEach((field) => {
     t.true(fieldsInSearch.includes(field));
   });
+});
 
+// see #9343
+test('the aufnahmeart field contains all 12 values', (t) => {
+  const quickList = readQuickList(514);
+  t.is(12, quickList.split('\n').length);
 });

@@ -1,5 +1,12 @@
 # CVMA Fotostation Konfiguration Changelog
 
+## v.1.0.11
+
+*12.01.2018*
+
+* FS-Konfigurations-Versionsaktualisierung im Info-Reiter verbessert
+* Feld 'Aufnahmeart' angepasst
+
 ## v.1.0.9
 
 *01.12.2017*
@@ -10,6 +17,9 @@
   - Abgleich Archiv
   - Status Bildbearbeitung, Neuscan, etc.
   - Migration abgeschlossen
+* Alle Metadatenfelder durchsuchbar gemacht
+* Alle Metadatenfelder für die Auswahlliste verüfgbar gemacht
+* Thumbnail Beschreibungsfester mit Metadaten befüllt
   
 
 ## v1.0.8
