@@ -3,11 +3,9 @@ Bauornamentik
 Buchmalerei
 Druckgraphik
 Glasmalerei
-Goldschmiedekunst
 Metallwerk
 Skulptur
-Tafelmalerei
-Tapisserie
+Malerei
 Textilwerk
 Wandmalerei
 Zeichnung

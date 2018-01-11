@@ -181,3 +181,12 @@ test('the name des fensters field does not contain a tester value', (t) => {
   t.false(quickList.includes('Tester'));
   t.true(quickList.includes('Christusfenster'));
 });
+
+// see #9345
+test('the gattung field has corrected values', (t) => {
+  const quickList = readQuickList(524);
+  t.false(quickList.includes('Goldschmiedekunst'));
+  t.false(quickList.includes('Tafelmalerei'));
+  t.false(quickList.includes('Tapisserie'));
+  t.true(quickList.includes('Malerei'));
+});
