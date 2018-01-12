@@ -755,7 +755,7 @@
 					</Struct>
 					<Struct name="size">
 						<Int name="x">397</Int>
-						<Int name="y">117</Int>
+						<Int name="y">331</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
 					<Int name="hasQuickList">1</Int>
