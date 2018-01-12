@@ -1219,8 +1219,8 @@
 						<Int name="y">25</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
-					<Int name="hasQuickList">1</Int>
-					<Int name="editQuickList">1</Int>
+					<Int name="hasQuickList">0</Int>
+					<Int name="editQuickList">0</Int>
 					<Int name="isRequired">0</Int>
 					<Int name="isWritable">1</Int>
 					<Int name="isDBKey">0</Int>
