@@ -191,3 +191,12 @@ test('the gattung field has corrected values', (t) => {
   t.false(quickList.includes('Tapisserie'));
   t.true(quickList.includes('Malerei'));
 });
+
+// see #9352
+test('the author field has values with firstname lastname', (t) => {
+  const quickList = readQuickList('080');
+  t.is(2, quickList.split('\n').length);
+  t.false(quickList.includes(','));
+  t.true(quickList.includes('Holger Kupfer'));
+  t.true(quickList.includes('Renate Roloff'));
+});

@@ -12,6 +12,7 @@
 * Auswahlliste für das Feld 'Bundesland' angepasst
 * Felder Rechtenennung und Restaurierungsgeschichte vergrößert
 * "Migration abgeschlossen" zu "Vorläufige Kopie" umbenannt und als Freitextfeld umdefiniert
+* Auswahlliste für das Feld 'Autor' angepasst
 
 ## v.1.0.9
 
