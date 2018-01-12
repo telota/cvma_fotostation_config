@@ -95,7 +95,7 @@ test('the Lizenzinformation (URL) field only contains the correct suggestions', 
   t.is('http://creativecommons.org/licenses/by-nc/4.0/', quickList);
 });
 
-// see #8967
+// see #9346
 test('the Kontinent field contains only Europe as a suggestion', (t) => {
   const quickList = readQuickList(531);
   t.is(1, quickList.split('\n').length);
@@ -108,10 +108,10 @@ test('the Land field contains no suggestions', (t) => {
   t.is(0, quickList.length);
 });
 
-// see #8967
-test('the Bundesland_Region field contains no suggestions', (t) => {
+// see #9347
+test('the Bundesland_Region field contains all German Bundesländer', (t) => {
   const quickList = readQuickList(533);
-  t.is(0, quickList.length);
+  t.is(16, quickList.split('\n').length);
 });
 
 // see #8967
