@@ -1014,7 +1014,7 @@
 					</Struct>
 					<Struct name="size">
 						<Int name="x">661</Int>
-						<Int name="y">41</Int>
+						<Int name="y">61</Int>
 					</Struct>
 					<Int name="showLabel">1</Int>
 					<Int name="hasQuickList">1</Int>
@@ -1032,7 +1032,7 @@
 					<Int name="id">315</Int>
 					<Struct name="pos">
 						<Int name="x">20</Int>
-						<Int name="y">305</Int>
+						<Int name="y">325</Int>
 					</Struct>
 					<Struct name="size">
 						<Int name="x">661</Int>
@@ -1054,7 +1054,7 @@
 					<Int name="id">316</Int>
 					<Struct name="pos">
 						<Int name="x">20</Int>
-						<Int name="y">355</Int>
+						<Int name="y">375</Int>
 					</Struct>
 					<Struct name="size">
 						<Int name="x">661</Int>
