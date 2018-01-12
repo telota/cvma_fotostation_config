@@ -96,9 +96,10 @@ test('the Lizenzinformation (URL) field only contains the correct suggestions', 
 });
 
 // see #8967
-test('the Kontinent field contains no suggestions', (t) => {
+test('the Kontinent field contains only Europe as a suggestion', (t) => {
   const quickList = readQuickList(531);
-  t.is(0, quickList.length);
+  t.is(1, quickList.split('\n').length);
+  t.true(quickList.includes('Europa'));
 });
 
 // see #8967

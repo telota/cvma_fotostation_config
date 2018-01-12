@@ -8,6 +8,7 @@
 * Auswahlliste für das Feld 'Aufnahmeart' angepasst
 * Auswahlliste für das Feld 'Name des Fensters' angepasst
 * Auswahlliste für das Feld 'Gattung' angepasst
+* Auswahlliste für das Feld 'Europa' angepasst
 
 ## v.1.0.9
 
