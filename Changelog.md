@@ -13,6 +13,7 @@
 * Felder Rechtenennung und Restaurierungsgeschichte vergrößert
 * "Migration abgeschlossen" zu "Vorläufige Kopie" umbenannt und als Freitextfeld umdefiniert
 * Auswahlliste für das Feld 'Autor' angepasst
+* Display Template angepasst
 
 ## v.1.0.9
 
