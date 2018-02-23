@@ -9,7 +9,7 @@
 			<String name="path">\\anm\cvma-ba\08_cvma_archiv</String>
 			<String name="savePath"></String>
 			<Int name="automaticRefresh">1</Int>
-			<Int name="includeSubFolders">0</Int>
+			<Int name="includeSubFolders">1</Int>
 			<Int name="allowSaveFiles">1</Int>
 			<Int name="createSaveSubFolder">1</Int>
 			<Int name="allowDeletFiles">1</Int>
@@ -109,7 +109,7 @@
 			<String name="path">\\anm\cvma-ba\07_Digitales_Bildarchiv</String>
 			<String name="savePath"></String>
 			<Int name="automaticRefresh">1</Int>
-			<Int name="includeSubFolders">0</Int>
+			<Int name="includeSubFolders">1</Int>
 			<Int name="allowSaveFiles">1</Int>
 			<Int name="createSaveSubFolder">1</Int>
 			<Int name="allowDeletFiles">1</Int>

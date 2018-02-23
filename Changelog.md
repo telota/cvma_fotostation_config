@@ -1,5 +1,11 @@
 # CVMA Fotostation Konfiguration Changelog
 
+## v.1.0.12
+
+*23.02.2018*
+
+* Archiv-Shortcuts: Unterordner mit einlesen
+
 ## v.1.0.11
 
 *23.02.2018*
