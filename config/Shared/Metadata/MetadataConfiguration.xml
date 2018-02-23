@@ -118,8 +118,7 @@
    <Member ns="cc" field="attributionName"/>
   </Group>
  </Groups>
- <Fields>
-  <Field valueType="Text" guiLabel="v1.0.10" maxSize="256" id="800" ns="cvma" fieldType="Single" name="configVersionNumber" isMultiline="false"/>
+ <Fields>  
   <Field valueType="Date" guiLabel="Original date" maxSize="32" id="350" ns="exif" fieldType="Single" name="DateTimeOriginal" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Geographische Breite" maxSize="256" id="355" ns="exif" fieldType="Single" name="GPSLatitude" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Geographische Laenge" maxSize="256" id="356" ns="exif" fieldType="Single" name="GPSLongitude" isMultiline="false"/>
@@ -191,6 +190,10 @@
   <Field name="IconclassRest" valueType="Text" guiLabel="Iconclass (Rest)" maxSize="25600" id="705" ns="cvma" fieldType="Single" isMultiline="true"/>
   <Field name="OrtRest" valueType="Text" guiLabel="Ort (Rest)" maxSize="25600" id="706" ns="cvma" fieldType="Single" isMultiline="true"/>
   <Field name="ScheibeRest" valueType="Text" guiLabel="Scheibe (Rest)" maxSize="25600" id="707" ns="cvma" fieldType="Single" isMultiline="true"/>
+
+  <!-- Labels ohne Felder -->
+  <Field valueType="Text" guiLabel="v1.0.10" maxSize="256" id="800" ns="cvma" fieldType="Single" name="configVersionNumber" isMultiline="false"/>
+  <Field name="AufnahmeHinweis" guiLabel="Das Feld 'Aufnahmedatum' muss in 'Aufnahmedatum (Helper)'' eingetragen werden!" valueType="Text" maxSize="0" id="801" ns="cvma" fieldType="Single" isMultiline="false"/>
 
  </Fields>
 

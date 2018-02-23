@@ -166,7 +166,9 @@ test('the search can access all allowed fields', (t) => {
   }
 
   allFields.forEach((field) => {
-    t.true(fieldsInSearch.includes(field));
+    if (![800, 801].includes(field)) {
+      t.true(fieldsInSearch.includes(field));
+    }
   });
 });
 

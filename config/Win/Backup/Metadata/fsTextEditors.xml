@@ -25,7 +25,7 @@
 					<Int name="x">150</Int>
 					<Int name="y">150</Int>
 				</Struct>
-				<Int name="numItems">5</Int>
+				<Int name="numItems">6</Int>
 				<Struct name="item[0]">
 					<Int name="id">5</Int>
 					<Struct name="pos">
@@ -129,6 +129,28 @@
 					<Int name="editQuickList">1</Int>
 					<Int name="isRequired">0</Int>
 					<Int name="isWritable">1</Int>
+					<Int name="isDBKey">0</Int>
+					<Int name="dbConnectionId">0</Int>
+					<Int name="addQuickList">0</Int>
+					<Int name="sortQuickList">1</Int>
+					<String name="label"></String>
+					<Int name="sortListBox">1</Int>
+				</Struct>
+				<Struct name="item[5]">
+					<Int name="id">801</Int>
+					<Struct name="pos">
+						<Int name="x">20</Int>
+						<Int name="y">550</Int>
+					</Struct>
+					<Struct name="size">
+						<Int name="x">550</Int>
+						<Int name="y">0</Int>
+					</Struct>
+					<Int name="showLabel">1</Int>
+					<Int name="hasQuickList">0</Int>
+					<Int name="editQuickList">0</Int>
+					<Int name="isRequired">0</Int>
+					<Int name="isWritable">0</Int>
 					<Int name="isDBKey">0</Int>
 					<Int name="dbConnectionId">0</Int>
 					<Int name="addQuickList">0</Int>
