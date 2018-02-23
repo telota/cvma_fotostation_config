@@ -145,7 +145,7 @@
   <Field valueType="Text" guiLabel="Typ_der_Digitalbildquelle" maxSize="256" id="530" ns="Iptc4xmpExt" fieldType="Single" name="DigitalSourceType" isMultiline="false"/>
   <Field valueType="Text" guiLabel="" maxSize="256" id="534" ns="Iptc4xmpExt" fieldType="Bag" name="LocationCreated" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Geographischer Identifikator" maxSize="256" id="536" ns="Iptc4xmpExt" fieldType="Bag" name="LocationId" isMultiline="false"/>
-  <Field valueType="Text" guiLabel="Geographischer Identifikator (Ursprung)" maxSize="256" id="599" ns="cvma" fieldType="Single" name="originalLocationId" isMultiline="false"/>
+  <Field valueType="Text" guiLabel="Geographischer Identifikator (Ursprung)" maxSize="256" id="599" ns="cvma" fieldType="Single" name="FormerLocationIds" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Entstehungsdatum" maxSize="256" id="590" ns="Iptc4xmpExt" fieldType="Single" name="AOCircaDateCreated" structName="ArtworkOrObject" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Stadt" maxSize="256" id="569" ns="Iptc4xmpExt" fieldType="Single" name="City" structName="LocationCreated" isMultiline="false"/>
   <Field valueType="Text" guiLabel="Land" maxSize="256" id="532" ns="Iptc4xmpExt" fieldType="Single" name="CountryName" structName="LocationCreated" isMultiline="false"/>
