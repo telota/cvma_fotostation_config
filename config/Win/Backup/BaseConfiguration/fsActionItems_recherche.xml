@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FotoWare_Settings>
+	<Group name="ActionItem">
+		<Int name="numItems">1</Int>
+		<Struct name="actionItem[0]">
+			<String name="name">In Ordner kopieren</String>
+			<String name="groupName">Kopieren</String>
+			<String name="guid">3755731196</String>
+			<Int name="confirmation">0</Int>
+			<Int name="rawjpegMode">0</Int>
+			<String name="confirmationMessage"></String>
+			<Int name="numActions">1</Int>
+			<Int name="idIcon">0</Int>
+			<String name="imageFile">folder.ico</String>
+			<Struct name="actions[0]">
+				<Int name="actionId">1</Int>
+				<Struct name="aCopy">
+					<String name="destFolder">C:\Users\boe\Pictures</String>
+					<Int name="setDodaysDate">0</Int>
+					<Int name="allowMove">0</Int>
+					<Int name="useCopyDelete">0</Int>
+					<Int name="includeAdditional">0</Int>
+					<Int name="createUniqueSubfolder">0</Int>
+					<Int name="changeDestPath">1</Int>
+					<Int name="dialogMode">3</Int>
+					<Struct name="dialog">
+						<Int name="showSubfolder">0</Int>
+						<Int name="showPrefix">0</Int>
+						<String name="prefixFile"></String>
+						<String name="prefixSeparator"></String>
+						<Int name="showTemplatePriorityNotes">1</Int>
+						<Int name="showCrop">0</Int>
+						<Int name="cropChangeOriginal">0</Int>
+						<Int name="showText">0</Int>
+						<Int name="textChangeOriginal">0</Int>
+						<Struct name="reqFields">
+							<Struct name="aRequiredFields">
+								<Int name="numRequired">0</Int>
+								<Array name="isRequired" Version="1">
+									<Int i="0">0</Int>
+									<Int i="1">0</Int>
+									<Int i="2">0</Int>
+									<Int i="3">0</Int>
+									<Int i="4">0</Int>
+									<Int i="5">0</Int>
+									<Int i="6">0</Int>
+									<Int i="7">0</Int>
+									<Int i="8">0</Int>
+									<Int i="9">0</Int>
+									<Int i="10">0</Int>
+									<Int i="11">0</Int>
+									<Int i="12">0</Int>
+									<Int i="13">0</Int>
+									<Int i="14">0</Int>
+									<Int i="15">0</Int>
+									<Int i="16">0</Int>
+									<Int i="17">0</Int>
+									<Int i="18">0</Int>
+									<Int i="19">0</Int>
+									<Int i="20">0</Int>
+									<Int i="21">0</Int>
+									<Int i="22">0</Int>
+									<Int i="23">0</Int>
+									<Int i="24">0</Int>
+									<Int i="25">0</Int>
+									<Int i="26">0</Int>
+									<Int i="27">0</Int>
+									<Int i="28">0</Int>
+									<Int i="29">0</Int>
+									<Int i="30">0</Int>
+									<Int i="31">0</Int>
+								</Array>
+								<Int name="allowBypass">0</Int>
+								<Int name="alwaysEdit">0</Int>
+								<Int name="editorId">1</Int>
+								<String name="editorName">FotoStation 8.0</String>
+							</Struct>
+						</Struct>
+						<String name="templateName">Caption</String>
+						<Int name="useTempFile">0</Int>
+					</Struct>
+				</Struct>
+			</Struct>
+		</Struct>
+	</Group>
+</FotoWare_Settings>

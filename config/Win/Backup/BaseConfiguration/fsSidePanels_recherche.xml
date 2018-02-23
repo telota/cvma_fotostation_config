@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FotoWare_Settings>
+	<Group name="Left Tabs">
+		<Int name="numTabs">1</Int>
+		<Struct name="td[0]">
+			<String name="caption">Archive</String>
+			<Int name="contentType">2</Int>
+			<Int name="flags">1</Int>
+			<Int name="autoConnectRightTab">0</Int>
+			<String name="rightSlavePanel"></String>
+			<Struct name="shortCut">
+				<Int name="fDisplayGroupHeader">1</Int>
+				<Int name="fDisplaySelectedOnly">0</Int>
+				<Int name="fUseLargeIcons">1</Int>
+				<Int name="fIsAutoCreated">0</Int>
+				<Struct name="selectedGroups">
+					<Int name="numId">0</Int>
+				</Struct>
+				<Struct name="selectedShortcuts">
+					<Int name="numId">0</Int>
+				</Struct>
+			</Struct>
+		</Struct>
+	</Group>
+	<Group name="Right Tabs">
+		<Int name="numTabs">1</Int>
+		<Struct name="td[0]">
+			<String name="caption">Aktionen</String>
+			<Int name="contentType">3</Int>
+			<Int name="flags">1</Int>
+			<Struct name="action">
+				<Int name="fDisplayGroupHeader">1</Int>
+				<Int name="fDisplaySelectedOnly">0</Int>
+				<Int name="fUseLargeIcons">1</Int>
+				<Struct name="selectedGroups">
+					<Int name="numId">0</Int>
+				</Struct>
+				<Struct name="selectedActions">
+					<Int name="numId">0</Int>
+				</Struct>
+			</Struct>
+		</Struct>
+	</Group>
+</FotoWare_Settings>
