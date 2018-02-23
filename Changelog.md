@@ -1,5 +1,15 @@
 # CVMA Fotostation Konfiguration Changelog
 
+## v.1.0.11
+
+*23.02.2018*
+
+* Aktionen reaktiviert (rechte Seitenleiste)
+* Archiv-Shortcuts hinzugefügt (linke Seitenleiste: JPG und Originale)
+* Jobs- und Projects-Reiter deaktiviert (linke Seitenleiste)
+* Vorauswahl für das Feld `Rechtenennung` angepasst
+* `cvma:originalLocationId` zu `cvma:FormerLocationIds` geändert
+
 ## v.1.0.10
 
 *12.01.2018*
