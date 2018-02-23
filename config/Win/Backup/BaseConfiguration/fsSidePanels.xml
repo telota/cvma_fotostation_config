@@ -11,8 +11,8 @@
 			<Struct name="fileTree">
 				<Int name="attributes">40</Int>
 				<String name="rootFolder"></String>
-				<Int name="fAllowDelete">1</Int>
-				<Int name="fAllowSave">1</Int>
+				<Int name="fAllowDelete">0</Int>
+				<Int name="fAllowSave">0</Int>
 				<Int name="fUseFinderMode">1</Int>
 				<Int name="fIncludeSubFolders">1</Int>
 				<Int name="activeMarkerSet">0</Int>
