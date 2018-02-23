@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FotoWare_Settings>
 	<Group name="Left Tabs">
-		<Int name="numTabs">4</Int>
+		<Int name="numTabs">2</Int>
 		<Struct name="td[0]">
 			<String name="caption">Schreibtisch</String>
 			<Int name="contentType">1</Int>
@@ -38,27 +38,6 @@
 					<Int name="numId">0</Int>
 				</Struct>
 			</Struct>
-		</Struct>
-		<Struct name="td[2]">
-			<String name="caption">Projekte</String>
-			<Int name="contentType">6</Int>
-			<Int name="flags">1</Int>
-			<Int name="autoConnectRightTab">0</Int>
-			<String name="rightSlavePanel"></String>
-			<Struct name="project">
-				<Int name="projectType">1</Int>
-				<String name="baseFolder">%appdata%\FotoWare\FotoStation LT\Projects</String>
-				<Int name="fAllowDelete">1</Int>
-				<String name="serverUrl"></String>
-				<StringList name="blockedActionList"/>
-			</Struct>
-		</Struct>
-		<Struct name="td[3]">
-			<String name="caption">Jobs</String>
-			<Int name="contentType">5</Int>
-			<Int name="flags">1</Int>
-			<Int name="autoConnectRightTab">0</Int>
-			<String name="rightSlavePanel"></String>
 		</Struct>
 	</Group>
 	<Group name="Right Tabs">
