@@ -9,10 +9,10 @@
 			<String name="name">Standard</String>
 		</Struct>
 		<Struct name="group[2]">
-			<String name="name">Kopier-Aktionen</String>
+			<String name="name">Kopieren</String>
 		</Struct>
 		<Struct name="group[3]">
-			<String name="name">Beispielaktionen</String>
+			<String name="name">Metadaten</String>
 		</Struct>
 	</Group>
 </FotoWare_Settings>
