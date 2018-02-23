@@ -47,7 +47,7 @@
 			<String name="rightSlavePanel"></String>
 			<Struct name="project">
 				<Int name="projectType">1</Int>
-				<String name="baseFolder">C:\Users\mortel\AppData\Roaming\FotoWare\FotoStation LT\Projects</String>
+				<String name="baseFolder">%appdata%\FotoWare\FotoStation LT\Projects</String>
 				<Int name="fAllowDelete">1</Int>
 				<String name="serverUrl"></String>
 				<StringList name="blockedActionList"/>
