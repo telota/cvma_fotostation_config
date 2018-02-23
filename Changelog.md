@@ -5,6 +5,10 @@
 *23.02.2018*
 
 * Archiv-Shortcuts: Unterordner mit einlesen
+* Recherchekonfiguration hinzugefügt
+    - Nur Zugriff auf das JPG-Bildarchiv
+    - Keine Metadatenaktionen (Bearbeitung kann jedoch nicht deaktiviert werden)
+    - Kein Zugriff auf gesamten Dateiexplorer
 * Enthält die Änderungen von v.1.0.11
 
 ## v.1.0.11
