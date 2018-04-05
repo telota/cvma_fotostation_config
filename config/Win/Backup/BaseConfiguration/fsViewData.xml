@@ -11,8 +11,8 @@
 		<Int name="allowUsePreview">1</Int>
 	</Group>
 	<Group name="RichListViewItem">
-		<Int name="rowHeight">90</Int>
-		<Int name="widthLeft">200</Int>
+		<Int name="rowHeight">120</Int>
+		<Int name="widthLeft">500</Int>
 		<Int name="heightRightTop">60</Int>
 		<Int name="disabled">0</Int>
 	</Group>

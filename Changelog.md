@@ -1,5 +1,19 @@
 # CVMA Fotostation Konfiguration Changelog
 
+## v.1.1.1
+
+*06.04.2018*
+
+* "In Ordner kopieren"-Aktion angepasst
+    - Nachfrage, wohin kopiert werden soll
+    - Standard: `%home%/Desktop/FotoStation`
+* "Auf Desktop kopieren"-Aktion hinzugefügt
+    - Ausgewählte Dateien werden automatisch kopiert
+    - Unterordner wird automatisch angelegt
+    - Ziel: `%home%/Desktop/Fotostation`
+* Unnötige Print-Templates entfernt
+* Übersichtsliste angepasst
+
 ## v.1.1.0
 
 *23.02.2018*
