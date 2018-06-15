@@ -15,7 +15,7 @@
 			<Struct name="actions[0]">
 				<Int name="actionId">1</Int>
 				<Struct name="aCopy">
-					<String name="destFolder">%home%\Desktop\FotoStation</String>
+					<String name="destFolder">%userprofile%\Desktop\FotoStation</String>
 					<Int name="setDodaysDate">0</Int>
 					<Int name="allowMove">0</Int>
 					<Int name="useCopyDelete">0</Int>
@@ -95,7 +95,7 @@
 			<Struct name="actions[0]">
 				<Int name="actionId">1</Int>
 				<Struct name="aCopy">
-					<String name="destFolder">%home%\Desktop\FotoStation</String>
+					<String name="destFolder">%userprofile%\Desktop\FotoStation</String>
 					<Int name="setDodaysDate">0</Int>
 					<Int name="allowMove">0</Int>
 					<Int name="useCopyDelete">0</Int>

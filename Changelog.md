@@ -6,11 +6,11 @@
 
 * "In Ordner kopieren"-Aktion angepasst
     - Nachfrage, wohin kopiert werden soll
-    - Standard: `%home%/Desktop/FotoStation`
+    - Standard: `%userprofile%/Desktop/FotoStation`
 * "Auf Desktop kopieren"-Aktion hinzugefügt
     - Ausgewählte Dateien werden automatisch kopiert
     - Unterordner wird automatisch angelegt
-    - Ziel: `%home%/Desktop/Fotostation`
+    - Ziel: `%userprofile%/Desktop/Fotostation`
 * Unnötige Print-Templates entfernt
 * Übersichtsliste angepasst
 
