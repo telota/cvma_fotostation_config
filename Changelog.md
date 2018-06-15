@@ -1,5 +1,9 @@
 # CVMA Fotostation Konfiguration Changelog
 
+## v.1.1.3
+
+* Versionsnummer in der Bearbeitungsmaske aktualisiert
+
 ## v.1.1.1
 
 *06.04.2018*

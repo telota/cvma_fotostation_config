@@ -106,7 +106,7 @@ module.exports = function (grunt) {
     xmlpoke: {
       updateVersionInConfig: {
         options: {
-          xpath: '//Field[@id="200"]/@guiLabel',
+          xpath: '//Field[@id="800"]/@guiLabel',
           value: 'v<%= pkg.version %>',
         },
         files: {
