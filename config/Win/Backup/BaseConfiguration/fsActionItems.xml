@@ -21,8 +21,8 @@
 					<Int name="useCopyDelete">0</Int>
 					<Int name="includeAdditional">0</Int>
 					<Int name="createUniqueSubfolder">0</Int>
-					<Int name="changeDestPath">1</Int>
-					<Int name="dialogMode">3</Int>
+					<Int name="changeDestPath">0</Int>
+					<Int name="dialogMode">4</Int>
 					<Struct name="dialog">
 						<Int name="showSubfolder">0</Int>
 						<Int name="showPrefix">0</Int>

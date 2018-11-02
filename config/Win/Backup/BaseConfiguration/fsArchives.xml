@@ -15,6 +15,7 @@
 			<Int name="allowDeletFiles">1</Int>
 			<Int name="allowMetadataEdit">1</Int>
 			<Int name="enableSubFolderBrowsing">1</Int>
+			<Int name="allowSubfolderDragDrop">1</Int>
 			<Int name="setSortOrder">1</Int>
 			<Int name="sortOrder">0</Int>
 			<Int name="setViewType">0</Int>
@@ -94,6 +95,7 @@
 					<Int name="NearSize">0</Int>
 				</Struct>
 			</Struct>
+			<StringList name="blockedActionList"/>
 			<String name="filterName">Standard Dateifilter</String>
 			<String name="metaDataEditor"></String>
 			<Int name="hasExtension">0</Int>
@@ -115,6 +117,7 @@
 			<Int name="allowDeletFiles">1</Int>
 			<Int name="allowMetadataEdit">1</Int>
 			<Int name="enableSubFolderBrowsing">1</Int>
+			<Int name="allowSubfolderDragDrop">1</Int>
 			<Int name="setSortOrder">1</Int>
 			<Int name="sortOrder">0</Int>
 			<Int name="setViewType">0</Int>
@@ -194,6 +197,7 @@
 					<Int name="NearSize">0</Int>
 				</Struct>
 			</Struct>
+			<StringList name="blockedActionList"/>
 			<String name="filterName">Standard Dateifilter</String>
 			<String name="metaDataEditor"></String>
 			<Int name="hasExtension">0</Int>

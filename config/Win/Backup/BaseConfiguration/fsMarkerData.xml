@@ -11,6 +11,7 @@
 			<Int name="UseLicense">1</Int>
 			<Int name="UseGps">1</Int>
 			<Int name="UseClassify">1</Int>
+			<Int name="UseTransferredBy">1</Int>
 			<String name="Name">Marker Set 1</String>
 			<Struct name="Position0">
 				<Int name="IsActive">0</Int>
@@ -113,6 +114,7 @@
 			<Int name="UseLicense">1</Int>
 			<Int name="UseGps">1</Int>
 			<Int name="UseClassify">1</Int>
+			<Int name="UseTransferredBy">1</Int>
 			<String name="Name">Marker Set 2</String>
 			<Struct name="Position0">
 				<Int name="IsActive">0</Int>
@@ -215,6 +217,7 @@
 			<Int name="UseLicense">1</Int>
 			<Int name="UseGps">1</Int>
 			<Int name="UseClassify">1</Int>
+			<Int name="UseTransferredBy">1</Int>
 			<String name="Name">Marker Set 3</String>
 			<Struct name="Position0">
 				<Int name="IsActive">0</Int>
@@ -317,6 +320,7 @@
 			<Int name="UseLicense">1</Int>
 			<Int name="UseGps">1</Int>
 			<Int name="UseClassify">1</Int>
+			<Int name="UseTransferredBy">1</Int>
 			<String name="Name">Marker Set 4</String>
 			<Struct name="Position0">
 				<Int name="IsActive">0</Int>
@@ -419,6 +423,7 @@
 			<Int name="UseLicense">1</Int>
 			<Int name="UseGps">1</Int>
 			<Int name="UseClassify">1</Int>
+			<Int name="UseTransferredBy">1</Int>
 			<String name="Name">Marker Set 5</String>
 			<Struct name="Position0">
 				<Int name="IsActive">0</Int>
