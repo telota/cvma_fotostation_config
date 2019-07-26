@@ -140,7 +140,7 @@
   <Field maxSize="25600" id="5" guiLabel="Titel" name="title" ns="dc" valueType="Text" isMultiline="false" coreName="Title" fieldType="AltLang"/>
   <Field maxSize="25600" adobeName="Instructions" id="40" guiLabel="Hinweise (intern)" name="Instructions" ns="photoshop" valueType="Text" isMultiline="true" coreName="Instructions" fieldType="Single"/>
   <Field maxSize="64" adobeName="Author" id="80" guiLabel="Autor" name="creator" ns="dc" valueType="Text" isMultiline="false" coreName="Creator" fieldType="Seq"/>
-  <Field maxSize="2560" id="110" guiLabel="Rechtenennung" name="Credit" ns="photoshop" valueType="Text" isMultiline="true" coreName="Provider" fieldType="Single"/>
+    <Field maxSize="2560" id="110" guiLabel="Rechtenennung" name="Credit" ns="photoshop" valueType="Text" isMultiline="true" coreName="Provider" fieldType="Single"/>
   <Field maxSize="16000" adobeName="Description" id="120" guiLabel="Description" name="description" ns="dc" valueType="Text" isMultiline="true" coreName="Caption/Description" fieldType="AltLang"/>
   <Field maxSize="256" id="540" guiLabel="Aufnahmedatum (Original)" name="CreateDate" ns="xmp" valueType="Text" isMultiline="false" fieldType="Single"/>
   <Field maxSize="256" id="538" guiLabel="Aufnahmedatum (ExifIFD)" name="CreateDate" ns="ExifIFD" valueType="Text" isMultiline="false" fieldType="Single"/>
@@ -190,7 +190,7 @@
   <Field maxSize="25600" id="705" guiLabel="Iconclass (Rest)" name="IconclassRest" ns="cvma" valueType="Text" isMultiline="true" fieldType="Single"/>
   <Field maxSize="25600" id="706" guiLabel="Ort (Rest)" name="OrtRest" ns="cvma" valueType="Text" isMultiline="true" fieldType="Single"/>
   <Field maxSize="25600" id="707" guiLabel="Scheibe (Rest)" name="ScheibeRest" ns="cvma" valueType="Text" isMultiline="true" fieldType="Single"/>
-  <Field maxSize="256" id="800" guiLabel="v1.1.4" name="configVersionNumber" ns="cvma" valueType="Text" isMultiline="false" fieldType="Single"/>
+  <Field maxSize="256" id="800" guiLabel="v1.1.5" name="configVersionNumber" ns="cvma" valueType="Text" isMultiline="false" fieldType="Single"/>
   <Field maxSize="0" id="801" guiLabel="Das Feld 'Aufnahmedatum' muss in 'Aufnahmedatum (Helper)'' eingetragen werden!" name="AufnahmeHinweis" ns="cvma" valueType="Text" isMultiline="false" fieldType="Single"/>
   <Field maxSize="64" id="7" guiLabel="Edit Status" name="EditStatus" ns="fwl" valueType="Text" isMultiline="false" fieldType="Single"/>
   <Field maxSize="1" adobeName="Urgency" id="10" guiLabel="Status" name="Urgency" ns="photoshop" valueType="Text" isMultiline="false" coreName="Urgency" fieldType="Single"/>
