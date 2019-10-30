@@ -1,5 +1,9 @@
 # CVMA Fotostation Konfiguration Changelog
 
+## v.1.1.6
+
+* `dc:description` kann nun bearbeitet werden.
+
 ## v.1.1.3
 
 * Versionsnummer in der Bearbeitungsmaske aktualisiert
